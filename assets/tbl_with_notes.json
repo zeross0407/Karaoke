@@ -1,0 +1,2277 @@
+{
+    "text": "Đêm nay mình ta uống ánh trăng say trong đêm buồn Biết anh không còn yêu nhưng rời đi em chẳng muốn Lặng nhìn anh quay bước nước mắt em cũng khẽ tuôn Buông đôi tay níu kéo cũng đã quá muộn Yêu đương chỉ như những áng mây lướt nhanh qua trời Yêu chi cho lệ hoen đôi mi, để con tim vụn vỡ Khi yêu cứ ngỡ nên thơ, tình yêu như giấc mơ Để hôm nay ôm một mối sầu bơ vơ Dùng một đời vấn vương để đổi lại một đời đau thương Lời xin lỗi giấu bao lâu nói không thành câu Yêu đương không đậm sâu đừng dối gian thêm đau lòng nhau Nước mắt cứ để em tự lau Dùng một đời vấn vương để đổi lại một đời đau thương Lời xin lỗi giấu bao lâu nói không thành câu Yêu đương không đậm sâu đừng dối gian thêm đau lòng nhau Nước mắt cứ để em tự lau Yêu đương chỉ như những áng mây lướt nhanh qua trời Yêu chi cho lệ hoen đôi mi, để con tim vụn vỡ Khi yêu cứ ngỡ nên thơ, tình yêu như giấc mơ Để hôm nay ôm một mối sầu bơ vơ Dùng một đời vấn vương để đổi lại một đời đau thương Lời xin lỗi giấu bao lâu nói không thành câu Yêu thương không đậm sâu đừng dối gian thêm đau lòng nhau Nước mắt cứ để em tự lau Dùng một đời vấn vương để đổi lại một đời đau thương Lời xin lỗi nói ra đây trước khi từ biệt Mong anh luôn bình yên, một sớm mai đây em sẽ quên Sẽ quên hết mối tình đầu tiên Dùng một đời vấn vương để đổi lại một đời đau thương Lời xin lỗi nói ra đây trước khi từ biệt Mong anh luôn bình yên, một sớm mai đây em sẽ quên Sẽ quên hết mối tình đầu tiên Sẽ quên hết mối tình đầu tiên",
+    "segments": [
+        {
+            "start": 23.52,
+            "end": 28.36,
+            "text": "Đêm nay mình ta uống ánh trăng say trong đêm buồn",
+            "words": [
+                {
+                    "word": "Đêm",
+                    "start": 23.52,
+                    "end": 24.23,
+                    "note": 63
+                },
+                {
+                    "word": " nay",
+                    "start": 24.23,
+                    "end": 24.56,
+                    "note": 70
+                },
+                {
+                    "word": " mình",
+                    "start": 24.56,
+                    "end": 24.9,
+                    "note": 64
+                },
+                {
+                    "word": " ta",
+                    "start": 24.9,
+                    "end": 25.17,
+                    "note": 75
+                },
+                {
+                    "word": " uống",
+                    "start": 25.17,
+                    "end": 25.62,
+                    "note": 68
+                },
+                {
+                    "word": " ánh",
+                    "start": 25.62,
+                    "end": 25.83,
+                    "note": 72
+                },
+                {
+                    "word": " trăng",
+                    "start": 25.83,
+                    "end": 26.12,
+                    "note": 63
+                },
+                {
+                    "word": " say",
+                    "start": 26.12,
+                    "end": 26.51,
+                    "note": 60
+                },
+                {
+                    "word": " trong",
+                    "start": 26.88,
+                    "end": 27.29,
+                    "note": 58
+                },
+                {
+                    "word": " đêm",
+                    "start": 27.29,
+                    "end": 27.68,
+                    "note": 58
+                },
+                {
+                    "word": " buồn",
+                    "start": 27.68,
+                    "end": 28.36,
+                    "note": 63
+                }
+            ]
+        },
+        {
+            "start": 28.98,
+            "end": 33.64,
+            "text": "Biết anh không còn yêu nhưng rời đi em chẳng muốn",
+            "words": [
+                {
+                    "word": "Biết",
+                    "start": 28.98,
+                    "end": 29.23,
+                    "note": 54
+                },
+                {
+                    "word": " anh",
+                    "start": 29.3,
+                    "end": 29.55,
+                    "note": 54
+                },
+                {
+                    "word": " không",
+                    "start": 29.55,
+                    "end": 29.99,
+                    "note": 61
+                },
+                {
+                    "word": " còn",
+                    "start": 29.99,
+                    "end": 30.33,
+                    "note": 64
+                },
+                {
+                    "word": " yêu",
+                    "start": 30.33,
+                    "end": 30.76,
+                    "note": 63
+                },
+                {
+                    "word": " nhưng",
+                    "start": 30.76,
+                    "end": 31.31,
+                    "note": 61
+                },
+                {
+                    "word": " rời",
+                    "start": 31.31,
+                    "end": 31.74,
+                    "note": 63
+                },
+                {
+                    "word": " đi",
+                    "start": 31.74,
+                    "end": 32.37,
+                    "note": 58
+                },
+                {
+                    "word": " em",
+                    "start": 32.37,
+                    "end": 32.64,
+                    "note": 65
+                },
+                {
+                    "word": " chẳng",
+                    "start": 32.67,
+                    "end": 33.12,
+                    "note": 62
+                },
+                {
+                    "word": " muốn",
+                    "start": 33.12,
+                    "end": 33.64,
+                    "note": 67
+                }
+            ]
+        },
+        {
+            "start": 34.4,
+            "end": 39.45,
+            "text": "Lặng nhìn anh quay bước nước mắt em cũng khẽ tuôn",
+            "words": [
+                {
+                    "word": "Lặng",
+                    "start": 34.4,
+                    "end": 34.83,
+                    "note": 64
+                },
+                {
+                    "word": " nhìn",
+                    "start": 34.83,
+                    "end": 35.44,
+                    "note": 63
+                },
+                {
+                    "word": " anh",
+                    "start": 35.44,
+                    "end": 35.8,
+                    "note": 63
+                },
+                {
+                    "word": " quay",
+                    "start": 35.83,
+                    "end": 36.14,
+                    "note": 74
+                },
+                {
+                    "word": " bước",
+                    "start": 36.14,
+                    "end": 36.39,
+                    "note": 63
+                },
+                {
+                    "word": " nước",
+                    "start": 36.39,
+                    "end": 36.75,
+                    "note": 68
+                },
+                {
+                    "word": " mắt",
+                    "start": 36.75,
+                    "end": 36.99,
+                    "note": 63
+                },
+                {
+                    "word": " em",
+                    "start": 37.17,
+                    "end": 37.49,
+                    "note": 56
+                },
+                {
+                    "word": " cũng",
+                    "start": 37.84,
+                    "end": 38.08,
+                    "note": 59
+                },
+                {
+                    "word": " khẽ",
+                    "start": 38.11,
+                    "end": 38.5,
+                    "note": 58
+                },
+                {
+                    "word": " tuôn",
+                    "start": 38.61,
+                    "end": 39.45,
+                    "note": 63
+                }
+            ]
+        },
+        {
+            "start": 39.87,
+            "end": 44.51,
+            "text": "Buông đôi tay níu kéo cũng đã quá muộn",
+            "words": [
+                {
+                    "word": "Buông",
+                    "start": 39.87,
+                    "end": 40.27,
+                    "note": 65
+                },
+                {
+                    "word": " đôi",
+                    "start": 40.27,
+                    "end": 40.58,
+                    "note": 69
+                },
+                {
+                    "word": " tay",
+                    "start": 40.62,
+                    "end": 40.95,
+                    "note": 71
+                },
+                {
+                    "word": " níu",
+                    "start": 40.98,
+                    "end": 41.22,
+                    "note": 67
+                },
+                {
+                    "word": " kéo",
+                    "start": 41.28,
+                    "end": 41.59,
+                    "note": 62
+                },
+                {
+                    "word": " cũng",
+                    "start": 41.65,
+                    "end": 41.95,
+                    "note": 60
+                },
+                {
+                    "word": " đã",
+                    "start": 41.95,
+                    "end": 42.14,
+                    "note": 70
+                },
+                {
+                    "word": " quá",
+                    "start": 42.32,
+                    "end": 42.87,
+                    "note": 71
+                },
+                {
+                    "word": " muộn",
+                    "start": 42.87,
+                    "end": 44.51,
+                    "note": 63
+                }
+            ]
+        },
+        {
+            "start": 45.35,
+            "end": 50.45,
+            "text": "Yêu đương chỉ như những áng mây lướt nhanh qua trời",
+            "words": [
+                {
+                    "word": "Yêu",
+                    "start": 45.35,
+                    "end": 46.06,
+                    "note": 65
+                },
+                {
+                    "word": " đương",
+                    "start": 46.09,
+                    "end": 46.37,
+                    "note": 67
+                },
+                {
+                    "word": " chỉ",
+                    "start": 46.37,
+                    "end": 46.73,
+                    "note": 65
+                },
+                {
+                    "word": " như",
+                    "start": 46.73,
+                    "end": 47.01,
+                    "note": 64
+                },
+                {
+                    "word": " những",
+                    "start": 47.01,
+                    "end": 47.42,
+                    "note": 58
+                },
+                {
+                    "word": " áng",
+                    "start": 47.42,
+                    "end": 47.77,
+                    "note": 71
+                },
+                {
+                    "word": " mây",
+                    "start": 47.77,
+                    "end": 48.02,
+                    "note": 69
+                },
+                {
+                    "word": " lướt",
+                    "start": 48.02,
+                    "end": 48.51,
+                    "note": 64
+                },
+                {
+                    "word": " nhanh",
+                    "start": 48.64,
+                    "end": 49.1,
+                    "note": 58
+                },
+                {
+                    "word": " qua",
+                    "start": 49.1,
+                    "end": 49.38,
+                    "note": 71
+                },
+                {
+                    "word": " trời",
+                    "start": 49.38,
+                    "end": 50.45,
+                    "note": 63
+                }
+            ]
+        },
+        {
+            "start": 50.8,
+            "end": 55.85,
+            "text": "Yêu chi cho lệ hoen đôi mi, để con tim vụn vỡ",
+            "words": [
+                {
+                    "word": "Yêu",
+                    "start": 50.8,
+                    "end": 51.09,
+                    "note": 63
+                },
+                {
+                    "word": " chi",
+                    "start": 51.12,
+                    "end": 51.41,
+                    "note": 56
+                },
+                {
+                    "word": " cho",
+                    "start": 51.44,
+                    "end": 51.83,
+                    "note": 69
+                },
+                {
+                    "word": " lệ",
+                    "start": 51.86,
+                    "end": 51.95,
+                    "note": 63
+                },
+                {
+                    "word": " hoen",
+                    "start": 51.95,
+                    "end": 52.53,
+                    "note": 54
+                },
+                {
+                    "word": " đôi",
+                    "start": 52.53,
+                    "end": 52.84,
+                    "note": 66
+                },
+                {
+                    "word": " mi,",
+                    "start": 52.84,
+                    "end": 53.21,
+                    "note": 60
+                },
+                {
+                    "word": " để",
+                    "start": 53.21,
+                    "end": 53.51,
+                    "note": 64
+                },
+                {
+                    "word": " con",
+                    "start": 53.55,
+                    "end": 54.18,
+                    "note": 55
+                },
+                {
+                    "word": " tim",
+                    "start": 54.24,
+                    "end": 54.57,
+                    "note": 58
+                },
+                {
+                    "word": " vụn",
+                    "start": 54.62,
+                    "end": 54.88,
+                    "note": 57
+                },
+                {
+                    "word": " vỡ",
+                    "start": 54.88,
+                    "end": 55.85,
+                    "note": 58
+                }
+            ]
+        },
+        {
+            "start": 56.24,
+            "end": 60.75,
+            "text": "Khi yêu cứ ngỡ nên thơ, tình yêu như giấc mơ",
+            "words": [
+                {
+                    "word": "Khi",
+                    "start": 56.24,
+                    "end": 56.74,
+                    "note": 55
+                },
+                {
+                    "word": " yêu",
+                    "start": 56.74,
+                    "end": 57.22,
+                    "note": 70
+                },
+                {
+                    "word": " cứ",
+                    "start": 57.31,
+                    "end": 57.64,
+                    "note": 63
+                },
+                {
+                    "word": " ngỡ",
+                    "start": 57.67,
+                    "end": 57.97,
+                    "note": 75
+                },
+                {
+                    "word": " nên",
+                    "start": 58.0,
+                    "end": 58.28,
+                    "note": 71
+                },
+                {
+                    "word": " thơ,",
+                    "start": 58.28,
+                    "end": 58.97,
+                    "note": 76
+                },
+                {
+                    "word": " tình",
+                    "start": 59.05,
+                    "end": 59.38,
+                    "note": 56
+                },
+                {
+                    "word": " yêu",
+                    "start": 59.38,
+                    "end": 59.58,
+                    "note": 58
+                },
+                {
+                    "word": " như",
+                    "start": 59.58,
+                    "end": 59.95,
+                    "note": 63
+                },
+                {
+                    "word": " giấc",
+                    "start": 59.95,
+                    "end": 60.26,
+                    "note": 57
+                },
+                {
+                    "word": " mơ",
+                    "start": 60.26,
+                    "end": 60.75,
+                    "note": 62
+                }
+            ]
+        },
+        {
+            "start": 61.4,
+            "end": 66.5,
+            "text": "Để hôm nay ôm một mối sầu bơ vơ",
+            "words": [
+                {
+                    "word": "Để",
+                    "start": 61.4,
+                    "end": 61.65,
+                    "note": 67
+                },
+                {
+                    "word": " hôm",
+                    "start": 61.65,
+                    "end": 62.07,
+                    "note": 59
+                },
+                {
+                    "word": " nay",
+                    "start": 62.07,
+                    "end": 62.36,
+                    "note": 66
+                },
+                {
+                    "word": " ôm",
+                    "start": 62.36,
+                    "end": 62.77,
+                    "note": 64
+                },
+                {
+                    "word": " một",
+                    "start": 62.77,
+                    "end": 63.01,
+                    "note": 61
+                },
+                {
+                    "word": " mối",
+                    "start": 63.01,
+                    "end": 63.71,
+                    "note": 62
+                },
+                {
+                    "word": " sầu",
+                    "start": 63.71,
+                    "end": 64.13,
+                    "note": 65
+                },
+                {
+                    "word": " bơ",
+                    "start": 64.16,
+                    "end": 64.41,
+                    "note": 72
+                },
+                {
+                    "word": " vơ",
+                    "start": 64.41,
+                    "end": 66.5,
+                    "note": 68
+                }
+            ]
+        },
+        {
+            "start": 67.06,
+            "end": 71.82,
+            "text": "Dùng một đời vấn vương để đổi lại một đời đau thương",
+            "words": [
+                {
+                    "word": "Dùng",
+                    "start": 67.06,
+                    "end": 67.55,
+                    "note": 60
+                },
+                {
+                    "word": " một",
+                    "start": 67.55,
+                    "end": 67.77,
+                    "note": 71
+                },
+                {
+                    "word": " đời",
+                    "start": 67.84,
+                    "end": 68.15,
+                    "note": 71
+                },
+                {
+                    "word": " vấn",
+                    "start": 68.15,
+                    "end": 68.42,
+                    "note": 71
+                },
+                {
+                    "word": " vương",
+                    "start": 68.55,
+                    "end": 68.7,
+                    "note": 68
+                },
+                {
+                    "word": " để",
+                    "start": 69.23,
+                    "end": 69.56,
+                    "note": 76
+                },
+                {
+                    "word": " đổi",
+                    "start": 69.56,
+                    "end": 69.88,
+                    "note": 69
+                },
+                {
+                    "word": " lại",
+                    "start": 69.88,
+                    "end": 70.21,
+                    "note": 64
+                },
+                {
+                    "word": " một",
+                    "start": 70.21,
+                    "end": 70.54,
+                    "note": 63
+                },
+                {
+                    "word": " đời",
+                    "start": 70.57,
+                    "end": 70.91,
+                    "note": 66
+                },
+                {
+                    "word": " đau",
+                    "start": 70.91,
+                    "end": 71.24,
+                    "note": 74
+                },
+                {
+                    "word": " thương",
+                    "start": 71.27,
+                    "end": 71.82,
+                    "note": 66
+                }
+            ]
+        },
+        {
+            "start": 72.2,
+            "end": 77.4,
+            "text": "Lời xin lỗi giấu bao lâu nói không thành câu",
+            "words": [
+                {
+                    "word": "Lời",
+                    "start": 72.2,
+                    "end": 72.54,
+                    "note": 65
+                },
+                {
+                    "word": " xin",
+                    "start": 72.54,
+                    "end": 72.92,
+                    "note": 58
+                },
+                {
+                    "word": " lỗi",
+                    "start": 72.92,
+                    "end": 73.3,
+                    "note": 71
+                },
+                {
+                    "word": " giấu",
+                    "start": 73.3,
+                    "end": 73.67,
+                    "note": 73
+                },
+                {
+                    "word": " bao",
+                    "start": 73.67,
+                    "end": 73.97,
+                    "note": 77
+                },
+                {
+                    "word": " lâu",
+                    "start": 73.97,
+                    "end": 74.32,
+                    "note": 73
+                },
+                {
+                    "word": " nói",
+                    "start": 74.32,
+                    "end": 74.67,
+                    "note": 66
+                },
+                {
+                    "word": " không",
+                    "start": 74.75,
+                    "end": 74.98,
+                    "note": 65
+                },
+                {
+                    "word": " thành",
+                    "start": 75.01,
+                    "end": 75.38,
+                    "note": 65
+                },
+                {
+                    "word": " câu",
+                    "start": 75.38,
+                    "end": 77.4,
+                    "note": 64
+                }
+            ]
+        },
+        {
+            "start": 78.06,
+            "end": 83.3,
+            "text": "Yêu đương không đậm sâu đừng dối gian thêm đau lòng nhau",
+            "words": [
+                {
+                    "word": "Yêu",
+                    "start": 78.06,
+                    "end": 78.42,
+                    "note": 66
+                },
+                {
+                    "word": " đương",
+                    "start": 78.42,
+                    "end": 78.69,
+                    "note": 64
+                },
+                {
+                    "word": " không",
+                    "start": 78.69,
+                    "end": 79.13,
+                    "note": 59
+                },
+                {
+                    "word": " đậm",
+                    "start": 79.13,
+                    "end": 79.37,
+                    "note": 64
+                },
+                {
+                    "word": " sâu",
+                    "start": 79.37,
+                    "end": 80.15,
+                    "note": 72
+                },
+                {
+                    "word": " đừng",
+                    "start": 80.18,
+                    "end": 80.44,
+                    "note": 62
+                },
+                {
+                    "word": " dối",
+                    "start": 80.44,
+                    "end": 80.76,
+                    "note": 73
+                },
+                {
+                    "word": " gian",
+                    "start": 80.79,
+                    "end": 81.12,
+                    "note": 77
+                },
+                {
+                    "word": " thêm",
+                    "start": 81.17,
+                    "end": 81.5,
+                    "note": 74
+                },
+                {
+                    "word": " đau",
+                    "start": 81.5,
+                    "end": 82.09,
+                    "note": 76
+                },
+                {
+                    "word": " lòng",
+                    "start": 82.12,
+                    "end": 82.21,
+                    "note": 58
+                },
+                {
+                    "word": " nhau",
+                    "start": 82.21,
+                    "end": 83.3,
+                    "note": 75
+                }
+            ]
+        },
+        {
+            "start": 83.54,
+            "end": 88.33,
+            "text": "Nước mắt cứ để em tự lau",
+            "words": [
+                {
+                    "word": "Nước",
+                    "start": 83.54,
+                    "end": 83.73,
+                    "note": 66
+                },
+                {
+                    "word": " mắt",
+                    "start": 83.91,
+                    "end": 84.38,
+                    "note": 81
+                },
+                {
+                    "word": " cứ",
+                    "start": 84.57,
+                    "end": 84.89,
+                    "note": 64
+                },
+                {
+                    "word": " để",
+                    "start": 84.89,
+                    "end": 85.18,
+                    "note": 66
+                },
+                {
+                    "word": " em",
+                    "start": 85.18,
+                    "end": 85.53,
+                    "note": 65
+                },
+                {
+                    "word": " tự",
+                    "start": 85.63,
+                    "end": 86.12,
+                    "note": 65
+                },
+                {
+                    "word": " lau",
+                    "start": 86.12,
+                    "end": 88.33,
+                    "note": 65
+                }
+            ]
+        },
+        {
+            "start": 88.88,
+            "end": 93.79,
+            "text": "Dùng một đời vấn vương để đổi lại một đời đau thương",
+            "words": [
+                {
+                    "word": "Dùng",
+                    "start": 88.88,
+                    "end": 89.36,
+                    "note": 60
+                },
+                {
+                    "word": " một",
+                    "start": 89.36,
+                    "end": 89.59,
+                    "note": 72
+                },
+                {
+                    "word": " đời",
+                    "start": 89.69,
+                    "end": 90.0,
+                    "note": 73
+                },
+                {
+                    "word": " vấn",
+                    "start": 90.0,
+                    "end": 90.22,
+                    "note": 75
+                },
+                {
+                    "word": " vương",
+                    "start": 90.39,
+                    "end": 90.53,
+                    "note": 67
+                },
+                {
+                    "word": " để",
+                    "start": 91.07,
+                    "end": 91.33,
+                    "note": 78
+                },
+                {
+                    "word": " đổi",
+                    "start": 91.38,
+                    "end": 91.67,
+                    "note": 74
+                },
+                {
+                    "word": " lại",
+                    "start": 91.8,
+                    "end": 92.04,
+                    "note": 53
+                },
+                {
+                    "word": " một",
+                    "start": 92.04,
+                    "end": 92.34,
+                    "note": 61
+                },
+                {
+                    "word": " đời",
+                    "start": 92.39,
+                    "end": 92.74,
+                    "note": 60
+                },
+                {
+                    "word": " đau",
+                    "start": 92.74,
+                    "end": 93.06,
+                    "note": 73
+                },
+                {
+                    "word": " thương",
+                    "start": 93.09,
+                    "end": 93.79,
+                    "note": 66
+                }
+            ]
+        },
+        {
+            "start": 94.03,
+            "end": 98.95,
+            "text": "Lời xin lỗi giấu bao lâu nói không thành câu",
+            "words": [
+                {
+                    "word": "Lời",
+                    "start": 94.03,
+                    "end": 94.37,
+                    "note": 64
+                },
+                {
+                    "word": " xin",
+                    "start": 94.37,
+                    "end": 94.75,
+                    "note": 52
+                },
+                {
+                    "word": " lỗi",
+                    "start": 94.75,
+                    "end": 95.06,
+                    "note": 67
+                },
+                {
+                    "word": " giấu",
+                    "start": 95.1,
+                    "end": 95.49,
+                    "note": 74
+                },
+                {
+                    "word": " bao",
+                    "start": 95.49,
+                    "end": 95.77,
+                    "note": 80
+                },
+                {
+                    "word": " lâu",
+                    "start": 95.77,
+                    "end": 96.19,
+                    "note": 76
+                },
+                {
+                    "word": " nói",
+                    "start": 96.19,
+                    "end": 96.48,
+                    "note": 69
+                },
+                {
+                    "word": " không",
+                    "start": 96.55,
+                    "end": 96.79,
+                    "note": 65
+                },
+                {
+                    "word": " thành",
+                    "start": 96.84,
+                    "end": 97.47,
+                    "note": 62
+                },
+                {
+                    "word": " câu",
+                    "start": 97.47,
+                    "end": 98.95,
+                    "note": 66
+                }
+            ]
+        },
+        {
+            "start": 99.91,
+            "end": 105.2,
+            "text": "Yêu đương không đậm sâu đừng dối gian thêm đau lòng nhau",
+            "words": [
+                {
+                    "word": "Yêu",
+                    "start": 99.91,
+                    "end": 100.24,
+                    "note": 74
+                },
+                {
+                    "word": " đương",
+                    "start": 100.24,
+                    "end": 100.52,
+                    "note": 70
+                },
+                {
+                    "word": " không",
+                    "start": 100.52,
+                    "end": 100.94,
+                    "note": 64
+                },
+                {
+                    "word": " đậm",
+                    "start": 100.94,
+                    "end": 101.16,
+                    "note": 65
+                },
+                {
+                    "word": " sâu",
+                    "start": 101.16,
+                    "end": 101.97,
+                    "note": 72
+                },
+                {
+                    "word": " đừng",
+                    "start": 101.97,
+                    "end": 102.25,
+                    "note": 63
+                },
+                {
+                    "word": " dối",
+                    "start": 102.25,
+                    "end": 102.6,
+                    "note": 80
+                },
+                {
+                    "word": " gian",
+                    "start": 102.63,
+                    "end": 102.96,
+                    "note": 76
+                },
+                {
+                    "word": " thêm",
+                    "start": 102.99,
+                    "end": 103.17,
+                    "note": 73
+                },
+                {
+                    "word": " đau",
+                    "start": 103.17,
+                    "end": 103.44,
+                    "note": 73
+                },
+                {
+                    "word": " lòng",
+                    "start": 103.44,
+                    "end": 103.83,
+                    "note": 73
+                },
+                {
+                    "word": " nhau",
+                    "start": 103.83,
+                    "end": 105.2,
+                    "note": 77
+                }
+            ]
+        },
+        {
+            "start": 105.36,
+            "end": 110.33,
+            "text": "Nước mắt cứ để em tự lau",
+            "words": [
+                {
+                    "word": "Nước",
+                    "start": 105.36,
+                    "end": 105.59,
+                    "note": 69
+                },
+                {
+                    "word": " mắt",
+                    "start": 105.59,
+                    "end": 106.09,
+                    "note": 79
+                },
+                {
+                    "word": " cứ",
+                    "start": 106.37,
+                    "end": 106.7,
+                    "note": 62
+                },
+                {
+                    "word": " để",
+                    "start": 106.7,
+                    "end": 106.88,
+                    "note": 68
+                },
+                {
+                    "word": " em",
+                    "start": 106.88,
+                    "end": 107.34,
+                    "note": 69
+                },
+                {
+                    "word": " tự",
+                    "start": 107.44,
+                    "end": 107.97,
+                    "note": 66
+                },
+                {
+                    "word": " lau",
+                    "start": 107.97,
+                    "end": 110.33,
+                    "note": 63
+                }
+            ]
+        },
+        {
+            "start": 132.59,
+            "end": 137.67,
+            "text": "Yêu đương chỉ như những áng mây lướt nhanh qua trời",
+            "words": [
+                {
+                    "word": "Yêu",
+                    "start": 132.59,
+                    "end": 133.31,
+                    "note": 65
+                },
+                {
+                    "word": " đương",
+                    "start": 133.31,
+                    "end": 133.61,
+                    "note": 66
+                },
+                {
+                    "word": " chỉ",
+                    "start": 133.61,
+                    "end": 133.99,
+                    "note": 63
+                },
+                {
+                    "word": " như",
+                    "start": 133.99,
+                    "end": 134.24,
+                    "note": 65
+                },
+                {
+                    "word": " những",
+                    "start": 134.24,
+                    "end": 134.68,
+                    "note": 62
+                },
+                {
+                    "word": " áng",
+                    "start": 134.68,
+                    "end": 135.02,
+                    "note": 73
+                },
+                {
+                    "word": " mây",
+                    "start": 135.02,
+                    "end": 135.31,
+                    "note": 67
+                },
+                {
+                    "word": " lướt",
+                    "start": 135.31,
+                    "end": 135.88,
+                    "note": 56
+                },
+                {
+                    "word": " nhanh",
+                    "start": 135.93,
+                    "end": 136.35,
+                    "note": 58
+                },
+                {
+                    "word": " qua",
+                    "start": 136.35,
+                    "end": 136.64,
+                    "note": 70
+                },
+                {
+                    "word": " trời",
+                    "start": 136.68,
+                    "end": 137.67,
+                    "note": 65
+                }
+            ]
+        },
+        {
+            "start": 138.11,
+            "end": 142.99,
+            "text": "Yêu chi cho lệ hoen đôi mi, để con tim vụn vỡ",
+            "words": [
+                {
+                    "word": "Yêu",
+                    "start": 138.11,
+                    "end": 138.35,
+                    "note": 60
+                },
+                {
+                    "word": " chi",
+                    "start": 138.39,
+                    "end": 138.69,
+                    "note": 60
+                },
+                {
+                    "word": " cho",
+                    "start": 138.72,
+                    "end": 139.03,
+                    "note": 58
+                },
+                {
+                    "word": " lệ",
+                    "start": 139.1,
+                    "end": 139.16,
+                    "note": 62
+                },
+                {
+                    "word": " hoen",
+                    "start": 139.16,
+                    "end": 139.8,
+                    "note": 48
+                },
+                {
+                    "word": " đôi",
+                    "start": 139.8,
+                    "end": 140.09,
+                    "note": 66
+                },
+                {
+                    "word": " mi,",
+                    "start": 140.09,
+                    "end": 140.46,
+                    "note": 60
+                },
+                {
+                    "word": " để",
+                    "start": 140.46,
+                    "end": 140.74,
+                    "note": 63
+                },
+                {
+                    "word": " con",
+                    "start": 140.77,
+                    "end": 141.41,
+                    "note": 54
+                },
+                {
+                    "word": " tim",
+                    "start": 141.5,
+                    "end": 141.68,
+                    "note": 59
+                },
+                {
+                    "word": " vụn",
+                    "start": 141.68,
+                    "end": 142.14,
+                    "note": 53
+                },
+                {
+                    "word": " vỡ",
+                    "start": 142.18,
+                    "end": 142.99,
+                    "note": 62
+                }
+            ]
+        },
+        {
+            "start": 143.45,
+            "end": 147.95,
+            "text": "Khi yêu cứ ngỡ nên thơ, tình yêu như giấc mơ",
+            "words": [
+                {
+                    "word": "Khi",
+                    "start": 143.45,
+                    "end": 143.83,
+                    "note": 56
+                },
+                {
+                    "word": " yêu",
+                    "start": 143.83,
+                    "end": 144.49,
+                    "note": 67
+                },
+                {
+                    "word": " cứ",
+                    "start": 144.56,
+                    "end": 144.66,
+                    "note": 59
+                },
+                {
+                    "word": " ngỡ",
+                    "start": 144.66,
+                    "end": 145.23,
+                    "note": 68
+                },
+                {
+                    "word": " nên",
+                    "start": 145.26,
+                    "end": 145.54,
+                    "note": 72
+                },
+                {
+                    "word": " thơ,",
+                    "start": 145.54,
+                    "end": 146.24,
+                    "note": 69
+                },
+                {
+                    "word": " tình",
+                    "start": 146.31,
+                    "end": 146.61,
+                    "note": 57
+                },
+                {
+                    "word": " yêu",
+                    "start": 146.61,
+                    "end": 146.85,
+                    "note": 61
+                },
+                {
+                    "word": " như",
+                    "start": 146.96,
+                    "end": 147.24,
+                    "note": 66
+                },
+                {
+                    "word": " giấc",
+                    "start": 147.24,
+                    "end": 147.57,
+                    "note": 56
+                },
+                {
+                    "word": " mơ",
+                    "start": 147.57,
+                    "end": 147.95,
+                    "note": 55
+                }
+            ]
+        },
+        {
+            "start": 148.7,
+            "end": 153.94,
+            "text": "Để hôm nay ôm một mối sầu bơ vơ",
+            "words": [
+                {
+                    "word": "Để",
+                    "start": 148.7,
+                    "end": 148.96,
+                    "note": 64
+                },
+                {
+                    "word": " hôm",
+                    "start": 148.96,
+                    "end": 149.36,
+                    "note": 59
+                },
+                {
+                    "word": " nay",
+                    "start": 149.36,
+                    "end": 149.64,
+                    "note": 69
+                },
+                {
+                    "word": " ôm",
+                    "start": 149.64,
+                    "end": 149.98,
+                    "note": 59
+                },
+                {
+                    "word": " một",
+                    "start": 150.01,
+                    "end": 150.3,
+                    "note": 63
+                },
+                {
+                    "word": " mối",
+                    "start": 150.3,
+                    "end": 150.94,
+                    "note": 58
+                },
+                {
+                    "word": " sầu",
+                    "start": 150.94,
+                    "end": 151.39,
+                    "note": 63
+                },
+                {
+                    "word": " bơ",
+                    "start": 151.42,
+                    "end": 151.73,
+                    "note": 71
+                },
+                {
+                    "word": " vơ",
+                    "start": 151.73,
+                    "end": 153.94,
+                    "note": 74
+                }
+            ]
+        },
+        {
+            "start": 154.37,
+            "end": 159.18,
+            "text": "Dùng một đời vấn vương để đổi lại một đời đau thương",
+            "words": [
+                {
+                    "word": "Dùng",
+                    "start": 154.37,
+                    "end": 154.81,
+                    "note": 60
+                },
+                {
+                    "word": " một",
+                    "start": 154.81,
+                    "end": 155.05,
+                    "note": 70
+                },
+                {
+                    "word": " đời",
+                    "start": 155.12,
+                    "end": 155.41,
+                    "note": 72
+                },
+                {
+                    "word": " vấn",
+                    "start": 155.41,
+                    "end": 155.67,
+                    "note": 76
+                },
+                {
+                    "word": " vương",
+                    "start": 155.84,
+                    "end": 156.01,
+                    "note": 76
+                },
+                {
+                    "word": " để",
+                    "start": 156.55,
+                    "end": 156.84,
+                    "note": 79
+                },
+                {
+                    "word": " đổi",
+                    "start": 156.89,
+                    "end": 157.05,
+                    "note": 78
+                },
+                {
+                    "word": " lại",
+                    "start": 157.19,
+                    "end": 157.47,
+                    "note": 71
+                },
+                {
+                    "word": " một",
+                    "start": 157.47,
+                    "end": 157.83,
+                    "note": 61
+                },
+                {
+                    "word": " đời",
+                    "start": 157.83,
+                    "end": 158.2,
+                    "note": 62
+                },
+                {
+                    "word": " đau",
+                    "start": 158.2,
+                    "end": 158.51,
+                    "note": 75
+                },
+                {
+                    "word": " thương",
+                    "start": 158.55,
+                    "end": 159.18,
+                    "note": 65
+                }
+            ]
+        },
+        {
+            "start": 159.46,
+            "end": 164.23,
+            "text": "Lời xin lỗi giấu bao lâu nói không thành câu",
+            "words": [
+                {
+                    "word": "Lời",
+                    "start": 159.46,
+                    "end": 159.82,
+                    "note": 66
+                },
+                {
+                    "word": " xin",
+                    "start": 159.82,
+                    "end": 160.21,
+                    "note": 56
+                },
+                {
+                    "word": " lỗi",
+                    "start": 160.21,
+                    "end": 160.57,
+                    "note": 67
+                },
+                {
+                    "word": " giấu",
+                    "start": 160.63,
+                    "end": 160.89,
+                    "note": 79
+                },
+                {
+                    "word": " bao",
+                    "start": 160.89,
+                    "end": 161.2,
+                    "note": 75
+                },
+                {
+                    "word": " lâu",
+                    "start": 161.2,
+                    "end": 161.59,
+                    "note": 67
+                },
+                {
+                    "word": " nói",
+                    "start": 161.59,
+                    "end": 161.89,
+                    "note": 64
+                },
+                {
+                    "word": " không",
+                    "start": 161.99,
+                    "end": 162.25,
+                    "note": 61
+                },
+                {
+                    "word": " thành",
+                    "start": 162.25,
+                    "end": 162.61,
+                    "note": 60
+                },
+                {
+                    "word": " câu",
+                    "start": 162.61,
+                    "end": 164.23,
+                    "note": 59
+                }
+            ]
+        },
+        {
+            "start": 165.34,
+            "end": 170.66,
+            "text": "Yêu thương không đậm sâu đừng dối gian thêm đau lòng nhau",
+            "words": [
+                {
+                    "word": "Yêu",
+                    "start": 165.34,
+                    "end": 165.68,
+                    "note": 69
+                },
+                {
+                    "word": " thương",
+                    "start": 165.71,
+                    "end": 166.0,
+                    "note": 67
+                },
+                {
+                    "word": " không",
+                    "start": 166.0,
+                    "end": 166.34,
+                    "note": 64
+                },
+                {
+                    "word": " đậm",
+                    "start": 166.41,
+                    "end": 166.52,
+                    "note": 67
+                },
+                {
+                    "word": " sâu",
+                    "start": 166.64,
+                    "end": 167.42,
+                    "note": 70
+                },
+                {
+                    "word": " đừng",
+                    "start": 167.42,
+                    "end": 167.71,
+                    "note": 65
+                },
+                {
+                    "word": " dối",
+                    "start": 167.71,
+                    "end": 167.99,
+                    "note": 78
+                },
+                {
+                    "word": " gian",
+                    "start": 167.99,
+                    "end": 168.35,
+                    "note": 78
+                },
+                {
+                    "word": " thêm",
+                    "start": 168.39,
+                    "end": 168.63,
+                    "note": 73
+                },
+                {
+                    "word": " đau",
+                    "start": 168.63,
+                    "end": 168.93,
+                    "note": 74
+                },
+                {
+                    "word": " lòng",
+                    "start": 168.93,
+                    "end": 169.26,
+                    "note": 72
+                },
+                {
+                    "word": " nhau",
+                    "start": 169.26,
+                    "end": 170.66,
+                    "note": 75
+                }
+            ]
+        },
+        {
+            "start": 170.73,
+            "end": 175.86,
+            "text": "Nước mắt cứ để em tự lau",
+            "words": [
+                {
+                    "word": "Nước",
+                    "start": 170.73,
+                    "end": 171.03,
+                    "note": 55
+                },
+                {
+                    "word": " mắt",
+                    "start": 171.03,
+                    "end": 171.63,
+                    "note": 81
+                },
+                {
+                    "word": " cứ",
+                    "start": 171.82,
+                    "end": 172.17,
+                    "note": 63
+                },
+                {
+                    "word": " để",
+                    "start": 172.2,
+                    "end": 172.5,
+                    "note": 69
+                },
+                {
+                    "word": " em",
+                    "start": 172.5,
+                    "end": 172.86,
+                    "note": 66
+                },
+                {
+                    "word": " tự",
+                    "start": 172.91,
+                    "end": 173.38,
+                    "note": 63
+                },
+                {
+                    "word": " lau",
+                    "start": 173.43,
+                    "end": 175.86,
+                    "note": 74
+                }
+            ]
+        },
+        {
+            "start": 176.2,
+            "end": 180.96,
+            "text": "Dùng một đời vấn vương để đổi lại một đời đau thương",
+            "words": [
+                {
+                    "word": "Dùng",
+                    "start": 176.2,
+                    "end": 176.62,
+                    "note": 66
+                },
+                {
+                    "word": " một",
+                    "start": 176.62,
+                    "end": 176.87,
+                    "note": 72
+                },
+                {
+                    "word": " đời",
+                    "start": 176.95,
+                    "end": 177.25,
+                    "note": 74
+                },
+                {
+                    "word": " vấn",
+                    "start": 177.25,
+                    "end": 177.49,
+                    "note": 74
+                },
+                {
+                    "word": " vương",
+                    "start": 177.64,
+                    "end": 177.76,
+                    "note": 76
+                },
+                {
+                    "word": " để",
+                    "start": 178.34,
+                    "end": 178.54,
+                    "note": 78
+                },
+                {
+                    "word": " đổi",
+                    "start": 178.7,
+                    "end": 178.85,
+                    "note": 77
+                },
+                {
+                    "word": " lại",
+                    "start": 179.0,
+                    "end": 179.31,
+                    "note": 73
+                },
+                {
+                    "word": " một",
+                    "start": 179.34,
+                    "end": 179.51,
+                    "note": 65
+                },
+                {
+                    "word": " đời",
+                    "start": 179.55,
+                    "end": 179.84,
+                    "note": 73
+                },
+                {
+                    "word": " đau",
+                    "start": 179.84,
+                    "end": 180.16,
+                    "note": 75
+                },
+                {
+                    "word": " thương",
+                    "start": 180.19,
+                    "end": 180.96,
+                    "note": 69
+                }
+            ]
+        },
+        {
+            "start": 181.28,
+            "end": 185.68,
+            "text": "Lời xin lỗi nói ra đây trước khi từ biệt",
+            "words": [
+                {
+                    "word": "Lời",
+                    "start": 181.28,
+                    "end": 181.59,
+                    "note": 66
+                },
+                {
+                    "word": " xin",
+                    "start": 181.59,
+                    "end": 182.02,
+                    "note": 50
+                },
+                {
+                    "word": " lỗi",
+                    "start": 182.02,
+                    "end": 182.41,
+                    "note": 68
+                },
+                {
+                    "word": " nói",
+                    "start": 182.41,
+                    "end": 182.7,
+                    "note": 76
+                },
+                {
+                    "word": " ra",
+                    "start": 182.7,
+                    "end": 183.07,
+                    "note": 77
+                },
+                {
+                    "word": " đây",
+                    "start": 183.07,
+                    "end": 183.39,
+                    "note": 64
+                },
+                {
+                    "word": " trước",
+                    "start": 183.42,
+                    "end": 183.67,
+                    "note": 62
+                },
+                {
+                    "word": " khi",
+                    "start": 183.8,
+                    "end": 184.1,
+                    "note": 56
+                },
+                {
+                    "word": " từ",
+                    "start": 184.17,
+                    "end": 184.51,
+                    "note": 64
+                },
+                {
+                    "word": " biệt",
+                    "start": 184.54,
+                    "end": 185.68,
+                    "note": 69
+                }
+            ]
+        },
+        {
+            "start": 187.12,
+            "end": 191.41,
+            "text": "Mong anh luôn bình yên, một sớm mai đây em sẽ quên",
+            "words": [
+                {
+                    "word": "Mong",
+                    "start": 187.12,
+                    "end": 187.55,
+                    "note": 71
+                },
+                {
+                    "word": " anh",
+                    "start": 187.55,
+                    "end": 187.84,
+                    "note": 74
+                },
+                {
+                    "word": " luôn",
+                    "start": 187.84,
+                    "end": 188.26,
+                    "note": 63
+                },
+                {
+                    "word": " bình",
+                    "start": 188.26,
+                    "end": 188.5,
+                    "note": 64
+                },
+                {
+                    "word": " yên,",
+                    "start": 188.5,
+                    "end": 189.16,
+                    "note": 65
+                },
+                {
+                    "word": " một",
+                    "start": 189.16,
+                    "end": 189.39,
+                    "note": 70
+                },
+                {
+                    "word": " sớm",
+                    "start": 189.43,
+                    "end": 189.83,
+                    "note": 70
+                },
+                {
+                    "word": " mai",
+                    "start": 189.93,
+                    "end": 190.17,
+                    "note": 79
+                },
+                {
+                    "word": " đây",
+                    "start": 190.17,
+                    "end": 190.38,
+                    "note": 77
+                },
+                {
+                    "word": " em",
+                    "start": 190.38,
+                    "end": 190.62,
+                    "note": 81
+                },
+                {
+                    "word": " sẽ",
+                    "start": 190.62,
+                    "end": 191.14,
+                    "note": 72
+                },
+                {
+                    "word": " quên",
+                    "start": 191.26,
+                    "end": 191.41,
+                    "note": 73
+                }
+            ]
+        },
+        {
+            "start": 192.51,
+            "end": 197.41,
+            "text": "Sẽ quên hết mối tình đầu tiên",
+            "words": [
+                {
+                    "word": "Sẽ",
+                    "start": 192.51,
+                    "end": 192.92,
+                    "note": 70
+                },
+                {
+                    "word": " quên",
+                    "start": 193.0,
+                    "end": 193.27,
+                    "note": 73
+                },
+                {
+                    "word": " hết",
+                    "start": 193.27,
+                    "end": 193.59,
+                    "note": 70
+                },
+                {
+                    "word": " mối",
+                    "start": 193.59,
+                    "end": 193.97,
+                    "note": 71
+                },
+                {
+                    "word": " tình",
+                    "start": 194.04,
+                    "end": 194.69,
+                    "note": 59
+                },
+                {
+                    "word": " đầu",
+                    "start": 194.69,
+                    "end": 195.39,
+                    "note": 71
+                },
+                {
+                    "word": " tiên",
+                    "start": 195.43,
+                    "end": 197.41,
+                    "note": 63
+                }
+            ]
+        },
+        {
+            "start": 198.02,
+            "end": 202.97,
+            "text": "Dùng một đời vấn vương để đổi lại một đời đau thương",
+            "words": [
+                {
+                    "word": "Dùng",
+                    "start": 198.02,
+                    "end": 198.48,
+                    "note": 63
+                },
+                {
+                    "word": " một",
+                    "start": 198.48,
+                    "end": 198.69,
+                    "note": 70
+                },
+                {
+                    "word": " đời",
+                    "start": 198.76,
+                    "end": 199.09,
+                    "note": 73
+                },
+                {
+                    "word": " vấn",
+                    "start": 199.09,
+                    "end": 199.32,
+                    "note": 73
+                },
+                {
+                    "word": " vương",
+                    "start": 199.5,
+                    "end": 199.61,
+                    "note": 73
+                },
+                {
+                    "word": " để",
+                    "start": 200.15,
+                    "end": 200.22,
+                    "note": 77
+                },
+                {
+                    "word": " đổi",
+                    "start": 200.47,
+                    "end": 200.74,
+                    "note": 77
+                },
+                {
+                    "word": " lại",
+                    "start": 200.8,
+                    "end": 201.09,
+                    "note": 56
+                },
+                {
+                    "word": " một",
+                    "start": 201.09,
+                    "end": 201.36,
+                    "note": 62
+                },
+                {
+                    "word": " đời",
+                    "start": 201.36,
+                    "end": 201.66,
+                    "note": 68
+                },
+                {
+                    "word": " đau",
+                    "start": 201.66,
+                    "end": 201.98,
+                    "note": 74
+                },
+                {
+                    "word": " thương",
+                    "start": 202.01,
+                    "end": 202.97,
+                    "note": 64
+                }
+            ]
+        },
+        {
+            "start": 203.13,
+            "end": 207.01,
+            "text": "Lời xin lỗi nói ra đây trước khi từ biệt",
+            "words": [
+                {
+                    "word": "Lời",
+                    "start": 203.13,
+                    "end": 203.41,
+                    "note": 64
+                },
+                {
+                    "word": " xin",
+                    "start": 203.41,
+                    "end": 203.76,
+                    "note": 49
+                },
+                {
+                    "word": " lỗi",
+                    "start": 203.76,
+                    "end": 204.23,
+                    "note": 68
+                },
+                {
+                    "word": " nói",
+                    "start": 204.23,
+                    "end": 204.56,
+                    "note": 78
+                },
+                {
+                    "word": " ra",
+                    "start": 204.56,
+                    "end": 204.9,
+                    "note": 77
+                },
+                {
+                    "word": " đây",
+                    "start": 204.9,
+                    "end": 205.2,
+                    "note": 65
+                },
+                {
+                    "word": " trước",
+                    "start": 205.23,
+                    "end": 205.43,
+                    "note": 58
+                },
+                {
+                    "word": " khi",
+                    "start": 205.61,
+                    "end": 205.86,
+                    "note": 59
+                },
+                {
+                    "word": " từ",
+                    "start": 205.86,
+                    "end": 206.27,
+                    "note": 56
+                },
+                {
+                    "word": " biệt",
+                    "start": 206.3,
+                    "end": 207.01,
+                    "note": 59
+                }
+            ]
+        },
+        {
+            "start": 208.99,
+            "end": 214.59,
+            "text": "Mong anh luôn bình yên, một sớm mai đây em sẽ quên",
+            "words": [
+                {
+                    "word": "Mong",
+                    "start": 208.99,
+                    "end": 209.39,
+                    "note": 75
+                },
+                {
+                    "word": " anh",
+                    "start": 209.39,
+                    "end": 209.67,
+                    "note": 69
+                },
+                {
+                    "word": " luôn",
+                    "start": 209.67,
+                    "end": 210.03,
+                    "note": 67
+                },
+                {
+                    "word": " bình",
+                    "start": 210.03,
+                    "end": 210.34,
+                    "note": 62
+                },
+                {
+                    "word": " yên,",
+                    "start": 210.34,
+                    "end": 210.8,
+                    "note": 67
+                },
+                {
+                    "word": " một",
+                    "start": 211.0,
+                    "end": 211.23,
+                    "note": 65
+                },
+                {
+                    "word": " sớm",
+                    "start": 211.23,
+                    "end": 211.61,
+                    "note": 68
+                },
+                {
+                    "word": " mai",
+                    "start": 211.74,
+                    "end": 211.97,
+                    "note": 79
+                },
+                {
+                    "word": " đây",
+                    "start": 211.97,
+                    "end": 212.32,
+                    "note": 78
+                },
+                {
+                    "word": " em",
+                    "start": 212.32,
+                    "end": 212.43,
+                    "note": 78
+                },
+                {
+                    "word": " sẽ",
+                    "start": 212.69,
+                    "end": 214.08,
+                    "note": 77
+                },
+                {
+                    "word": " quên",
+                    "start": 214.45,
+                    "end": 214.59,
+                    "note": 70
+                }
+            ]
+        },
+        {
+            "start": 214.62,
+            "end": 219.16,
+            "text": "Sẽ quên hết mối tình đầu tiên",
+            "words": [
+                {
+                    "word": "Sẽ",
+                    "start": 214.62,
+                    "end": 214.74,
+                    "note": 76
+                },
+                {
+                    "word": " quên",
+                    "start": 214.81,
+                    "end": 215.08,
+                    "note": 73
+                },
+                {
+                    "word": " hết",
+                    "start": 215.08,
+                    "end": 215.32,
+                    "note": 72
+                },
+                {
+                    "word": " mối",
+                    "start": 215.32,
+                    "end": 215.77,
+                    "note": 68
+                },
+                {
+                    "word": " tình",
+                    "start": 215.77,
+                    "end": 216.55,
+                    "note": 66
+                },
+                {
+                    "word": " đầu",
+                    "start": 216.55,
+                    "end": 217.05,
+                    "note": 65
+                },
+                {
+                    "word": " tiên",
+                    "start": 217.21,
+                    "end": 219.16,
+                    "note": 63
+                }
+            ]
+        },
+        {
+            "start": 219.79,
+            "end": 226.9,
+            "text": "Sẽ quên hết mối tình đầu tiên",
+            "words": [
+                {
+                    "word": "Sẽ",
+                    "start": 219.79,
+                    "end": 220.23,
+                    "note": 65
+                },
+                {
+                    "word": " quên",
+                    "start": 220.3,
+                    "end": 220.61,
+                    "note": 66
+                },
+                {
+                    "word": " hết",
+                    "start": 220.61,
+                    "end": 220.92,
+                    "note": 65
+                },
+                {
+                    "word": " mối",
+                    "start": 220.92,
+                    "end": 221.32,
+                    "note": 63
+                },
+                {
+                    "word": " tình",
+                    "start": 221.38,
+                    "end": 222.0,
+                    "note": 60
+                },
+                {
+                    "word": " đầu",
+                    "start": 225.03,
+                    "end": 225.16,
+                    "note": 56
+                },
+                {
+                    "word": " tiên",
+                    "start": 225.43,
+                    "end": 226.9,
+                    "note": 58
+                }
+            ]
+        }
+    ],
+    "language": "vi"
+}

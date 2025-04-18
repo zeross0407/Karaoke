@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\nativeplayermul\nativeplayer\android\app\src\main\cpp\ogg\build\CMakeFiles\835f4cb0487aaada74f22ba9cab8b46a\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{83D12758-42FF-303D-B9FB-606CB5AB4754}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

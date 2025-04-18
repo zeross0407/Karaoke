@@ -1,0 +1,5 @@
+E:/nativeplayermul/nativeplayer/android/app/src/main/cpp/ogg/build/CMakeFiles/ogg.dir
+E:/nativeplayermul/nativeplayer/android/app/src/main/cpp/ogg/build/CMakeFiles/PACKAGE.dir
+E:/nativeplayermul/nativeplayer/android/app/src/main/cpp/ogg/build/CMakeFiles/INSTALL.dir
+E:/nativeplayermul/nativeplayer/android/app/src/main/cpp/ogg/build/CMakeFiles/ALL_BUILD.dir
+E:/nativeplayermul/nativeplayer/android/app/src/main/cpp/ogg/build/CMakeFiles/ZERO_CHECK.dir

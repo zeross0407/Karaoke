@@ -1,0 +1,2224 @@
+{
+    "text": "Nhìn từng giọt mưa nhẹ rơi ngoài hiên Nơi xa em có hay không? Chân trời kia mờ trong màn sương Chờ đợi em sẽ quay về Con đường xưa giờ đây ngơ ngác Ngập đầy tuyết rơi giá lạnh Tìm về đâu ngày xưa Loay hoay trong nỗi bơ vơ Một lần thôi thời gian trở lại Mình sẽ không chia lối đi Đôi bàn tay xin đan vào nhau Nhẹ nhàng ve vuốt vai mềm Nơi bình yên chẳng còn hoang vắng Chẳng còn nhớ thương mơ hồ Và trong cơn mộng kia yên lành khi bóng đêm về Dù là cơn mơ băng giá Dù đợi chờ là nỗi xót xa Dù tình chỉ là mong manh Bờ môi còn khao khát chờ Này người tình cầm tay anh nhé Dù đời này bao nhiêu bão giông Để được nằm kề bên em Mưa sẽ thôi rơi, con đường xưa cũng êm đềm. Một lần thôi thời gian trở lại Mình sẽ không chia lối đi Đôi bàn tay xin đan vào nhau Nhẹ nhàng ve vuốt vai mềm Nơi bình yên chẳng còn hoang vắng Chẳng còn nhớ thương mơ hồ Và trong cơn mộng kia yên lành khi bóng đêm về Dù là cơn mơ băng giá Dù đợi chờ là nỗi xót xa Dù tình chỉ là mong manh Bờ môi còn khao khát chờ Này người tình cầm tay anh nhé Dù đời này bao nhiêu bão giông Để được nằm kề bên em Mưa sẽ thôi rơi, con đường xưa cũng êm đềm. Dù là cơn mơ băng giá Dù đợi chờ là nỗi xót xa Dù tình chỉ là mong manh Bờ môi còn khao khát chờ Này người tình cầm tay anh nhé Dù đời này bao nhiêu bão giông Để được nằm kề bên em Mưa sẽ thôi rơi, con đường xưa cũng êm đềm.",
+    "segments": [
+        {
+            "start": 32.63,
+            "end": 35.86,
+            "text": "Nhìn từng giọt mưa nhẹ rơi ngoài hiên",
+            "words": [
+                {
+                    "word": "Nhìn",
+                    "start": 32.63,
+                    "end": 32.9,
+                    "note": 47
+                },
+                {
+                    "word": " từng",
+                    "start": 33.02,
+                    "end": 33.2,
+                    "note": 54
+                },
+                {
+                    "word": " giọt",
+                    "start": 33.2,
+                    "end": 33.42,
+                    "note": 56
+                },
+                {
+                    "word": " mưa",
+                    "start": 33.51,
+                    "end": 33.89,
+                    "note": 58
+                },
+                {
+                    "word": " nhẹ",
+                    "start": 34.11,
+                    "end": 34.39,
+                    "note": 58
+                },
+                {
+                    "word": " rơi",
+                    "start": 34.48,
+                    "end": 34.9,
+                    "note": 58
+                },
+                {
+                    "word": " ngoài",
+                    "start": 34.9,
+                    "end": 35.29,
+                    "note": 57
+                },
+                {
+                    "word": " hiên",
+                    "start": 35.32,
+                    "end": 35.86,
+                    "note": 58
+                }
+            ]
+        },
+        {
+            "start": 36.52,
+            "end": 40.14,
+            "text": "Nơi xa em có hay không?",
+            "words": [
+                {
+                    "word": "Nơi",
+                    "start": 36.52,
+                    "end": 36.82,
+                    "note": 56
+                },
+                {
+                    "word": " xa",
+                    "start": 36.82,
+                    "end": 37.23,
+                    "note": 62
+                },
+                {
+                    "word": " em",
+                    "start": 37.23,
+                    "end": 37.62,
+                    "note": 68
+                },
+                {
+                    "word": " có",
+                    "start": 37.77,
+                    "end": 38.28,
+                    "note": 61
+                },
+                {
+                    "word": " hay",
+                    "start": 38.95,
+                    "end": 39.35,
+                    "note": 69
+                },
+                {
+                    "word": " không?",
+                    "start": 39.54,
+                    "end": 40.14,
+                    "note": 57
+                }
+            ]
+        },
+        {
+            "start": 40.97,
+            "end": 43.58,
+            "text": "Chân trời kia mờ trong màn sương",
+            "words": [
+                {
+                    "word": "Chân",
+                    "start": 40.97,
+                    "end": 41.22,
+                    "note": 55
+                },
+                {
+                    "word": " trời",
+                    "start": 41.22,
+                    "end": 41.5,
+                    "note": 53
+                },
+                {
+                    "word": " kia",
+                    "start": 41.55,
+                    "end": 41.89,
+                    "note": 55
+                },
+                {
+                    "word": " mờ",
+                    "start": 42.27,
+                    "end": 42.43,
+                    "note": 53
+                },
+                {
+                    "word": " trong",
+                    "start": 42.56,
+                    "end": 43.03,
+                    "note": 55
+                },
+                {
+                    "word": " màn",
+                    "start": 43.03,
+                    "end": 43.25,
+                    "note": 53
+                },
+                {
+                    "word": " sương",
+                    "start": 43.25,
+                    "end": 43.58,
+                    "note": 54
+                }
+            ]
+        },
+        {
+            "start": 44.49,
+            "end": 48.02,
+            "text": "Chờ đợi em sẽ quay về",
+            "words": [
+                {
+                    "word": "Chờ",
+                    "start": 44.49,
+                    "end": 44.83,
+                    "note": 55
+                },
+                {
+                    "word": " đợi",
+                    "start": 44.88,
+                    "end": 45.2,
+                    "note": 55
+                },
+                {
+                    "word": " em",
+                    "start": 45.23,
+                    "end": 45.52,
+                    "note": 63
+                },
+                {
+                    "word": " sẽ",
+                    "start": 45.52,
+                    "end": 46.28,
+                    "note": 58
+                },
+                {
+                    "word": " quay",
+                    "start": 46.98,
+                    "end": 47.47,
+                    "note": 62
+                },
+                {
+                    "word": " về",
+                    "start": 47.5,
+                    "end": 48.02,
+                    "note": 53
+                }
+            ]
+        },
+        {
+            "start": 48.99,
+            "end": 51.73,
+            "text": "Con đường xưa giờ đây ngơ ngác",
+            "words": [
+                {
+                    "word": "Con",
+                    "start": 48.99,
+                    "end": 49.26,
+                    "note": 67
+                },
+                {
+                    "word": " đường",
+                    "start": 49.26,
+                    "end": 49.48,
+                    "note": 50
+                },
+                {
+                    "word": " xưa",
+                    "start": 49.48,
+                    "end": 49.89,
+                    "note": 51
+                },
+                {
+                    "word": " giờ",
+                    "start": 50.16,
+                    "end": 50.54,
+                    "note": 50
+                },
+                {
+                    "word": " đây",
+                    "start": 50.58,
+                    "end": 50.89,
+                    "note": 51
+                },
+                {
+                    "word": " ngơ",
+                    "start": 51.02,
+                    "end": 51.23,
+                    "note": 53
+                },
+                {
+                    "word": " ngác",
+                    "start": 51.23,
+                    "end": 51.73,
+                    "note": 55
+                }
+            ]
+        },
+        {
+            "start": 52.52,
+            "end": 56.22,
+            "text": "Ngập đầy tuyết rơi giá lạnh",
+            "words": [
+                {
+                    "word": "Ngập",
+                    "start": 52.52,
+                    "end": 52.82,
+                    "note": 51
+                },
+                {
+                    "word": " đầy",
+                    "start": 52.92,
+                    "end": 53.2,
+                    "note": 53
+                },
+                {
+                    "word": " tuyết",
+                    "start": 53.3,
+                    "end": 53.45,
+                    "note": 61
+                },
+                {
+                    "word": " rơi",
+                    "start": 53.5,
+                    "end": 54.2,
+                    "note": 57
+                },
+                {
+                    "word": " giá",
+                    "start": 54.93,
+                    "end": 55.42,
+                    "note": 55
+                },
+                {
+                    "word": " lạnh",
+                    "start": 55.53,
+                    "end": 56.22,
+                    "note": 56
+                }
+            ]
+        },
+        {
+            "start": 57.04,
+            "end": 58.39,
+            "text": "Tìm về đâu ngày xưa",
+            "words": [
+                {
+                    "word": "Tìm",
+                    "start": 57.04,
+                    "end": 57.27,
+                    "note": 54
+                },
+                {
+                    "word": " về",
+                    "start": 57.27,
+                    "end": 57.52,
+                    "note": 57
+                },
+                {
+                    "word": " đâu",
+                    "start": 57.52,
+                    "end": 57.77,
+                    "note": 60
+                },
+                {
+                    "word": " ngày",
+                    "start": 57.77,
+                    "end": 58.09,
+                    "note": 57
+                },
+                {
+                    "word": " xưa",
+                    "start": 58.09,
+                    "end": 58.39,
+                    "note": 57
+                }
+            ]
+        },
+        {
+            "start": 59.35,
+            "end": 63.52,
+            "text": "Loay hoay trong nỗi bơ vơ",
+            "words": [
+                {
+                    "word": "Loay",
+                    "start": 59.35,
+                    "end": 59.7,
+                    "note": 58
+                },
+                {
+                    "word": " hoay",
+                    "start": 59.7,
+                    "end": 59.91,
+                    "note": 57
+                },
+                {
+                    "word": " trong",
+                    "start": 60.49,
+                    "end": 60.9,
+                    "note": 58
+                },
+                {
+                    "word": " nỗi",
+                    "start": 60.9,
+                    "end": 61.11,
+                    "note": 58
+                },
+                {
+                    "word": " bơ",
+                    "start": 61.27,
+                    "end": 62.2,
+                    "note": 59
+                },
+                {
+                    "word": " vơ",
+                    "start": 62.2,
+                    "end": 63.52,
+                    "note": 57
+                }
+            ]
+        },
+        {
+            "start": 64.89,
+            "end": 67.82,
+            "text": "Một lần thôi thời gian trở lại",
+            "words": [
+                {
+                    "word": "Một",
+                    "start": 64.89,
+                    "end": 65.24,
+                    "note": 55
+                },
+                {
+                    "word": " lần",
+                    "start": 65.24,
+                    "end": 65.48,
+                    "note": 57
+                },
+                {
+                    "word": " thôi",
+                    "start": 65.48,
+                    "end": 66.16,
+                    "note": 57
+                },
+                {
+                    "word": " thời",
+                    "start": 66.21,
+                    "end": 66.51,
+                    "note": 62
+                },
+                {
+                    "word": " gian",
+                    "start": 66.51,
+                    "end": 66.9,
+                    "note": 64
+                },
+                {
+                    "word": " trở",
+                    "start": 66.94,
+                    "end": 67.25,
+                    "note": 61
+                },
+                {
+                    "word": " lại",
+                    "start": 67.25,
+                    "end": 67.82,
+                    "note": 70
+                }
+            ]
+        },
+        {
+            "start": 68.4,
+            "end": 72.34,
+            "text": "Mình sẽ không chia lối đi",
+            "words": [
+                {
+                    "word": "Mình",
+                    "start": 68.4,
+                    "end": 68.78,
+                    "note": 61
+                },
+                {
+                    "word": " sẽ",
+                    "start": 68.78,
+                    "end": 69.36,
+                    "note": 69
+                },
+                {
+                    "word": " không",
+                    "start": 69.44,
+                    "end": 70.15,
+                    "note": 68
+                },
+                {
+                    "word": " chia",
+                    "start": 70.2,
+                    "end": 70.5,
+                    "note": 56
+                },
+                {
+                    "word": " lối",
+                    "start": 70.5,
+                    "end": 71.54,
+                    "note": 61
+                },
+                {
+                    "word": " đi",
+                    "start": 71.57,
+                    "end": 72.34,
+                    "note": 57
+                }
+            ]
+        },
+        {
+            "start": 72.99,
+            "end": 75.73,
+            "text": "Đôi bàn tay xin đan vào nhau",
+            "words": [
+                {
+                    "word": "Đôi",
+                    "start": 72.99,
+                    "end": 73.24,
+                    "note": 54
+                },
+                {
+                    "word": " bàn",
+                    "start": 73.24,
+                    "end": 73.5,
+                    "note": 53
+                },
+                {
+                    "word": " tay",
+                    "start": 73.5,
+                    "end": 74.03,
+                    "note": 55
+                },
+                {
+                    "word": " xin",
+                    "start": 74.1,
+                    "end": 74.57,
+                    "note": 62
+                },
+                {
+                    "word": " đan",
+                    "start": 74.57,
+                    "end": 75.04,
+                    "note": 54
+                },
+                {
+                    "word": " vào",
+                    "start": 75.04,
+                    "end": 75.27,
+                    "note": 53
+                },
+                {
+                    "word": " nhau",
+                    "start": 75.27,
+                    "end": 75.73,
+                    "note": 54
+                }
+            ]
+        },
+        {
+            "start": 76.45,
+            "end": 80.32,
+            "text": "Nhẹ nhàng ve vuốt vai mềm",
+            "words": [
+                {
+                    "word": "Nhẹ",
+                    "start": 76.45,
+                    "end": 76.7,
+                    "note": 53
+                },
+                {
+                    "word": " nhàng",
+                    "start": 76.7,
+                    "end": 77.17,
+                    "note": 54
+                },
+                {
+                    "word": " ve",
+                    "start": 77.17,
+                    "end": 77.47,
+                    "note": 56
+                },
+                {
+                    "word": " vuốt",
+                    "start": 77.57,
+                    "end": 77.91,
+                    "note": 57
+                },
+                {
+                    "word": " vai",
+                    "start": 78.98,
+                    "end": 79.41,
+                    "note": 55
+                },
+                {
+                    "word": " mềm",
+                    "start": 79.41,
+                    "end": 80.32,
+                    "note": 53
+                }
+            ]
+        },
+        {
+            "start": 81.03,
+            "end": 83.85,
+            "text": "Nơi bình yên chẳng còn hoang vắng",
+            "words": [
+                {
+                    "word": "Nơi",
+                    "start": 81.03,
+                    "end": 81.3,
+                    "note": 56
+                },
+                {
+                    "word": " bình",
+                    "start": 81.3,
+                    "end": 81.56,
+                    "note": 56
+                },
+                {
+                    "word": " yên",
+                    "start": 81.56,
+                    "end": 81.89,
+                    "note": 56
+                },
+                {
+                    "word": " chẳng",
+                    "start": 81.92,
+                    "end": 82.27,
+                    "note": 52
+                },
+                {
+                    "word": " còn",
+                    "start": 82.33,
+                    "end": 82.73,
+                    "note": 62
+                },
+                {
+                    "word": " hoang",
+                    "start": 82.73,
+                    "end": 83.23,
+                    "note": 53
+                },
+                {
+                    "word": " vắng",
+                    "start": 83.23,
+                    "end": 83.85,
+                    "note": 54
+                }
+            ]
+        },
+        {
+            "start": 84.45,
+            "end": 88.19,
+            "text": "Chẳng còn nhớ thương mơ hồ",
+            "words": [
+                {
+                    "word": "Chẳng",
+                    "start": 84.45,
+                    "end": 84.79,
+                    "note": 52
+                },
+                {
+                    "word": " còn",
+                    "start": 84.85,
+                    "end": 85.21,
+                    "note": 59
+                },
+                {
+                    "word": " nhớ",
+                    "start": 85.21,
+                    "end": 85.5,
+                    "note": 57
+                },
+                {
+                    "word": " thương",
+                    "start": 85.65,
+                    "end": 88.07,
+                    "note": 58
+                },
+                {
+                    "word": " mơ",
+                    "start": 88.07,
+                    "end": 88.13,
+                    "note": 56
+                },
+                {
+                    "word": " hồ",
+                    "start": 88.13,
+                    "end": 88.19,
+                    "note": 55
+                }
+            ]
+        },
+        {
+            "start": 88.97,
+            "end": 94.81,
+            "text": "Và trong cơn mộng kia yên lành khi bóng đêm về",
+            "words": [
+                {
+                    "word": "Và",
+                    "start": 88.97,
+                    "end": 89.18,
+                    "note": 52
+                },
+                {
+                    "word": " trong",
+                    "start": 89.18,
+                    "end": 89.44,
+                    "note": 56
+                },
+                {
+                    "word": " cơn",
+                    "start": 89.54,
+                    "end": 89.75,
+                    "note": 58
+                },
+                {
+                    "word": " mộng",
+                    "start": 89.75,
+                    "end": 90.28,
+                    "note": 57
+                },
+                {
+                    "word": " kia",
+                    "start": 90.28,
+                    "end": 90.5,
+                    "note": 58
+                },
+                {
+                    "word": " yên",
+                    "start": 91.26,
+                    "end": 91.51,
+                    "note": 58
+                },
+                {
+                    "word": " lành",
+                    "start": 91.51,
+                    "end": 91.97,
+                    "note": 61
+                },
+                {
+                    "word": " khi",
+                    "start": 92.01,
+                    "end": 92.27,
+                    "note": 58
+                },
+                {
+                    "word": " bóng",
+                    "start": 92.27,
+                    "end": 92.83,
+                    "note": 72
+                },
+                {
+                    "word": " đêm",
+                    "start": 92.83,
+                    "end": 93.51,
+                    "note": 58
+                },
+                {
+                    "word": " về",
+                    "start": 93.51,
+                    "end": 94.81,
+                    "note": 64
+                }
+            ]
+        },
+        {
+            "start": 95.13,
+            "end": 98.78,
+            "text": "Dù là cơn mơ băng giá",
+            "words": [
+                {
+                    "word": "Dù",
+                    "start": 95.13,
+                    "end": 95.37,
+                    "note": 55
+                },
+                {
+                    "word": " là",
+                    "start": 95.54,
+                    "end": 95.91,
+                    "note": 82
+                },
+                {
+                    "word": " cơn",
+                    "start": 96.01,
+                    "end": 96.24,
+                    "note": 66
+                },
+                {
+                    "word": " mơ",
+                    "start": 96.24,
+                    "end": 96.78,
+                    "note": 74
+                },
+                {
+                    "word": " băng",
+                    "start": 96.81,
+                    "end": 97.27,
+                    "note": 80
+                },
+                {
+                    "word": " giá",
+                    "start": 97.27,
+                    "end": 98.78,
+                    "note": 83
+                }
+            ]
+        },
+        {
+            "start": 98.91,
+            "end": 102.91,
+            "text": "Dù đợi chờ là nỗi xót xa",
+            "words": [
+                {
+                    "word": "Dù",
+                    "start": 98.91,
+                    "end": 99.2,
+                    "note": 72
+                },
+                {
+                    "word": " đợi",
+                    "start": 99.2,
+                    "end": 99.44,
+                    "note": 69
+                },
+                {
+                    "word": " chờ",
+                    "start": 99.47,
+                    "end": 99.95,
+                    "note": 72
+                },
+                {
+                    "word": " là",
+                    "start": 99.95,
+                    "end": 100.26,
+                    "note": 76
+                },
+                {
+                    "word": " nỗi",
+                    "start": 100.26,
+                    "end": 100.41,
+                    "note": 66
+                },
+                {
+                    "word": " xót",
+                    "start": 100.41,
+                    "end": 101.31,
+                    "note": 76
+                },
+                {
+                    "word": " xa",
+                    "start": 101.51,
+                    "end": 102.91,
+                    "note": 84
+                }
+            ]
+        },
+        {
+            "start": 103.21,
+            "end": 106.44,
+            "text": "Dù tình chỉ là mong manh",
+            "words": [
+                {
+                    "word": "Dù",
+                    "start": 103.21,
+                    "end": 103.48,
+                    "note": 59
+                },
+                {
+                    "word": " tình",
+                    "start": 103.48,
+                    "end": 103.92,
+                    "note": 61
+                },
+                {
+                    "word": " chỉ",
+                    "start": 103.92,
+                    "end": 104.21,
+                    "note": 59
+                },
+                {
+                    "word": " là",
+                    "start": 104.21,
+                    "end": 104.74,
+                    "note": 73
+                },
+                {
+                    "word": " mong",
+                    "start": 104.74,
+                    "end": 105.56,
+                    "note": 68
+                },
+                {
+                    "word": " manh",
+                    "start": 105.56,
+                    "end": 106.44,
+                    "note": 66
+                }
+            ]
+        },
+        {
+            "start": 106.99,
+            "end": 110.88,
+            "text": "Bờ môi còn khao khát chờ",
+            "words": [
+                {
+                    "word": "Bờ",
+                    "start": 106.99,
+                    "end": 107.51,
+                    "note": 72
+                },
+                {
+                    "word": " môi",
+                    "start": 107.51,
+                    "end": 107.96,
+                    "note": 72
+                },
+                {
+                    "word": " còn",
+                    "start": 108.03,
+                    "end": 108.27,
+                    "note": 71
+                },
+                {
+                    "word": " khao",
+                    "start": 108.33,
+                    "end": 108.68,
+                    "note": 79
+                },
+                {
+                    "word": " khát",
+                    "start": 108.77,
+                    "end": 109.17,
+                    "note": 81
+                },
+                {
+                    "word": " chờ",
+                    "start": 109.3,
+                    "end": 110.88,
+                    "note": 75
+                }
+            ]
+        },
+        {
+            "start": 110.91,
+            "end": 114.68,
+            "text": "Này người tình cầm tay anh nhé",
+            "words": [
+                {
+                    "word": "Này",
+                    "start": 110.91,
+                    "end": 111.17,
+                    "note": 64
+                },
+                {
+                    "word": " người",
+                    "start": 111.17,
+                    "end": 111.41,
+                    "note": 61
+                },
+                {
+                    "word": " tình",
+                    "start": 111.41,
+                    "end": 111.81,
+                    "note": 63
+                },
+                {
+                    "word": " cầm",
+                    "start": 111.81,
+                    "end": 112.19,
+                    "note": 68
+                },
+                {
+                    "word": " tay",
+                    "start": 112.19,
+                    "end": 112.71,
+                    "note": 74
+                },
+                {
+                    "word": " anh",
+                    "start": 112.71,
+                    "end": 114.57,
+                    "note": 80
+                },
+                {
+                    "word": " nhé",
+                    "start": 114.57,
+                    "end": 114.68,
+                    "note": 79
+                }
+            ]
+        },
+        {
+            "start": 114.99,
+            "end": 118.66,
+            "text": "Dù đời này bao nhiêu bão giông",
+            "words": [
+                {
+                    "word": "Dù",
+                    "start": 114.99,
+                    "end": 115.23,
+                    "note": 64
+                },
+                {
+                    "word": " đời",
+                    "start": 115.23,
+                    "end": 115.47,
+                    "note": 75
+                },
+                {
+                    "word": " này",
+                    "start": 115.47,
+                    "end": 115.77,
+                    "note": 83
+                },
+                {
+                    "word": " bao",
+                    "start": 115.77,
+                    "end": 116.2,
+                    "note": 81
+                },
+                {
+                    "word": " nhiêu",
+                    "start": 116.27,
+                    "end": 116.43,
+                    "note": 70
+                },
+                {
+                    "word": " bão",
+                    "start": 116.43,
+                    "end": 118.34,
+                    "note": 82
+                },
+                {
+                    "word": " giông",
+                    "start": 118.34,
+                    "end": 118.66,
+                    "note": 73
+                }
+            ]
+        },
+        {
+            "start": 119.29,
+            "end": 122.2,
+            "text": "Để được nằm kề bên em",
+            "words": [
+                {
+                    "word": "Để",
+                    "start": 119.29,
+                    "end": 119.53,
+                    "note": 61
+                },
+                {
+                    "word": " được",
+                    "start": 119.53,
+                    "end": 119.85,
+                    "note": 65
+                },
+                {
+                    "word": " nằm",
+                    "start": 119.85,
+                    "end": 120.29,
+                    "note": 55
+                },
+                {
+                    "word": " kề",
+                    "start": 120.29,
+                    "end": 120.8,
+                    "note": 58
+                },
+                {
+                    "word": " bên",
+                    "start": 120.8,
+                    "end": 121.6,
+                    "note": 69
+                },
+                {
+                    "word": " em",
+                    "start": 121.6,
+                    "end": 122.2,
+                    "note": 73
+                }
+            ]
+        },
+        {
+            "start": 123.19,
+            "end": 132.77,
+            "text": "Mưa sẽ thôi rơi, con đường xưa cũng êm đềm.",
+            "words": [
+                {
+                    "word": "Mưa",
+                    "start": 123.19,
+                    "end": 123.51,
+                    "note": 65
+                },
+                {
+                    "word": " sẽ",
+                    "start": 123.51,
+                    "end": 123.99,
+                    "note": 69
+                },
+                {
+                    "word": " thôi",
+                    "start": 124.04,
+                    "end": 124.25,
+                    "note": 66
+                },
+                {
+                    "word": " rơi,",
+                    "start": 124.28,
+                    "end": 124.68,
+                    "note": 62
+                },
+                {
+                    "word": " con",
+                    "start": 125.23,
+                    "end": 125.53,
+                    "note": 63
+                },
+                {
+                    "word": " đường",
+                    "start": 125.53,
+                    "end": 125.85,
+                    "note": 60
+                },
+                {
+                    "word": " xưa",
+                    "start": 125.85,
+                    "end": 126.21,
+                    "note": 58
+                },
+                {
+                    "word": " cũng",
+                    "start": 126.3,
+                    "end": 128.05,
+                    "note": 61
+                },
+                {
+                    "word": " êm",
+                    "start": 128.68,
+                    "end": 129.64,
+                    "note": 57
+                },
+                {
+                    "word": " đềm.",
+                    "start": 129.64,
+                    "end": 132.77,
+                    "note": 55
+                }
+            ]
+        },
+        {
+            "start": 132.77,
+            "end": 152.15,
+            "text": "Một lần thôi thời gian trở lại",
+            "words": [
+                {
+                    "word": "Một",
+                    "start": 132.77,
+                    "end": 132.83,
+                    "note": 55
+                },
+                {
+                    "word": " lần",
+                    "start": 132.83,
+                    "end": 135.63,
+                    "note": 55
+                },
+                {
+                    "word": " thôi",
+                    "start": 149.1,
+                    "end": 149.22,
+                    "note": 54
+                },
+                {
+                    "word": " thời",
+                    "start": 150.51,
+                    "end": 150.87,
+                    "note": 65
+                },
+                {
+                    "word": " gian",
+                    "start": 150.87,
+                    "end": 151.22,
+                    "note": 58
+                },
+                {
+                    "word": " trở",
+                    "start": 151.26,
+                    "end": 151.59,
+                    "note": 56
+                },
+                {
+                    "word": " lại",
+                    "start": 151.59,
+                    "end": 152.15,
+                    "note": 57
+                }
+            ]
+        },
+        {
+            "start": 152.42,
+            "end": 156.09,
+            "text": "Mình sẽ không chia lối đi",
+            "words": [
+                {
+                    "word": "Mình",
+                    "start": 152.42,
+                    "end": 152.79,
+                    "note": 58
+                },
+                {
+                    "word": " sẽ",
+                    "start": 152.79,
+                    "end": 153.35,
+                    "note": 63
+                },
+                {
+                    "word": " không",
+                    "start": 153.51,
+                    "end": 154.11,
+                    "note": 62
+                },
+                {
+                    "word": " chia",
+                    "start": 154.18,
+                    "end": 154.73,
+                    "note": 57
+                },
+                {
+                    "word": " lối",
+                    "start": 154.73,
+                    "end": 155.52,
+                    "note": 64
+                },
+                {
+                    "word": " đi",
+                    "start": 155.55,
+                    "end": 156.09,
+                    "note": 57
+                }
+            ]
+        },
+        {
+            "start": 156.99,
+            "end": 159.68,
+            "text": "Đôi bàn tay xin đan vào nhau",
+            "words": [
+                {
+                    "word": "Đôi",
+                    "start": 156.99,
+                    "end": 157.26,
+                    "note": 52
+                },
+                {
+                    "word": " bàn",
+                    "start": 157.26,
+                    "end": 157.49,
+                    "note": 53
+                },
+                {
+                    "word": " tay",
+                    "start": 157.49,
+                    "end": 157.77,
+                    "note": 55
+                },
+                {
+                    "word": " xin",
+                    "start": 158.13,
+                    "end": 158.53,
+                    "note": 55
+                },
+                {
+                    "word": " đan",
+                    "start": 158.53,
+                    "end": 158.99,
+                    "note": 54
+                },
+                {
+                    "word": " vào",
+                    "start": 158.99,
+                    "end": 159.23,
+                    "note": 53
+                },
+                {
+                    "word": " nhau",
+                    "start": 159.23,
+                    "end": 159.68,
+                    "note": 55
+                }
+            ]
+        },
+        {
+            "start": 160.55,
+            "end": 164.41,
+            "text": "Nhẹ nhàng ve vuốt vai mềm",
+            "words": [
+                {
+                    "word": "Nhẹ",
+                    "start": 160.55,
+                    "end": 160.75,
+                    "note": 56
+                },
+                {
+                    "word": " nhàng",
+                    "start": 160.78,
+                    "end": 161.22,
+                    "note": 55
+                },
+                {
+                    "word": " ve",
+                    "start": 161.22,
+                    "end": 161.48,
+                    "note": 57
+                },
+                {
+                    "word": " vuốt",
+                    "start": 161.48,
+                    "end": 161.92,
+                    "note": 57
+                },
+                {
+                    "word": " vai",
+                    "start": 161.92,
+                    "end": 162.03,
+                    "note": 58
+                },
+                {
+                    "word": " mềm",
+                    "start": 162.03,
+                    "end": 164.41,
+                    "note": 56
+                }
+            ]
+        },
+        {
+            "start": 165.01,
+            "end": 167.88,
+            "text": "Nơi bình yên chẳng còn hoang vắng",
+            "words": [
+                {
+                    "word": "Nơi",
+                    "start": 165.01,
+                    "end": 165.31,
+                    "note": 55
+                },
+                {
+                    "word": " bình",
+                    "start": 165.31,
+                    "end": 165.56,
+                    "note": 50
+                },
+                {
+                    "word": " yên",
+                    "start": 165.56,
+                    "end": 165.9,
+                    "note": 51
+                },
+                {
+                    "word": " chẳng",
+                    "start": 165.93,
+                    "end": 166.24,
+                    "note": 49
+                },
+                {
+                    "word": " còn",
+                    "start": 166.24,
+                    "end": 166.58,
+                    "note": 59
+                },
+                {
+                    "word": " hoang",
+                    "start": 166.58,
+                    "end": 167.19,
+                    "note": 52
+                },
+                {
+                    "word": " vắng",
+                    "start": 167.19,
+                    "end": 167.88,
+                    "note": 54
+                }
+            ]
+        },
+        {
+            "start": 168.45,
+            "end": 172.24,
+            "text": "Chẳng còn nhớ thương mơ hồ",
+            "words": [
+                {
+                    "word": "Chẳng",
+                    "start": 168.45,
+                    "end": 168.81,
+                    "note": 50
+                },
+                {
+                    "word": " còn",
+                    "start": 168.85,
+                    "end": 169.23,
+                    "note": 60
+                },
+                {
+                    "word": " nhớ",
+                    "start": 169.23,
+                    "end": 169.54,
+                    "note": 58
+                },
+                {
+                    "word": " thương",
+                    "start": 169.59,
+                    "end": 171.53,
+                    "note": 58
+                },
+                {
+                    "word": " mơ",
+                    "start": 171.53,
+                    "end": 171.59,
+                    "note": 54
+                },
+                {
+                    "word": " hồ",
+                    "start": 171.59,
+                    "end": 172.24,
+                    "note": 55
+                }
+            ]
+        },
+        {
+            "start": 172.99,
+            "end": 178.83,
+            "text": "Và trong cơn mộng kia yên lành khi bóng đêm về",
+            "words": [
+                {
+                    "word": "Và",
+                    "start": 172.99,
+                    "end": 173.17,
+                    "note": 52
+                },
+                {
+                    "word": " trong",
+                    "start": 173.17,
+                    "end": 173.4,
+                    "note": 56
+                },
+                {
+                    "word": " cơn",
+                    "start": 173.51,
+                    "end": 173.78,
+                    "note": 58
+                },
+                {
+                    "word": " mộng",
+                    "start": 173.78,
+                    "end": 174.27,
+                    "note": 57
+                },
+                {
+                    "word": " kia",
+                    "start": 174.27,
+                    "end": 174.46,
+                    "note": 61
+                },
+                {
+                    "word": " yên",
+                    "start": 175.12,
+                    "end": 175.54,
+                    "note": 58
+                },
+                {
+                    "word": " lành",
+                    "start": 175.54,
+                    "end": 175.94,
+                    "note": 59
+                },
+                {
+                    "word": " khi",
+                    "start": 175.94,
+                    "end": 176.25,
+                    "note": 58
+                },
+                {
+                    "word": " bóng",
+                    "start": 176.25,
+                    "end": 176.8,
+                    "note": 70
+                },
+                {
+                    "word": " đêm",
+                    "start": 176.8,
+                    "end": 177.48,
+                    "note": 57
+                },
+                {
+                    "word": " về",
+                    "start": 177.48,
+                    "end": 178.83,
+                    "note": 65
+                }
+            ]
+        },
+        {
+            "start": 179.18,
+            "end": 183.03,
+            "text": "Dù là cơn mơ băng giá",
+            "words": [
+                {
+                    "word": "Dù",
+                    "start": 179.18,
+                    "end": 179.48,
+                    "note": 57
+                },
+                {
+                    "word": " là",
+                    "start": 179.48,
+                    "end": 179.9,
+                    "note": 77
+                },
+                {
+                    "word": " cơn",
+                    "start": 180,
+                    "end": 180.25,
+                    "note": 67
+                },
+                {
+                    "word": " mơ",
+                    "start": 180.25,
+                    "end": 180.77,
+                    "note": 74
+                },
+                {
+                    "word": " băng",
+                    "start": 180.8,
+                    "end": 182.91,
+                    "note": 81
+                },
+                {
+                    "word": " giá",
+                    "start": 182.91,
+                    "end": 183.03,
+                    "note": 58
+                }
+            ]
+        },
+        {
+            "start": 183.03,
+            "end": 187.18,
+            "text": "Dù đợi chờ là nỗi xót xa",
+            "words": [
+                {
+                    "word": "Dù",
+                    "start": 183.03,
+                    "end": 183.23,
+                    "note": 63
+                },
+                {
+                    "word": " đợi",
+                    "start": 183.23,
+                    "end": 183.46,
+                    "note": 70
+                },
+                {
+                    "word": " chờ",
+                    "start": 183.46,
+                    "end": 183.97,
+                    "note": 71
+                },
+                {
+                    "word": " là",
+                    "start": 184,
+                    "end": 184.29,
+                    "note": 75
+                },
+                {
+                    "word": " nỗi",
+                    "start": 184.29,
+                    "end": 184.55,
+                    "note": 69
+                },
+                {
+                    "word": " xót",
+                    "start": 184.55,
+                    "end": 186.98,
+                    "note": 80
+                },
+                {
+                    "word": " xa",
+                    "start": 186.98,
+                    "end": 187.18,
+                    "note": 81
+                }
+            ]
+        },
+        {
+            "start": 187.22,
+            "end": 190.55,
+            "text": "Dù tình chỉ là mong manh",
+            "words": [
+                {
+                    "word": "Dù",
+                    "start": 187.22,
+                    "end": 187.47,
+                    "note": 61
+                },
+                {
+                    "word": " tình",
+                    "start": 187.47,
+                    "end": 187.9,
+                    "note": 61
+                },
+                {
+                    "word": " chỉ",
+                    "start": 187.93,
+                    "end": 188.25,
+                    "note": 63
+                },
+                {
+                    "word": " là",
+                    "start": 188.25,
+                    "end": 188.77,
+                    "note": 75
+                },
+                {
+                    "word": " mong",
+                    "start": 188.77,
+                    "end": 189.25,
+                    "note": 74
+                },
+                {
+                    "word": " manh",
+                    "start": 189.25,
+                    "end": 190.55,
+                    "note": 69
+                }
+            ]
+        },
+        {
+            "start": 191.01,
+            "end": 194.55,
+            "text": "Bờ môi còn khao khát chờ",
+            "words": [
+                {
+                    "word": "Bờ",
+                    "start": 191.01,
+                    "end": 191.5,
+                    "note": 72
+                },
+                {
+                    "word": " môi",
+                    "start": 191.5,
+                    "end": 191.8,
+                    "note": 73
+                },
+                {
+                    "word": " còn",
+                    "start": 192.02,
+                    "end": 192.26,
+                    "note": 78
+                },
+                {
+                    "word": " khao",
+                    "start": 192.34,
+                    "end": 192.79,
+                    "note": 81
+                },
+                {
+                    "word": " khát",
+                    "start": 192.82,
+                    "end": 193.13,
+                    "note": 81
+                },
+                {
+                    "word": " chờ",
+                    "start": 193.3,
+                    "end": 194.55,
+                    "note": 73
+                }
+            ]
+        },
+        {
+            "start": 194.93,
+            "end": 198.88,
+            "text": "Này người tình cầm tay anh nhé",
+            "words": [
+                {
+                    "word": "Này",
+                    "start": 194.93,
+                    "end": 195.21,
+                    "note": 60
+                },
+                {
+                    "word": " người",
+                    "start": 195.21,
+                    "end": 195.43,
+                    "note": 63
+                },
+                {
+                    "word": " tình",
+                    "start": 195.43,
+                    "end": 195.81,
+                    "note": 63
+                },
+                {
+                    "word": " cầm",
+                    "start": 195.81,
+                    "end": 196.24,
+                    "note": 67
+                },
+                {
+                    "word": " tay",
+                    "start": 196.24,
+                    "end": 196.77,
+                    "note": 75
+                },
+                {
+                    "word": " anh",
+                    "start": 196.77,
+                    "end": 198.8,
+                    "note": 81
+                },
+                {
+                    "word": " nhé",
+                    "start": 198.8,
+                    "end": 198.88,
+                    "note": 77
+                }
+            ]
+        },
+        {
+            "start": 199.08,
+            "end": 202.77,
+            "text": "Dù đời này bao nhiêu bão giông",
+            "words": [
+                {
+                    "word": "Dù",
+                    "start": 199.08,
+                    "end": 199.24,
+                    "note": 67
+                },
+                {
+                    "word": " đời",
+                    "start": 199.24,
+                    "end": 199.52,
+                    "note": 70
+                },
+                {
+                    "word": " này",
+                    "start": 199.52,
+                    "end": 199.84,
+                    "note": 74
+                },
+                {
+                    "word": " bao",
+                    "start": 199.84,
+                    "end": 200.29,
+                    "note": 82
+                },
+                {
+                    "word": " nhiêu",
+                    "start": 200.29,
+                    "end": 200.41,
+                    "note": 67
+                },
+                {
+                    "word": " bão",
+                    "start": 200.41,
+                    "end": 202.68,
+                    "note": 82
+                },
+                {
+                    "word": " giông",
+                    "start": 202.68,
+                    "end": 202.77,
+                    "note": 65
+                }
+            ]
+        },
+        {
+            "start": 203.23,
+            "end": 206.54,
+            "text": "Để được nằm kề bên em",
+            "words": [
+                {
+                    "word": "Để",
+                    "start": 203.23,
+                    "end": 203.49,
+                    "note": 67
+                },
+                {
+                    "word": " được",
+                    "start": 203.49,
+                    "end": 203.72,
+                    "note": 66
+                },
+                {
+                    "word": " nằm",
+                    "start": 203.78,
+                    "end": 204.22,
+                    "note": 63
+                },
+                {
+                    "word": " kề",
+                    "start": 204.22,
+                    "end": 204.75,
+                    "note": 68
+                },
+                {
+                    "word": " bên",
+                    "start": 204.75,
+                    "end": 204.96,
+                    "note": 69
+                },
+                {
+                    "word": " em",
+                    "start": 204.96,
+                    "end": 206.54,
+                    "note": 73
+                }
+            ]
+        },
+        {
+            "start": 207.1,
+            "end": 216.92,
+            "text": "Mưa sẽ thôi rơi, con đường xưa cũng êm đềm.",
+            "words": [
+                {
+                    "word": "Mưa",
+                    "start": 207.1,
+                    "end": 207.45,
+                    "note": 67
+                },
+                {
+                    "word": " sẽ",
+                    "start": 207.45,
+                    "end": 207.83,
+                    "note": 72
+                },
+                {
+                    "word": " thôi",
+                    "start": 207.89,
+                    "end": 208.23,
+                    "note": 72
+                },
+                {
+                    "word": " rơi,",
+                    "start": 208.23,
+                    "end": 208.87,
+                    "note": 69
+                },
+                {
+                    "word": " con",
+                    "start": 209.25,
+                    "end": 209.54,
+                    "note": 69
+                },
+                {
+                    "word": " đường",
+                    "start": 209.54,
+                    "end": 209.9,
+                    "note": 65
+                },
+                {
+                    "word": " xưa",
+                    "start": 209.9,
+                    "end": 210.26,
+                    "note": 66
+                },
+                {
+                    "word": " cũng",
+                    "start": 210.36,
+                    "end": 212.03,
+                    "note": 60
+                },
+                {
+                    "word": " êm",
+                    "start": 212.52,
+                    "end": 213.51,
+                    "note": 68
+                },
+                {
+                    "word": " đềm.",
+                    "start": 213.51,
+                    "end": 216.92,
+                    "note": 74
+                }
+            ]
+        },
+        {
+            "start": 219.01,
+            "end": 222.79,
+            "text": "Dù là cơn mơ băng giá",
+            "words": [
+                {
+                    "word": "Dù",
+                    "start": 219.01,
+                    "end": 219.41,
+                    "note": 61
+                },
+                {
+                    "word": " là",
+                    "start": 219.41,
+                    "end": 219.79,
+                    "note": 76
+                },
+                {
+                    "word": " cơn",
+                    "start": 219.82,
+                    "end": 220.14,
+                    "note": 65
+                },
+                {
+                    "word": " mơ",
+                    "start": 220.14,
+                    "end": 220.64,
+                    "note": 73
+                },
+                {
+                    "word": " băng",
+                    "start": 220.67,
+                    "end": 221.35,
+                    "note": 80
+                },
+                {
+                    "word": " giá",
+                    "start": 221.35,
+                    "end": 222.79,
+                    "note": 83
+                }
+            ]
+        },
+        {
+            "start": 222.99,
+            "end": 227.1,
+            "text": "Dù đợi chờ là nỗi xót xa",
+            "words": [
+                {
+                    "word": "Dù",
+                    "start": 222.99,
+                    "end": 223.21,
+                    "note": 64
+                },
+                {
+                    "word": " đợi",
+                    "start": 223.21,
+                    "end": 223.43,
+                    "note": 69
+                },
+                {
+                    "word": " chờ",
+                    "start": 223.49,
+                    "end": 223.85,
+                    "note": 71
+                },
+                {
+                    "word": " là",
+                    "start": 223.85,
+                    "end": 224.22,
+                    "note": 77
+                },
+                {
+                    "word": " nỗi",
+                    "start": 224.22,
+                    "end": 224.63,
+                    "note": 68
+                },
+                {
+                    "word": " xót",
+                    "start": 224.63,
+                    "end": 226.95,
+                    "note": 82
+                },
+                {
+                    "word": " xa",
+                    "start": 226.95,
+                    "end": 227.1,
+                    "note": 89
+                }
+            ]
+        },
+        {
+            "start": 227.2,
+            "end": 230.85,
+            "text": "Dù tình chỉ là mong manh",
+            "words": [
+                {
+                    "word": "Dù",
+                    "start": 227.2,
+                    "end": 227.42,
+                    "note": 63
+                },
+                {
+                    "word": " tình",
+                    "start": 227.42,
+                    "end": 227.81,
+                    "note": 65
+                },
+                {
+                    "word": " chỉ",
+                    "start": 227.84,
+                    "end": 228.15,
+                    "note": 64
+                },
+                {
+                    "word": " là",
+                    "start": 228.15,
+                    "end": 228.68,
+                    "note": 78
+                },
+                {
+                    "word": " mong",
+                    "start": 228.68,
+                    "end": 229.49,
+                    "note": 73
+                },
+                {
+                    "word": " manh",
+                    "start": 229.49,
+                    "end": 230.85,
+                    "note": 72
+                }
+            ]
+        },
+        {
+            "start": 231.23,
+            "end": 234.58,
+            "text": "Bờ môi còn khao khát chờ",
+            "words": [
+                {
+                    "word": "Bờ",
+                    "start": 231.23,
+                    "end": 231.51,
+                    "note": 70
+                },
+                {
+                    "word": " môi",
+                    "start": 231.51,
+                    "end": 231.94,
+                    "note": 74
+                },
+                {
+                    "word": " còn",
+                    "start": 232,
+                    "end": 232.25,
+                    "note": 80
+                },
+                {
+                    "word": " khao",
+                    "start": 232.32,
+                    "end": 232.67,
+                    "note": 80
+                },
+                {
+                    "word": " khát",
+                    "start": 232.7,
+                    "end": 233.09,
+                    "note": 84
+                },
+                {
+                    "word": " chờ",
+                    "start": 233.26,
+                    "end": 234.58,
+                    "note": 73
+                }
+            ]
+        },
+        {
+            "start": 234.94,
+            "end": 238.75,
+            "text": "Này người tình cầm tay anh nhé",
+            "words": [
+                {
+                    "word": "Này",
+                    "start": 234.94,
+                    "end": 235.14,
+                    "note": 69
+                },
+                {
+                    "word": " người",
+                    "start": 235.14,
+                    "end": 235.36,
+                    "note": 61
+                },
+                {
+                    "word": " tình",
+                    "start": 235.36,
+                    "end": 235.69,
+                    "note": 63
+                },
+                {
+                    "word": " cầm",
+                    "start": 235.75,
+                    "end": 236.11,
+                    "note": 69
+                },
+                {
+                    "word": " tay",
+                    "start": 236.11,
+                    "end": 236.68,
+                    "note": 74
+                },
+                {
+                    "word": " anh",
+                    "start": 236.68,
+                    "end": 237.19,
+                    "note": 78
+                },
+                {
+                    "word": " nhé",
+                    "start": 237.19,
+                    "end": 238.75,
+                    "note": 78
+                }
+            ]
+        },
+        {
+            "start": 238.97,
+            "end": 242.72,
+            "text": "Dù đời này bao nhiêu bão giông",
+            "words": [
+                {
+                    "word": "Dù",
+                    "start": 238.97,
+                    "end": 239.2,
+                    "note": 64
+                },
+                {
+                    "word": " đời",
+                    "start": 239.2,
+                    "end": 239.45,
+                    "note": 73
+                },
+                {
+                    "word": " này",
+                    "start": 239.45,
+                    "end": 239.72,
+                    "note": 72
+                },
+                {
+                    "word": " bao",
+                    "start": 239.72,
+                    "end": 240.08,
+                    "note": 79
+                },
+                {
+                    "word": " nhiêu",
+                    "start": 240.08,
+                    "end": 240.19,
+                    "note": 67
+                },
+                {
+                    "word": " bão",
+                    "start": 240.19,
+                    "end": 242.55,
+                    "note": 82
+                },
+                {
+                    "word": " giông",
+                    "start": 242.55,
+                    "end": 242.72,
+                    "note": 64
+                }
+            ]
+        },
+        {
+            "start": 243.23,
+            "end": 246.52,
+            "text": "Để được nằm kề bên em",
+            "words": [
+                {
+                    "word": "Để",
+                    "start": 243.23,
+                    "end": 243.48,
+                    "note": 62
+                },
+                {
+                    "word": " được",
+                    "start": 243.48,
+                    "end": 243.78,
+                    "note": 65
+                },
+                {
+                    "word": " nằm",
+                    "start": 243.78,
+                    "end": 244.25,
+                    "note": 64
+                },
+                {
+                    "word": " kề",
+                    "start": 244.25,
+                    "end": 244.78,
+                    "note": 71
+                },
+                {
+                    "word": " bên",
+                    "start": 244.78,
+                    "end": 245.58,
+                    "note": 72
+                },
+                {
+                    "word": " em",
+                    "start": 245.58,
+                    "end": 246.52,
+                    "note": 72
+                }
+            ]
+        },
+        {
+            "start": 247.13,
+            "end": 262.94,
+            "text": "Mưa sẽ thôi rơi, con đường xưa cũng êm đềm.",
+            "words": [
+                {
+                    "word": "Mưa",
+                    "start": 247.13,
+                    "end": 247.46,
+                    "note": 66
+                },
+                {
+                    "word": " sẽ",
+                    "start": 247.46,
+                    "end": 247.91,
+                    "note": 72
+                },
+                {
+                    "word": " thôi",
+                    "start": 247.99,
+                    "end": 248.25,
+                    "note": 70
+                },
+                {
+                    "word": " rơi,",
+                    "start": 248.25,
+                    "end": 248.85,
+                    "note": 68
+                },
+                {
+                    "word": " con",
+                    "start": 249.24,
+                    "end": 249.52,
+                    "note": 69
+                },
+                {
+                    "word": " đường",
+                    "start": 249.52,
+                    "end": 249.91,
+                    "note": 63
+                },
+                {
+                    "word": " xưa",
+                    "start": 249.91,
+                    "end": 250.3,
+                    "note": 62
+                },
+                {
+                    "word": " cũng",
+                    "start": 250.3,
+                    "end": 253.49,
+                    "note": 61
+                },
+                {
+                    "word": " êm",
+                    "start": 254.72,
+                    "end": 261.39,
+                    "note": 57
+                },
+                {
+                    "word": " đềm.",
+                    "start": 261.39,
+                    "end": 262.94,
+                    "note": 55
+                }
+            ]
+        }
+    ],
+    "language": "vi"
+}
