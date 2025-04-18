@@ -65,7 +65,7 @@ public:
             return;
         }
 
-        OggPlay::getInstance()->playMultipleOggFiles({melody, lyric});
+        //OggPlay::getInstance()->playMultipleOggFiles({melody, lyric});
 
         LOGI("Melody file: %s", melody);
         LOGI("Lyric file: %s", lyric);
