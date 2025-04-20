@@ -1,29 +1,27 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:highlighpro/ffi/audio_player_ffi.dart';
+import 'package:highlighpro/ffi/fix_karaoke_ffi.dart';
 import 'package:highlighpro/ffi/fix_test_screen.dart';
 import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 import 'package:just_audio/just_audio.dart';
 import 'package:path_provider/path_provider.dart';
+import 'package:permission_handler/permission_handler.dart';
 import 'models/lyric_model.dart';
 import 'widgets/karaoke_line_v3.dart';
 
-main() {
-  runApp(const MaterialApp(
-    home: FixTestScreen(),
-  ));
-}
-// void main() {
-//   // Khóa ứng dụng ở chế độ ngang
-//   WidgetsFlutterBinding.ensureInitialized();
-//   SystemChrome.setPreferredOrientations([
-//     DeviceOrientation.landscapeLeft,
-//     DeviceOrientation.landscapeRight,
-//   ]);
+void main() {
+  // Khóa ứng dụng ở chế độ ngang
+  WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setPreferredOrientations([
+    DeviceOrientation.landscapeLeft,
+    DeviceOrientation.landscapeRight,
+  ]);
 
-//   runApp(const MyApp());
-// }
+  runApp(const MyApp());
+}
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -62,7 +60,90 @@ class _KaraokeScreenState extends State<KaraokeScreen> {
   DateTime? _lastUpdateTime;
   bool _showControls = true;
   Timer? _controlsTimer;
-  bool _showPitchVisualization = true; // Toggle for pitch visualization
+  final KaraokeFFIFixed _ffi = KaraokeFFIFixed();
+  bool _isLoading = false;
+  String _status = '';
+
+  // Yêu cầu quyền ghi âm
+  Future<void> _requestPermissions() async {
+    try {
+      final status = await Permission.microphone.request();
+      setState(() {
+        _status = 'Quyền ghi âm: ${status.isGranted ? "Đã cấp" : "Chưa cấp"}';
+      });
+    } catch (e) {
+      setState(() {
+        _status = 'Lỗi khi yêu cầu quyền: $e';
+      });
+    }
+  }
+
+  Future<void> _initializeFFI() async {
+    if (_isLoading) return;
+
+    // Kiểm tra quyền trước khi khởi tạo
+    final permissionStatus = await Permission.microphone.status;
+    if (!permissionStatus.isGranted) {
+      await _requestPermissions();
+      // Nếu vẫn không có quyền sau khi yêu cầu
+      if (!(await Permission.microphone.isGranted)) {
+        setState(() {
+          _status = 'Khởi tạo thất bại: Không có quyền ghi âm';
+        });
+        return;
+      }
+    }
+
+    setState(() {
+      _isLoading = true;
+      _status = 'Đang khởi tạo...';
+    });
+
+    try {
+      final result = _ffi.initialize();
+      setState(() {
+        _status = result ? 'Khởi tạo thành công' : 'Khởi tạo thất bại';
+      });
+    } catch (e) {
+      setState(() {
+        _status = 'Lỗi: $e';
+      });
+    } finally {
+      setState(() {
+        _isLoading = false;
+      });
+    }
+  }
+
+  Future<void> _testKaraoke() async {
+    //CAudioPlayer.playAssetAudio('assets/cmbg_back.ogg');
+    //CAudioPlayer.initLibrary();
+    //if (_isLoading || !_ffi.isInitialized) return;
+
+    setState(() {
+      _isLoading = true;
+      _status = 'Đang kiểm tra...';
+    });
+
+    try {
+      // Dùng method mới hỗ trợ assets
+      final result = await _ffi.testKaraokeWithAssets(
+        'assets/cmbg_back.ogg',
+        'assets/cmbg_vo.ogg',
+      );
+      setState(() {
+        _status = result ? 'Kiểm tra thành công' : 'Kiểm tra thất bại';
+      });
+    } catch (e) {
+      setState(() {
+        _status = 'Lỗi: $e';
+      });
+    } finally {
+      setState(() {
+        _isLoading = false;
+      });
+    }
+  }
 
   // Các biến liên quan đến hiển thị lời
   int _activeLineIndex = -1;
@@ -73,6 +154,9 @@ class _KaraokeScreenState extends State<KaraokeScreen> {
     super.initState();
     _loadResources();
     _setupControlsTimer();
+    CAudioPlayer.initLibrary();
+    _requestPermissions();
+    _initializeFFI();
   }
 
   void _setupControlsTimer() {
@@ -185,8 +269,9 @@ class _KaraokeScreenState extends State<KaraokeScreen> {
       });
 
       // Bắt đầu audio tại vị trí hiện tại
-      _audioPlayer.seek(Duration(milliseconds: (_currentTime * 1000).toInt()));
-      _audioPlayer.play();
+      //_audioPlayer.seek(Duration(milliseconds: (_currentTime * 1000).toInt()));
+      //_audioPlayer.play();
+      _testKaraoke();
 
       // Bắt đầu timer
       _startTimer();
@@ -549,28 +634,6 @@ class _KaraokeScreenState extends State<KaraokeScreen> {
                               color: Colors.white,
                               size: 30,
                             ),
-                          ),
-
-                          // Toggle pitch visualization button
-                          IconButton(
-                            padding: EdgeInsets.zero,
-                            onPressed: () {
-                              setState(() {
-                                _showPitchVisualization =
-                                    !_showPitchVisualization;
-                              });
-                            },
-                            icon: Icon(
-                              _showPitchVisualization
-                                  ? Icons.analytics_outlined
-                                  : Icons.analytics,
-                              color:
-                                  _showPitchVisualization
-                                      ? Colors.deepPurple
-                                      : Colors.white,
-                              size: 24,
-                            ),
-                            tooltip: 'Hiển thị biểu đồ pitch',
                           ),
                         ],
                       ),

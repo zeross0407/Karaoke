@@ -34,16 +34,16 @@ typedef ChangeSpeedNative = Double Function(Double newSpeed);
 typedef ChangeSpeed = double Function(double newSpeed);
 
 // Định nghĩa callback từ C++ sang Dart
-typedef DartPlaybackCallbackNative =
-    Void Function(Int32 currentTime, Int32 elapsedTime, Int32 duration);
-typedef DartPlaybackCallback =
-    void Function(int currentTime, int elapsedTime, int duration);
+typedef DartPlaybackCallbackNative = Void Function(
+    Int32 currentTime, Int32 elapsedTime, Int32 duration);
+typedef DartPlaybackCallback = void Function(
+    int currentTime, int elapsedTime, int duration);
 
 // Định nghĩa hàm đăng ký callback
-typedef RegisterDartCallbackNative =
-    Void Function(Pointer<NativeFunction<DartPlaybackCallbackNative>> callback);
-typedef RegisterDartCallback =
-    void Function(Pointer<NativeFunction<DartPlaybackCallbackNative>> callback);
+typedef RegisterDartCallbackNative = Void Function(
+    Pointer<NativeFunction<DartPlaybackCallbackNative>> callback);
+typedef RegisterDartCallback = void Function(
+    Pointer<NativeFunction<DartPlaybackCallbackNative>> callback);
 
 // Định nghĩa hàm xử lý thông báo đang chờ
 typedef ProcessPendingNotificationsNative = Void Function();
@@ -74,7 +74,7 @@ class CAudioPlayer {
 
   // Callback handler để cập nhật UI
   static void Function(int currentTime, int elapsedTime, int duration)?
-  _playbackUpdateHandler;
+      _playbackUpdateHandler;
 
   // Đặt callback handler
   static void setPlaybackUpdateHandler(
@@ -85,42 +85,47 @@ class CAudioPlayer {
 
   // Callback từ C++ sẽ gọi hàm này
   static void _dartPlaybackCallback(
-  int currentTime, 
-  int elapsedTime, 
-  int duration,
-) {
-  // Kiểm tra nếu đang trong quá trình seek
-  if (_isSeeking) {
-    // Kiểm tra xem callback này có phải là từ vị trí seek mới không
-    final timeSinceLastSeek = DateTime.now().difference(_lastSeekDateTime).inMilliseconds;
+    int currentTime,
+    int elapsedTime,
+    int duration,
+  ) {
+    // Kiểm tra nếu đang trong quá trình seek
+    if (_isSeeking) {
+      // Kiểm tra xem callback này có phải là từ vị trí seek mới không
+      final timeSinceLastSeek =
+          DateTime.now().difference(_lastSeekDateTime).inMilliseconds;
 
-    // Tăng khoảng thời gian lọc từ 200ms lên 400ms để lọc tốt hơn
-    if (timeSinceLastSeek < 500 && (currentTime - _lastSeekTime).abs() > 400) {
-      print("Bỏ qua callback cũ trong quá trình seek: current=$currentTime, expected=$_lastSeekTime");
-      return;
+      // Tăng khoảng thời gian lọc từ 200ms lên 400ms để lọc tốt hơn
+      if (timeSinceLastSeek < 500 &&
+          (currentTime - _lastSeekTime).abs() > 400) {
+        print(
+            "Bỏ qua callback cũ trong quá trình seek: current=$currentTime, expected=$_lastSeekTime");
+        return;
+      }
+
+      // Nếu callback này gần với giá trị seek, đánh dấu là đã seek thành công
+      if ((currentTime - _lastSeekTime).abs() < 100) {
+        print("Callback phù hợp với vị trí seek: $currentTime");
+        _isSeeking =
+            false; // Ngay lập tức tắt trạng thái seeking khi nhận được callback phù hợp
+      }
     }
-    
-    // Nếu callback này gần với giá trị seek, đánh dấu là đã seek thành công
-    if ((currentTime - _lastSeekTime).abs() < 100) {
-      print("Callback phù hợp với vị trí seek: $currentTime");
-      _isSeeking = false; // Ngay lập tức tắt trạng thái seeking khi nhận được callback phù hợp
+
+    // Các phần còn lại giữ nguyên
+    if (duration > 0 && currentTime >= duration - 100) {
+      print(
+          "Playback completed, currentTime: $currentTime, duration: $duration");
+      _isPlaybackFinished = true;
+      currentTime = duration;
+    } else {
+      _isPlaybackFinished = false;
+    }
+
+    // Gọi handler nếu đã được đăng ký
+    if (_playbackUpdateHandler != null) {
+      _playbackUpdateHandler!(currentTime, elapsedTime, duration);
     }
   }
-
-  // Các phần còn lại giữ nguyên
-  if (duration > 0 && currentTime >= duration - 100) {
-    print("Playback completed, currentTime: $currentTime, duration: $duration");
-    _isPlaybackFinished = true;
-    currentTime = duration;
-  } else {
-    _isPlaybackFinished = false;
-  }
-
-  // Gọi handler nếu đã được đăng ký
-  if (_playbackUpdateHandler != null) {
-    _playbackUpdateHandler!(currentTime, elapsedTime, duration);
-  }
-}
 
   // Bắt đầu timer để xử lý thông báo
   static void _startNotificationTimer() {
@@ -153,51 +158,44 @@ class CAudioPlayer {
       }
 
       // Khởi tạo các hàm từ native
-      _initPlayer =
-          _nativeLib!
-              .lookup<NativeFunction<InitPlayerNative>>('init_player')
-              .asFunction();
+      _initPlayer = _nativeLib!
+          .lookup<NativeFunction<InitPlayerNative>>('init_player')
+          .asFunction();
 
-      _playAudio =
-          _nativeLib!
-              .lookup<NativeFunction<PlayAudioNative>>('play_audio')
-              .asFunction();
+      _playAudio = _nativeLib!
+          .lookup<NativeFunction<PlayAudioNative>>('play_audio')
+          .asFunction();
 
       // Khởi tạo các hàm điều khiển
       _stop =
           _nativeLib!.lookup<NativeFunction<StopNative>>('stop').asFunction();
-      _pause =
-          _nativeLib!
-              .lookup<NativeFunction<PauseNative>>('pause_audio')
-              .asFunction();
-      _resume =
-          _nativeLib!
-              .lookup<NativeFunction<ResumeNative>>('resume')
-              .asFunction();
+      _pause = _nativeLib!
+          .lookup<NativeFunction<PauseNative>>('pause_audio')
+          .asFunction();
+      _resume = _nativeLib!
+          .lookup<NativeFunction<ResumeNative>>('resume')
+          .asFunction();
       _seek =
           _nativeLib!.lookup<NativeFunction<SeekNative>>('seek').asFunction();
 
       // Khởi tạo hàm thay đổi tốc độ phát
-      _changeSpeed =
-          _nativeLib!
-              .lookup<NativeFunction<ChangeSpeedNative>>('change_speed')
-              .asFunction();
+      _changeSpeed = _nativeLib!
+          .lookup<NativeFunction<ChangeSpeedNative>>('change_speed')
+          .asFunction();
 
       // Khởi tạo hàm đăng ký callback
-      _registerDartCallback =
-          _nativeLib!
-              .lookup<NativeFunction<RegisterDartCallbackNative>>(
-                'register_dart_callback',
-              )
-              .asFunction();
+      _registerDartCallback = _nativeLib!
+          .lookup<NativeFunction<RegisterDartCallbackNative>>(
+            'register_dart_callback',
+          )
+          .asFunction();
 
       // Khởi tạo hàm xử lý thông báo đang chờ
-      _processPendingNotifications =
-          _nativeLib!
-              .lookup<NativeFunction<ProcessPendingNotificationsNative>>(
-                'process_pending_notifications',
-              )
-              .asFunction();
+      _processPendingNotifications = _nativeLib!
+          .lookup<NativeFunction<ProcessPendingNotificationsNative>>(
+            'process_pending_notifications',
+          )
+          .asFunction();
 
       // Đăng ký callback từ Dart
       final callbackPointer = Pointer.fromFunction<DartPlaybackCallbackNative>(
@@ -327,40 +325,39 @@ class CAudioPlayer {
 
   // Thay đổi vị trí phát
   static bool seekTo(int timeMs) {
-  try {
-        
-    if (!initLibrary() || _seek == null) {
+    try {
+      if (!initLibrary() || _seek == null) {
+        return false;
+      }
+      //_stop!();
+      pauseAudio();
+      // Đặt trạng thái seek
+      _isSeeking = true;
+      _lastSeekTime = timeMs;
+      _lastSeekDateTime = DateTime.now();
+
+      // Reset trạng thái phát hết khi seek
+      _isPlaybackFinished = false;
+
+      print('Seeking to $timeMs ms');
+      _seek!(timeMs);
+
+      // Tăng thời gian giữ trạng thái seeking từ 300ms lên 800ms
+      // để đảm bảo đủ thời gian để nhận và xử lý callback
+      Future.delayed(Duration(milliseconds: 300), () {
+        if (_isSeeking) {
+          _isSeeking = false;
+          print("Tự động reset trạng thái seek sau timeout");
+        }
+      });
+
+      return true;
+    } catch (e) {
+      print("Lỗi khi gọi seek: $e");
+      _isSeeking = false;
       return false;
     }
-   //_stop!();
-    pauseAudio();
-    // Đặt trạng thái seek
-    _isSeeking = true;
-    _lastSeekTime = timeMs;
-    _lastSeekDateTime = DateTime.now();
-
-    // Reset trạng thái phát hết khi seek
-    _isPlaybackFinished = false;
-
-    print('Seeking to $timeMs ms');
-    _seek!(timeMs);
-
-    // Tăng thời gian giữ trạng thái seeking từ 300ms lên 800ms
-    // để đảm bảo đủ thời gian để nhận và xử lý callback
-    Future.delayed(Duration(milliseconds: 300), () {
-      if (_isSeeking) {
-        _isSeeking = false;
-        print("Tự động reset trạng thái seek sau timeout");
-      }
-    });
-
-    return true;
-  } catch (e) {
-    print("Lỗi khi gọi seek: $e");
-    _isSeeking = false;
-    return false;
   }
-}
 
   // Kiểm tra xem phát nhạc đã kết thúc chưa
   static bool isPlaybackFinished() {
