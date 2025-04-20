@@ -7,138 +7,11 @@
 #define LOGD(...) __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
 #define LOGE(...) __android_log_print(ANDROID_LOG_ERROR, LOG_TAG, __VA_ARGS__)
 
-// Triển khai SimpleRingBuffer
-
-SimpleRingBuffer::SimpleRingBuffer(size_t size)
-    : capacity(size), writePos(0), readPos(0), dataAvailable(0)
-{
-    buffer.resize(size);
-}
-
-size_t SimpleRingBuffer::write(const float *data, size_t numSamples)
-{
-    if (numSamples == 0)
-        return 0;
-
-    std::unique_lock<std::mutex> lock(mutex);
-
-    // Kiểm tra không gian còn trống
-    size_t availableSpace = capacity - dataAvailable;
-    if (availableSpace == 0)
-        return 0;
-
-    // Giới hạn số lượng mẫu cần ghi
-    size_t samplesToWrite = std::min(numSamples, availableSpace);
-
-    // Tính số lượng mẫu có thể ghi từ vị trí hiện tại đến cuối buffer
-    size_t samplesToEnd = capacity - writePos;
-
-    if (samplesToWrite <= samplesToEnd)
-    {
-        // Ghi không quá cuối buffer
-        std::memcpy(buffer.data() + writePos, data, samplesToWrite * sizeof(float));
-        writePos += samplesToWrite;
-        if (writePos == capacity)
-            writePos = 0;
-    }
-    else
-    {
-        // Ghi đến cuối buffer và quay vòng lại
-        std::memcpy(buffer.data() + writePos, data, samplesToEnd * sizeof(float));
-        std::memcpy(buffer.data(), data + samplesToEnd, (samplesToWrite - samplesToEnd) * sizeof(float));
-        writePos = samplesToWrite - samplesToEnd;
-    }
-
-    // Cập nhật lượng dữ liệu có sẵn
-    dataAvailable += samplesToWrite;
-
-    // Thông báo cho thread đang đợi dữ liệu
-    lock.unlock();
-    dataCondition.notify_one();
-
-    return samplesToWrite;
-}
-
-size_t SimpleRingBuffer::read(float *data, size_t numSamples)
-{
-    if (numSamples == 0)
-        return 0;
-
-    std::unique_lock<std::mutex> lock(mutex);
-
-    // Nếu không có dữ liệu, trả về và không đợi
-    if (dataAvailable == 0)
-    {
-        // Điền silence (0) vào buffer
-        std::memset(data, 0, numSamples * sizeof(float));
-        return 0;
-    }
-
-    // Giới hạn số lượng mẫu có thể đọc
-    size_t samplesToRead = std::min(numSamples, dataAvailable.load());
-
-    // Tính số lượng mẫu có thể đọc từ vị trí hiện tại đến cuối buffer
-    size_t samplesToEnd = capacity - readPos;
-
-    if (samplesToRead <= samplesToEnd)
-    {
-        // Đọc không quá cuối buffer
-        std::memcpy(data, buffer.data() + readPos, samplesToRead * sizeof(float));
-        readPos += samplesToRead;
-        if (readPos == capacity)
-            readPos = 0;
-    }
-    else
-    {
-        // Đọc đến cuối buffer và quay vòng lại
-        std::memcpy(data, buffer.data() + readPos, samplesToEnd * sizeof(float));
-        std::memcpy(data + samplesToEnd, buffer.data(), (samplesToRead - samplesToEnd) * sizeof(float));
-        readPos = samplesToRead - samplesToEnd;
-    }
-
-    // Cập nhật lượng dữ liệu có sẵn
-    dataAvailable -= samplesToRead;
-
-    return samplesToRead;
-}
-
-void SimpleRingBuffer::clear()
-{
-    std::lock_guard<std::mutex> lock(mutex);
-    readPos = 0;
-    writePos = 0;
-    dataAvailable = 0;
-}
-
-size_t SimpleRingBuffer::getAvailableData() const
-{
-    return dataAvailable;
-}
-
-size_t SimpleRingBuffer::getAvailableSpace() const
-{
-    return capacity - dataAvailable;
-}
-
-size_t SimpleRingBuffer::getCapacity() const
-{
-    return capacity;
-}
-
-bool SimpleRingBuffer::isEmpty() const
-{
-    return dataAvailable == 0;
-}
-
 // Triển khai MicrophonePlayer
 
-MicrophonePlayer::MicrophonePlayer(size_t bufferSize)
-    : outputStream(nullptr), ringBuffer(bufferSize), isPlaying(false), sampleRate(48000)
-      ,
-      channels(1) // Thay đổi thành mono để giảm tiếng rè (từ 2 thành 1)
-      ,
-      bufferSize(64) // Giảm mạnh buffer size để giảm độ trễ
-      ,
+MicrophonePlayer::MicrophonePlayer()
+    : outputStream(nullptr), isPlaying(false), sampleRate(48000),
+      bufferSize(64), // Buffer size nhỏ để giảm độ trễ
       volume(1.0f)
 {
     LOGD("MicrophonePlayer constructor");
@@ -160,7 +33,7 @@ bool MicrophonePlayer::initialize()
     oboe::Result result = builder.setSharingMode(oboe::SharingMode::Shared) // Shared mode for low latency
                           ->setPerformanceMode(oboe::PerformanceMode::LowLatency) // LowLatency for minimal delay
                           ->setFormat(oboe::AudioFormat::Float)
-                          ->setChannelCount(channels) // Mono output
+                          ->setChannelCount(1) // Fix cứng mono output
                           ->setSampleRate(sampleRate)
                           ->setFramesPerCallback(64) // Đặt frames per callback thấp
                           ->setDirection(oboe::Direction::Output)
@@ -174,7 +47,7 @@ bool MicrophonePlayer::initialize()
         return false;
     }
 
-    LOGD("MicrophonePlayer initialized with sample rate: %d, channels: %d",
+    LOGD("MicrophonePlayer initialized with sample rate: %d, channels: %d (mono)",
          outputStream->getSampleRate(), outputStream->getChannelCount());
     
     // Flush buffer để đảm bảo không có dữ liệu cũ
@@ -250,15 +123,27 @@ oboe::DataCallbackResult MicrophonePlayer::onAudioReady(
     int32_t numFrames)
 {
     // Buffer tạm thời cho dữ liệu âm thanh từ ring buffer
-    int channelCount = stream->getChannelCount();
-    std::vector<float> tempBuffer(numFrames * channelCount);
+    // Fix cứng mono (1 channel)
+    int totalSamples = numFrames; // Mono nên frames = samples
+    
+    // Sử dụng fixed-size array tránh stack overflow
+    // Thông thường numFrames <= 192 cho low latency
+    constexpr int MAX_BUFFER_SIZE = 192; // Chỉ hỗ trợ mono (1 channel)
+    float tempBuffer[MAX_BUFFER_SIZE];
+    
+    // Đảm bảo buffer không vượt quá kích thước an toàn
+    if (totalSamples > MAX_BUFFER_SIZE) {
+        LOGE("Buffer size too large: %d > %d", totalSamples, MAX_BUFFER_SIZE);
+        // Giới hạn số lượng mẫu để đảm bảo an toàn
+        totalSamples = MAX_BUFFER_SIZE;
+    }
 
-    // Đọc dữ liệu âm thanh từ ring buffer
-    size_t framesRead = ringBuffer.read(tempBuffer.data(), numFrames * channelCount);
+    // Đọc dữ liệu âm thanh từ ring buffer - lock-free
+    size_t framesRead = ringBuffer.read(tempBuffer, totalSamples);
 
     // Chỉ áp dụng volume, không áp dụng bất kỳ bộ lọc nào khác
     if (framesRead > 0 && volume != 1.0f) {
-        for (size_t i = 0; i < tempBuffer.size(); i++) {
+        for (size_t i = 0; i < totalSamples; i++) {
             tempBuffer[i] *= volume;
             
             // Giới hạn biên độ tránh clipping
@@ -271,9 +156,9 @@ oboe::DataCallbackResult MicrophonePlayer::onAudioReady(
     float *outBuffer = static_cast<float *>(audioData);
 
     if (framesRead == 0) {
-        std::memset(outBuffer, 0, numFrames * channelCount * sizeof(float));
+        std::memset(outBuffer, 0, totalSamples * sizeof(float));
     } else {
-        std::memcpy(outBuffer, tempBuffer.data(), numFrames * channelCount * sizeof(float));
+        std::memcpy(outBuffer, tempBuffer, totalSamples * sizeof(float));
     }
 
     return oboe::DataCallbackResult::Continue;
@@ -291,9 +176,8 @@ size_t MicrophonePlayer::addAudioData(const float *data, size_t numSamples)
         LOGD("Buffer reset to minimize latency");
     }
     
-    // Add data to ring buffer - direct pass-through
-    size_t written = ringBuffer.write(data, numSamples);
-    return written;
+    // Add data to ring buffer - lock-free, direct pass-through
+    return ringBuffer.write(data, numSamples);
 }
 
 bool MicrophonePlayer::isCurrentlyPlaying() const
@@ -309,14 +193,6 @@ void MicrophonePlayer::setSampleRate(int rate)
     }
 }
 
-void MicrophonePlayer::setChannels(int numChannels)
-{
-    if (!isPlaying)
-    {
-        channels = numChannels;
-    }
-}
-
 int MicrophonePlayer::getSampleRate() const
 {
     return sampleRate;
@@ -324,7 +200,7 @@ int MicrophonePlayer::getSampleRate() const
 
 int MicrophonePlayer::getChannels() const
 {
-    return channels;
+    return 1; // Luôn trả về 1 (mono)
 }
 
 void MicrophonePlayer::setPlaybackCallback(PlaybackCallback callback)

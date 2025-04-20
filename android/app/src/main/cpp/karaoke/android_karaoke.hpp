@@ -9,6 +9,9 @@
 #include "audio_player/audioplayer/common.hpp"
 #include "android_mic_player.hpp"
 
+// Kích thước buffer cho recorder
+constexpr size_t RECORDER_BUFFER_SIZE = 1 << 17; // 131072 samples (~2.7s ở 48kHz mono)
+
 // Forward declarations
 class AudioPlayer;
 
@@ -20,10 +23,9 @@ private:
     std::shared_ptr<oboe::AudioStream> inputStream;
     bool isRecording;
     int sampleRate;
-    int channels;
     int bufferSize;
-    mutable std::mutex dataMutex;
-    std::vector<float> recordedData;
+    // Sử dụng lock-free ring buffer thay vì vector và mutex
+    LockFreeRingBuffer<float, RECORDER_BUFFER_SIZE> recordedBuffer;
     RecordingCallback recordingCallback;
 
     // Oboe callback implementation
@@ -48,11 +50,9 @@ public:
 
     bool isCurrentlyRecording() const;
 
-    void setChannels(int numChannels);
     void setSampleRate(int rate);
-
-    int getChannels() const;
     int getSampleRate() const;
+    int getChannels() const; // Luôn trả về 1 (mono)
 };
 
 class Karaoke {

@@ -56,7 +56,7 @@ public:
         }
 
         // Thiết lập âm lượng mặc định cao hơn
-        karaoke->setMicVolume(5.0f);
+        karaoke->setMicVolume(10.0f);
         cout << "Âm lượng mic mặc định: 5.0 (500%)" << endl;
 
         if (!karaoke->startLivePlayback())

@@ -66,36 +66,34 @@ extern "C"
 
         // Thread 1: Chạy KaraokeFactory::startKaraoke
         std::thread karaoke_thread([melody, lyric]()
-        {
+                                   {
             try {
                 {
                     std::lock_guard<std::mutex> lock(audio_mutex);
-                    LOGI("Starting karaoke in thread ID: %lu", std::this_thread::get_id());
+                    LOGI("Starting karaoke");
                 }
                 KaraokeFactory::startKaraoke(melody, lyric);
                 LOGI("Karaoke processing completed.");
             } catch (const std::exception& e) {
                 LOGE("Error in karaoke thread: %s", e.what());
-            }
-        });
+            } });
 
-        // Thread 2: Chạy OggPlay::playMultipleOggFiles
-        std::thread ogg_thread([melody, lyric]()
-        {
-            try {
-                {
-                    std::lock_guard<std::mutex> lock(audio_mutex);
-                    LOGI("Starting OggPlay in thread ID: %lu", std::this_thread::get_id());
-                }
-                OggPlay::getInstance()->playMultipleOggFiles({melody, lyric});
-                LOGI("OggPlay processing completed.");
-            } catch (const std::exception& e) {
-                LOGE("Error in OggPlay thread: %s", e.what());
-            }
-        });
+        // // Thread 2: Chạy OggPlay::playMultipleOggFiles
+        // std::thread ogg_thread([melody, lyric]()
+        //                        {
+        //     try {
+        //         {
+        //             std::lock_guard<std::mutex> lock(audio_mutex);
+        //             LOGI("Starting OggPlay in thread ID: %lu", std::this_thread::get_id());
+        //         }
+        //         OggPlay::getInstance()->playMultipleOggFiles({melody});
+        //         LOGI("OggPlay processing completed.");
+        //     } catch (const std::exception& e) {
+        //         LOGE("Error in OggPlay thread: %s", e.what());
+        //     } });
 
-        // Detach cả hai thread để chúng chạy độc lập
+        // // Detach cả hai thread để chúng chạy độc lập
         karaoke_thread.detach();
-        ogg_thread.detach();
+        //ogg_thread.detach();
     }
 }

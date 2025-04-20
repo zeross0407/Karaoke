@@ -34,6 +34,7 @@ class _FixTestScreenState extends State<FixTestScreen> {
   @override
   void initState() {
     super.initState();
+    CAudioPlayer.initLibrary();
     _requestPermissions();
   }
 
@@ -94,8 +95,8 @@ class _FixTestScreenState extends State<FixTestScreen> {
   }
 
   Future<void> _testKaraoke() async {
-    //CAudioPlayer.playAssetAudio('assets/bn_back.ogg');
-    CAudioPlayer.initLibrary();
+    //CAudioPlayer.playAssetAudio('assets/cmbg_back.ogg');
+    //CAudioPlayer.initLibrary();
     if (_isLoading || !_ffi.isInitialized) return;
 
     setState(() {
@@ -107,7 +108,7 @@ class _FixTestScreenState extends State<FixTestScreen> {
       // Dùng method mới hỗ trợ assets
       final result = await _ffi.testKaraokeWithAssets(
         _selectedMelody,
-        _selectedLyric,
+        _selectedMelody,
       );
       setState(() {
         _status = result ? 'Kiểm tra thành công' : 'Kiểm tra thất bại';
@@ -131,23 +132,21 @@ class _FixTestScreenState extends State<FixTestScreen> {
         border: OutlineInputBorder(),
       ),
       value: _selectedMelody,
-      onChanged:
-          _isLoading
-              ? null
-              : (String? newValue) {
-                if (newValue != null) {
-                  setState(() {
-                    _selectedMelody = newValue;
-                  });
-                }
-              },
-      items:
-          _melodyAssets.map<DropdownMenuItem<String>>((String value) {
-            return DropdownMenuItem<String>(
-              value: value,
-              child: Text(value.split('/').last),
-            );
-          }).toList(),
+      onChanged: _isLoading
+          ? null
+          : (String? newValue) {
+              if (newValue != null) {
+                setState(() {
+                  _selectedMelody = newValue;
+                });
+              }
+            },
+      items: _melodyAssets.map<DropdownMenuItem<String>>((String value) {
+        return DropdownMenuItem<String>(
+          value: value,
+          child: Text(value.split('/').last),
+        );
+      }).toList(),
     );
   }
 
@@ -159,23 +158,21 @@ class _FixTestScreenState extends State<FixTestScreen> {
         border: OutlineInputBorder(),
       ),
       value: _selectedLyric,
-      onChanged:
-          _isLoading
-              ? null
-              : (String? newValue) {
-                if (newValue != null) {
-                  setState(() {
-                    _selectedLyric = newValue;
-                  });
-                }
-              },
-      items:
-          _lyricAssets.map<DropdownMenuItem<String>>((String value) {
-            return DropdownMenuItem<String>(
-              value: value,
-              child: Text(value.split('/').last),
-            );
-          }).toList(),
+      onChanged: _isLoading
+          ? null
+          : (String? newValue) {
+              if (newValue != null) {
+                setState(() {
+                  _selectedLyric = newValue;
+                });
+              }
+            },
+      items: _lyricAssets.map<DropdownMenuItem<String>>((String value) {
+        return DropdownMenuItem<String>(
+          value: value,
+          child: Text(value.split('/').last),
+        );
+      }).toList(),
     );
   }
 
@@ -215,10 +212,9 @@ class _FixTestScreenState extends State<FixTestScreen> {
                 const SizedBox(width: 10),
                 Expanded(
                   child: ElevatedButton(
-                    onPressed:
-                        (_isLoading || !_ffi.isInitialized)
-                            ? null
-                            : _testKaraoke,
+                    onPressed: (_isLoading || !_ffi.isInitialized)
+                        ? null
+                        : _testKaraoke,
                     child: const Text('Kiểm tra Karaoke'),
                   ),
                 ),

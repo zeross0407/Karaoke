@@ -548,7 +548,7 @@ void MicrophonePlayer::setEchoCancellationFactor(float factor) {
 void MicrophonePlayer::setVolume(float newVolume) {
     // Giới hạn volume trong khoảng 0.0 đến 5.0
     if (newVolume < 0.0f) newVolume = 0.0f;
-    if (newVolume > 5.0f) newVolume = 5.0f;
+    if (newVolume > 10.0f) newVolume = 10.0f;
     
     volume = newVolume;
     debugPrint("Mic volume set to {}", volume);
