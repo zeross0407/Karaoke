@@ -1,0 +1,3070 @@
+{
+    "text": "I'm hurting baby, I'm broken down I need your loving, loving I need it now When I'm without you, I'm something weak You got me begging, begging I'm on my knees I don't wanna be needing your love I just wanna be deep in your love And it's killing me when you're away Ooh baby 'Cause I really don't care where you are I just wanna be there where you are And I gotta get one little taste Sugar, yes please Won't you come and put it down on me? I'm right here, 'cause I need Little love, a little sympathy Yeah, you show me good loving, make it alright Need a little sweetness in my life Your sugar, yes please Won't you come and put it down on me? Babe, my broken pieces, you pick them up Don't leave me hanging, hanging, come give me some When I'm without you, I'm so insecure You are the one thing, one thing I'm living for I don't wanna be needing your love I just wanna be deep in your love And it's killing me when you're away Ooh baby 'Cause I really don't care where you are I just wanna be there where you are And I gotta get one little taste Sugar, yes please Won't you come and put it down on me? I'm right here, 'cause I need Little love, a little sympathy Yeah, you show me good loving, make it alright Need a little sweetness in my life Your sugar, yes please Won't you come and put it down on me? Yeah I want that red velvet I want that sugar sweet Don't let nobody touch it unless that somebody's me I gotta be a man, there ain't no other way 'Cause girl you're hotter than a Southern California day Never wanna play no games, you don't gotta be afraid Don't give me all that shy shit No makeup on, that's my sugar Sugar, yes please Won't you come and put it down on me? I'm right here, 'cause I need Little love, a little sympathy Yeah, you show me good loving, make it alright Need a little sweetness in my life Your sugar, yes please Won't you come and put it down on me? Sugar, yes please Won't you come and put it down on me? I'm right here, 'cause I need Little love, a little sympathy Yeah, you show me good loving, make it alright Need a little sweetness in my life Your sugar, yes please Won't you come and put it down on me? Down on me, down on me, ooh",
+    "segments": [
+        {
+            "start": 8.59,
+            "end": 12.45,
+            "text": "I'm hurting baby, I'm broken down",
+            "words": [
+                {
+                    "word": "I'm",
+                    "start": 8.59,
+                    "end": 8.79,
+                    "note": 81
+                },
+                {
+                    "word": " hurting",
+                    "start": 8.79,
+                    "end": 9.36,
+                    "note": 73
+                },
+                {
+                    "word": " baby,",
+                    "start": 9.36,
+                    "end": 9.81,
+                    "note": 68
+                },
+                {
+                    "word": " I'm",
+                    "start": 10.6,
+                    "end": 10.87,
+                    "note": 82
+                },
+                {
+                    "word": " broken",
+                    "start": 10.87,
+                    "end": 11.37,
+                    "note": 69
+                },
+                {
+                    "word": " down",
+                    "start": 11.37,
+                    "end": 12.45,
+                    "note": 77
+                }
+            ]
+        },
+        {
+            "start": 12.59,
+            "end": 16.34,
+            "text": "I need your loving, loving I need it now",
+            "words": [
+                {
+                    "word": "I",
+                    "start": 12.59,
+                    "end": 12.7,
+                    "note": 81
+                },
+                {
+                    "word": " need",
+                    "start": 12.7,
+                    "end": 13.12,
+                    "note": 62
+                },
+                {
+                    "word": " your",
+                    "start": 13.12,
+                    "end": 13.22,
+                    "note": 60
+                },
+                {
+                    "word": " loving,",
+                    "start": 13.22,
+                    "end": 13.91,
+                    "note": 73
+                },
+                {
+                    "word": " loving",
+                    "start": 14.09,
+                    "end": 14.54,
+                    "note": 76
+                },
+                {
+                    "word": " I",
+                    "start": 14.59,
+                    "end": 14.75,
+                    "note": 80
+                },
+                {
+                    "word": " need",
+                    "start": 14.75,
+                    "end": 15.16,
+                    "note": 67
+                },
+                {
+                    "word": " it",
+                    "start": 15.16,
+                    "end": 15.34,
+                    "note": 66
+                },
+                {
+                    "word": " now",
+                    "start": 15.34,
+                    "end": 16.34,
+                    "note": 80
+                }
+            ]
+        },
+        {
+            "start": 16.6,
+            "end": 19.9,
+            "text": "When I'm without you, I'm something weak",
+            "words": [
+                {
+                    "word": "When",
+                    "start": 16.6,
+                    "end": 16.96,
+                    "note": 82
+                },
+                {
+                    "word": " I'm",
+                    "start": 16.96,
+                    "end": 17.13,
+                    "note": 80
+                },
+                {
+                    "word": " without",
+                    "start": 17.13,
+                    "end": 17.64,
+                    "note": 78
+                },
+                {
+                    "word": " you,",
+                    "start": 17.64,
+                    "end": 17.78,
+                    "note": 65
+                },
+                {
+                    "word": " I'm",
+                    "start": 18.59,
+                    "end": 18.72,
+                    "note": 83
+                },
+                {
+                    "word": " something",
+                    "start": 18.72,
+                    "end": 19.36,
+                    "note": 71
+                },
+                {
+                    "word": " weak",
+                    "start": 19.36,
+                    "end": 19.9,
+                    "note": 61
+                }
+            ]
+        },
+        {
+            "start": 20.57,
+            "end": 23.86,
+            "text": "You got me begging, begging I'm on my knees",
+            "words": [
+                {
+                    "word": "You",
+                    "start": 20.57,
+                    "end": 20.72,
+                    "note": 71
+                },
+                {
+                    "word": " got",
+                    "start": 20.86,
+                    "end": 21.11,
+                    "note": 81
+                },
+                {
+                    "word": " me",
+                    "start": 21.11,
+                    "end": 21.19,
+                    "note": 67
+                },
+                {
+                    "word": " begging,",
+                    "start": 21.19,
+                    "end": 21.98,
+                    "note": 67
+                },
+                {
+                    "word": " begging",
+                    "start": 22.05,
+                    "end": 22.53,
+                    "note": 70
+                },
+                {
+                    "word": " I'm",
+                    "start": 22.6,
+                    "end": 22.9,
+                    "note": 75
+                },
+                {
+                    "word": " on",
+                    "start": 22.9,
+                    "end": 23.07,
+                    "note": 81
+                },
+                {
+                    "word": " my",
+                    "start": 23.07,
+                    "end": 23.18,
+                    "note": 65
+                },
+                {
+                    "word": " knees",
+                    "start": 23.18,
+                    "end": 23.86,
+                    "note": 62
+                }
+            ]
+        },
+        {
+            "start": 23.86,
+            "end": 26.42,
+            "text": "I don't wanna be needing your love",
+            "words": [
+                {
+                    "word": "I",
+                    "start": 23.86,
+                    "end": 23.89,
+                    "note": 60
+                },
+                {
+                    "word": " don't",
+                    "start": 23.89,
+                    "end": 24.88,
+                    "note": 68
+                },
+                {
+                    "word": " wanna",
+                    "start": 24.88,
+                    "end": 25.05,
+                    "note": 58
+                },
+                {
+                    "word": " be",
+                    "start": 25.05,
+                    "end": 25.25,
+                    "note": 57
+                },
+                {
+                    "word": " needing",
+                    "start": 25.25,
+                    "end": 25.92,
+                    "note": 63
+                },
+                {
+                    "word": " your",
+                    "start": 25.92,
+                    "end": 25.98,
+                    "note": 65
+                },
+                {
+                    "word": " love",
+                    "start": 25.98,
+                    "end": 26.42,
+                    "note": 75
+                }
+            ]
+        },
+        {
+            "start": 26.42,
+            "end": 28.39,
+            "text": "I just wanna be deep in your love",
+            "words": [
+                {
+                    "word": "I",
+                    "start": 26.42,
+                    "end": 26.58,
+                    "note": 68
+                },
+                {
+                    "word": " just",
+                    "start": 26.58,
+                    "end": 26.87,
+                    "note": 66
+                },
+                {
+                    "word": " wanna",
+                    "start": 26.87,
+                    "end": 27.05,
+                    "note": 60
+                },
+                {
+                    "word": " be",
+                    "start": 27.05,
+                    "end": 27.25,
+                    "note": 58
+                },
+                {
+                    "word": " deep",
+                    "start": 27.25,
+                    "end": 27.67,
+                    "note": 63
+                },
+                {
+                    "word": " in",
+                    "start": 27.67,
+                    "end": 27.88,
+                    "note": 65
+                },
+                {
+                    "word": " your",
+                    "start": 27.88,
+                    "end": 28,
+                    "note": 65
+                },
+                {
+                    "word": " love",
+                    "start": 28,
+                    "end": 28.39,
+                    "note": 74
+                }
+            ]
+        },
+        {
+            "start": 28.6,
+            "end": 30.81,
+            "text": "And it's killing me when you're away",
+            "words": [
+                {
+                    "word": "And",
+                    "start": 28.6,
+                    "end": 28.7,
+                    "note": 66
+                },
+                {
+                    "word": " it's",
+                    "start": 28.7,
+                    "end": 28.82,
+                    "note": 57
+                },
+                {
+                    "word": " killing",
+                    "start": 28.82,
+                    "end": 29.09,
+                    "note": 62
+                },
+                {
+                    "word": " me",
+                    "start": 29.09,
+                    "end": 29.25,
+                    "note": 63
+                },
+                {
+                    "word": " when",
+                    "start": 29.25,
+                    "end": 29.61,
+                    "note": 65
+                },
+                {
+                    "word": " you're",
+                    "start": 29.61,
+                    "end": 29.7,
+                    "note": 73
+                },
+                {
+                    "word": " away",
+                    "start": 29.7,
+                    "end": 30.81,
+                    "note": 69
+                }
+            ]
+        },
+        {
+            "start": 31.65,
+            "end": 32.34,
+            "text": "Ooh baby",
+            "words": [
+                {
+                    "word": "Ooh",
+                    "start": 31.65,
+                    "end": 31.78,
+                    "note": 62
+                },
+                {
+                    "word": " baby",
+                    "start": 31.86,
+                    "end": 32.34,
+                    "note": 67
+                }
+            ]
+        },
+        {
+            "start": 32.34,
+            "end": 34.16,
+            "text": "'Cause I really don't care where you are",
+            "words": [
+                {
+                    "word": "'Cause",
+                    "start": 32.34,
+                    "end": 32.77,
+                    "note": 69
+                },
+                {
+                    "word": " I",
+                    "start": 32.77,
+                    "end": 32.8,
+                    "note": 56
+                },
+                {
+                    "word": " really",
+                    "start": 32.8,
+                    "end": 33.04,
+                    "note": 60
+                },
+                {
+                    "word": " don't",
+                    "start": 33.04,
+                    "end": 33.3,
+                    "note": 63
+                },
+                {
+                    "word": " care",
+                    "start": 33.3,
+                    "end": 33.59,
+                    "note": 72
+                },
+                {
+                    "word": " where",
+                    "start": 33.59,
+                    "end": 33.85,
+                    "note": 77
+                },
+                {
+                    "word": " you",
+                    "start": 33.85,
+                    "end": 34.13,
+                    "note": 67
+                },
+                {
+                    "word": " are",
+                    "start": 34.13,
+                    "end": 34.16,
+                    "note": 77
+                }
+            ]
+        },
+        {
+            "start": 34.16,
+            "end": 36.41,
+            "text": "I just wanna be there where you are",
+            "words": [
+                {
+                    "word": "I",
+                    "start": 34.16,
+                    "end": 34.58,
+                    "note": 75
+                },
+                {
+                    "word": " just",
+                    "start": 34.69,
+                    "end": 34.86,
+                    "note": 76
+                },
+                {
+                    "word": " wanna",
+                    "start": 34.86,
+                    "end": 35.07,
+                    "note": 65
+                },
+                {
+                    "word": " be",
+                    "start": 35.07,
+                    "end": 35.29,
+                    "note": 61
+                },
+                {
+                    "word": " there",
+                    "start": 35.29,
+                    "end": 35.6,
+                    "note": 72
+                },
+                {
+                    "word": " where",
+                    "start": 35.6,
+                    "end": 35.82,
+                    "note": 77
+                },
+                {
+                    "word": " you",
+                    "start": 35.82,
+                    "end": 36.12,
+                    "note": 67
+                },
+                {
+                    "word": " are",
+                    "start": 36.12,
+                    "end": 36.41,
+                    "note": 83
+                }
+            ]
+        },
+        {
+            "start": 36.61,
+            "end": 38.87,
+            "text": "And I gotta get one little taste",
+            "words": [
+                {
+                    "word": "And",
+                    "start": 36.61,
+                    "end": 36.74,
+                    "note": 62
+                },
+                {
+                    "word": " I",
+                    "start": 36.74,
+                    "end": 36.78,
+                    "note": 57
+                },
+                {
+                    "word": " gotta",
+                    "start": 36.78,
+                    "end": 37.03,
+                    "note": 67
+                },
+                {
+                    "word": " get",
+                    "start": 37.03,
+                    "end": 37.24,
+                    "note": 57
+                },
+                {
+                    "word": " one",
+                    "start": 37.24,
+                    "end": 37.52,
+                    "note": 66
+                },
+                {
+                    "word": " little",
+                    "start": 37.52,
+                    "end": 38.01,
+                    "note": 70
+                },
+                {
+                    "word": " taste",
+                    "start": 38.01,
+                    "end": 38.87,
+                    "note": 65
+                }
+            ]
+        },
+        {
+            "start": 38.87,
+            "end": 43.31,
+            "text": "Sugar, yes please",
+            "words": [
+                {
+                    "word": "Sugar,",
+                    "start": 38.87,
+                    "end": 38.98,
+                    "note": 60
+                },
+                {
+                    "word": " yes",
+                    "start": 39.61,
+                    "end": 42.29,
+                    "note": 76
+                },
+                {
+                    "word": " please",
+                    "start": 42.29,
+                    "end": 43.31,
+                    "note": 69
+                }
+            ]
+        },
+        {
+            "start": 43.31,
+            "end": 44.68,
+            "text": "Won't you come and put it down on me?",
+            "words": [
+                {
+                    "word": "Won't",
+                    "start": 43.31,
+                    "end": 43.4,
+                    "note": 69
+                },
+                {
+                    "word": " you",
+                    "start": 43.4,
+                    "end": 43.46,
+                    "note": 68
+                },
+                {
+                    "word": " come",
+                    "start": 43.46,
+                    "end": 43.55,
+                    "note": 64
+                },
+                {
+                    "word": " and",
+                    "start": 43.55,
+                    "end": 43.59,
+                    "note": 69
+                },
+                {
+                    "word": " put",
+                    "start": 43.59,
+                    "end": 43.88,
+                    "note": 66
+                },
+                {
+                    "word": " it",
+                    "start": 43.88,
+                    "end": 44.06,
+                    "note": 69
+                },
+                {
+                    "word": " down",
+                    "start": 44.06,
+                    "end": 44.56,
+                    "note": 86
+                },
+                {
+                    "word": " on",
+                    "start": 44.56,
+                    "end": 44.62,
+                    "note": 84
+                },
+                {
+                    "word": " me?",
+                    "start": 44.62,
+                    "end": 44.68,
+                    "note": 75
+                }
+            ]
+        },
+        {
+            "start": 44.68,
+            "end": 54.7,
+            "text": "I'm right here, 'cause I need",
+            "words": [
+                {
+                    "word": "I'm",
+                    "start": 44.68,
+                    "end": 47.85,
+                    "note": 79
+                },
+                {
+                    "word": " right",
+                    "start": 47.85,
+                    "end": 51.62,
+                    "note": 76
+                },
+                {
+                    "word": " here,",
+                    "start": 51.62,
+                    "end": 51.89,
+                    "note": 67
+                },
+                {
+                    "word": " 'cause",
+                    "start": 51.89,
+                    "end": 52.14,
+                    "note": 67
+                },
+                {
+                    "word": " I",
+                    "start": 52.14,
+                    "end": 54.61,
+                    "note": 82
+                },
+                {
+                    "word": " need",
+                    "start": 54.61,
+                    "end": 54.7,
+                    "note": 72
+                }
+            ]
+        },
+        {
+            "start": 54.7,
+            "end": 55.23,
+            "text": "Little love, a little sympathy",
+            "words": [
+                {
+                    "word": "Little",
+                    "start": 54.7,
+                    "end": 54.8,
+                    "note": 69
+                },
+                {
+                    "word": " love,",
+                    "start": 54.8,
+                    "end": 54.89,
+                    "note": 66
+                },
+                {
+                    "word": " a",
+                    "start": 54.89,
+                    "end": 54.92,
+                    "note": 64
+                },
+                {
+                    "word": " little",
+                    "start": 54.92,
+                    "end": 55.02,
+                    "note": 71
+                },
+                {
+                    "word": " sympathy",
+                    "start": 55.02,
+                    "end": 55.23,
+                    "note": 72
+                }
+            ]
+        },
+        {
+            "start": 55.5,
+            "end": 60.11,
+            "text": "Yeah, you show me good loving, make it alright",
+            "words": [
+                {
+                    "word": "Yeah,",
+                    "start": 55.5,
+                    "end": 55.77,
+                    "note": 65
+                },
+                {
+                    "word": " you",
+                    "start": 55.77,
+                    "end": 55.94,
+                    "note": 63
+                },
+                {
+                    "word": " show",
+                    "start": 55.94,
+                    "end": 56.57,
+                    "note": 74
+                },
+                {
+                    "word": " me",
+                    "start": 56.57,
+                    "end": 56.74,
+                    "note": 70
+                },
+                {
+                    "word": " good",
+                    "start": 56.74,
+                    "end": 57.25,
+                    "note": 70
+                },
+                {
+                    "word": " loving,",
+                    "start": 57.25,
+                    "end": 57.88,
+                    "note": 74
+                },
+                {
+                    "word": " make",
+                    "start": 57.98,
+                    "end": 58.63,
+                    "note": 72
+                },
+                {
+                    "word": " it",
+                    "start": 58.63,
+                    "end": 58.78,
+                    "note": 73
+                },
+                {
+                    "word": " alright",
+                    "start": 58.78,
+                    "end": 60.11,
+                    "note": 78
+                }
+            ]
+        },
+        {
+            "start": 60.11,
+            "end": 63.61,
+            "text": "Need a little sweetness in my life",
+            "words": [
+                {
+                    "word": "Need",
+                    "start": 60.11,
+                    "end": 60.65,
+                    "note": 63
+                },
+                {
+                    "word": " a",
+                    "start": 60.65,
+                    "end": 60.69,
+                    "note": 73
+                },
+                {
+                    "word": " little",
+                    "start": 60.69,
+                    "end": 61.17,
+                    "note": 71
+                },
+                {
+                    "word": " sweetness",
+                    "start": 61.17,
+                    "end": 61.9,
+                    "note": 72
+                },
+                {
+                    "word": " in",
+                    "start": 62.09,
+                    "end": 62.39,
+                    "note": 68
+                },
+                {
+                    "word": " my",
+                    "start": 62.57,
+                    "end": 62.71,
+                    "note": 62
+                },
+                {
+                    "word": " life",
+                    "start": 62.71,
+                    "end": 63.61,
+                    "note": 76
+                }
+            ]
+        },
+        {
+            "start": 63.61,
+            "end": 67.38,
+            "text": "Your sugar, yes please",
+            "words": [
+                {
+                    "word": "Your",
+                    "start": 63.61,
+                    "end": 63.67,
+                    "note": 57
+                },
+                {
+                    "word": " sugar,",
+                    "start": 63.67,
+                    "end": 65.18,
+                    "note": 75
+                },
+                {
+                    "word": " yes",
+                    "start": 65.6,
+                    "end": 66.28,
+                    "note": 72
+                },
+                {
+                    "word": " please",
+                    "start": 66.28,
+                    "end": 67.38,
+                    "note": 69
+                }
+            ]
+        },
+        {
+            "start": 67.61,
+            "end": 70.19,
+            "text": "Won't you come and put it down on me?",
+            "words": [
+                {
+                    "word": "Won't",
+                    "start": 67.61,
+                    "end": 67.85,
+                    "note": 64
+                },
+                {
+                    "word": " you",
+                    "start": 67.85,
+                    "end": 67.99,
+                    "note": 73
+                },
+                {
+                    "word": " come",
+                    "start": 68.07,
+                    "end": 68.65,
+                    "note": 86
+                },
+                {
+                    "word": " and",
+                    "start": 68.65,
+                    "end": 68.76,
+                    "note": 81
+                },
+                {
+                    "word": " put",
+                    "start": 68.76,
+                    "end": 69.24,
+                    "note": 84
+                },
+                {
+                    "word": " it",
+                    "start": 69.24,
+                    "end": 69.36,
+                    "note": 84
+                },
+                {
+                    "word": " down",
+                    "start": 69.36,
+                    "end": 69.68,
+                    "note": 80
+                },
+                {
+                    "word": " on",
+                    "start": 69.68,
+                    "end": 70.12,
+                    "note": 85
+                },
+                {
+                    "word": " me?",
+                    "start": 70.12,
+                    "end": 70.19,
+                    "note": 70
+                }
+            ]
+        },
+        {
+            "start": 70.19,
+            "end": 75.93,
+            "text": "Babe, my broken pieces, you pick them up",
+            "words": [
+                {
+                    "word": "Babe,",
+                    "start": 70.19,
+                    "end": 71.5,
+                    "note": 71
+                },
+                {
+                    "word": " my",
+                    "start": 72.45,
+                    "end": 72.75,
+                    "note": 71
+                },
+                {
+                    "word": " broken",
+                    "start": 72.75,
+                    "end": 73.28,
+                    "note": 71
+                },
+                {
+                    "word": " pieces,",
+                    "start": 73.28,
+                    "end": 73.95,
+                    "note": 65
+                },
+                {
+                    "word": " you",
+                    "start": 74.54,
+                    "end": 74.73,
+                    "note": 57
+                },
+                {
+                    "word": " pick",
+                    "start": 74.73,
+                    "end": 75.1,
+                    "note": 69
+                },
+                {
+                    "word": " them",
+                    "start": 75.1,
+                    "end": 75.4,
+                    "note": 61
+                },
+                {
+                    "word": " up",
+                    "start": 75.4,
+                    "end": 75.93,
+                    "note": 69
+                }
+            ]
+        },
+        {
+            "start": 76.59,
+            "end": 80.28,
+            "text": "Don't leave me hanging, hanging, come give me some",
+            "words": [
+                {
+                    "word": "Don't",
+                    "start": 76.59,
+                    "end": 76.89,
+                    "note": 72
+                },
+                {
+                    "word": " leave",
+                    "start": 76.89,
+                    "end": 77.08,
+                    "note": 63
+                },
+                {
+                    "word": " me",
+                    "start": 77.08,
+                    "end": 77.31,
+                    "note": 61
+                },
+                {
+                    "word": " hanging,",
+                    "start": 77.34,
+                    "end": 77.88,
+                    "note": 76
+                },
+                {
+                    "word": " hanging,",
+                    "start": 77.88,
+                    "end": 78.56,
+                    "note": 74
+                },
+                {
+                    "word": " come",
+                    "start": 78.56,
+                    "end": 78.85,
+                    "note": 70
+                },
+                {
+                    "word": " give",
+                    "start": 78.85,
+                    "end": 79.06,
+                    "note": 70
+                },
+                {
+                    "word": " me",
+                    "start": 79.06,
+                    "end": 79.22,
+                    "note": 63
+                },
+                {
+                    "word": " some",
+                    "start": 79.22,
+                    "end": 80.28,
+                    "note": 74
+                }
+            ]
+        },
+        {
+            "start": 80.58,
+            "end": 83.95,
+            "text": "When I'm without you, I'm so insecure",
+            "words": [
+                {
+                    "word": "When",
+                    "start": 80.58,
+                    "end": 80.88,
+                    "note": 75
+                },
+                {
+                    "word": " I'm",
+                    "start": 80.88,
+                    "end": 81.12,
+                    "note": 78
+                },
+                {
+                    "word": " without",
+                    "start": 81.12,
+                    "end": 81.66,
+                    "note": 76
+                },
+                {
+                    "word": " you,",
+                    "start": 81.66,
+                    "end": 81.81,
+                    "note": 61
+                },
+                {
+                    "word": " I'm",
+                    "start": 82.09,
+                    "end": 82.36,
+                    "note": 68
+                },
+                {
+                    "word": " so",
+                    "start": 82.49,
+                    "end": 82.92,
+                    "note": 75
+                },
+                {
+                    "word": " insecure",
+                    "start": 82.92,
+                    "end": 83.95,
+                    "note": 72
+                }
+            ]
+        },
+        {
+            "start": 84.57,
+            "end": 88.1,
+            "text": "You are the one thing, one thing I'm living for",
+            "words": [
+                {
+                    "word": "You",
+                    "start": 84.57,
+                    "end": 84.84,
+                    "note": 65
+                },
+                {
+                    "word": " are",
+                    "start": 84.84,
+                    "end": 85.08,
+                    "note": 84
+                },
+                {
+                    "word": " the",
+                    "start": 85.08,
+                    "end": 85.31,
+                    "note": 68
+                },
+                {
+                    "word": " one",
+                    "start": 85.31,
+                    "end": 85.6,
+                    "note": 71
+                },
+                {
+                    "word": " thing,",
+                    "start": 85.6,
+                    "end": 86.07,
+                    "note": 64
+                },
+                {
+                    "word": " one",
+                    "start": 86.07,
+                    "end": 86.29,
+                    "note": 75
+                },
+                {
+                    "word": " thing",
+                    "start": 86.29,
+                    "end": 86.62,
+                    "note": 69
+                },
+                {
+                    "word": " I'm",
+                    "start": 86.62,
+                    "end": 86.79,
+                    "note": 70
+                },
+                {
+                    "word": " living",
+                    "start": 86.79,
+                    "end": 87.27,
+                    "note": 74
+                },
+                {
+                    "word": " for",
+                    "start": 87.27,
+                    "end": 88.1,
+                    "note": 69
+                }
+            ]
+        },
+        {
+            "start": 88.35,
+            "end": 90.42,
+            "text": "I don't wanna be needing your love",
+            "words": [
+                {
+                    "word": "I",
+                    "start": 88.35,
+                    "end": 88.59,
+                    "note": 68
+                },
+                {
+                    "word": " don't",
+                    "start": 88.7,
+                    "end": 88.88,
+                    "note": 57
+                },
+                {
+                    "word": " wanna",
+                    "start": 88.88,
+                    "end": 89.04,
+                    "note": 62
+                },
+                {
+                    "word": " be",
+                    "start": 89.04,
+                    "end": 89.24,
+                    "note": 57
+                },
+                {
+                    "word": " needing",
+                    "start": 89.24,
+                    "end": 89.84,
+                    "note": 63
+                },
+                {
+                    "word": " your",
+                    "start": 89.84,
+                    "end": 89.97,
+                    "note": 65
+                },
+                {
+                    "word": " love",
+                    "start": 89.97,
+                    "end": 90.42,
+                    "note": 72
+                }
+            ]
+        },
+        {
+            "start": 90.42,
+            "end": 92.48,
+            "text": "I just wanna be deep in your love",
+            "words": [
+                {
+                    "word": "I",
+                    "start": 90.42,
+                    "end": 90.52,
+                    "note": 73
+                },
+                {
+                    "word": " just",
+                    "start": 90.52,
+                    "end": 90.86,
+                    "note": 62
+                },
+                {
+                    "word": " wanna",
+                    "start": 90.86,
+                    "end": 91.05,
+                    "note": 59
+                },
+                {
+                    "word": " be",
+                    "start": 91.05,
+                    "end": 91.25,
+                    "note": 57
+                },
+                {
+                    "word": " deep",
+                    "start": 91.25,
+                    "end": 91.64,
+                    "note": 62
+                },
+                {
+                    "word": " in",
+                    "start": 91.64,
+                    "end": 91.88,
+                    "note": 67
+                },
+                {
+                    "word": " your",
+                    "start": 91.88,
+                    "end": 91.97,
+                    "note": 65
+                },
+                {
+                    "word": " love",
+                    "start": 91.97,
+                    "end": 92.48,
+                    "note": 75
+                }
+            ]
+        },
+        {
+            "start": 92.48,
+            "end": 94.82,
+            "text": "And it's killing me when you're away",
+            "words": [
+                {
+                    "word": "And",
+                    "start": 92.48,
+                    "end": 92.64,
+                    "note": 61
+                },
+                {
+                    "word": " it's",
+                    "start": 92.64,
+                    "end": 92.83,
+                    "note": 61
+                },
+                {
+                    "word": " killing",
+                    "start": 92.83,
+                    "end": 93.09,
+                    "note": 60
+                },
+                {
+                    "word": " me",
+                    "start": 93.09,
+                    "end": 93.25,
+                    "note": 63
+                },
+                {
+                    "word": " when",
+                    "start": 93.25,
+                    "end": 93.61,
+                    "note": 65
+                },
+                {
+                    "word": " you're",
+                    "start": 93.61,
+                    "end": 93.7,
+                    "note": 72
+                },
+                {
+                    "word": " away",
+                    "start": 93.7,
+                    "end": 94.82,
+                    "note": 67
+                }
+            ]
+        },
+        {
+            "start": 95.65,
+            "end": 96.59,
+            "text": "Ooh baby",
+            "words": [
+                {
+                    "word": "Ooh",
+                    "start": 95.65,
+                    "end": 95.76,
+                    "note": 63
+                },
+                {
+                    "word": " baby",
+                    "start": 95.86,
+                    "end": 96.59,
+                    "note": 72
+                }
+            ]
+        },
+        {
+            "start": 96.59,
+            "end": 98.15,
+            "text": "'Cause I really don't care where you are",
+            "words": [
+                {
+                    "word": "'Cause",
+                    "start": 96.59,
+                    "end": 96.78,
+                    "note": 74
+                },
+                {
+                    "word": " I",
+                    "start": 96.78,
+                    "end": 96.83,
+                    "note": 73
+                },
+                {
+                    "word": " really",
+                    "start": 96.83,
+                    "end": 97.1,
+                    "note": 72
+                },
+                {
+                    "word": " don't",
+                    "start": 97.1,
+                    "end": 97.34,
+                    "note": 71
+                },
+                {
+                    "word": " care",
+                    "start": 97.34,
+                    "end": 97.56,
+                    "note": 74
+                },
+                {
+                    "word": " where",
+                    "start": 97.56,
+                    "end": 97.84,
+                    "note": 77
+                },
+                {
+                    "word": " you",
+                    "start": 97.84,
+                    "end": 98.11,
+                    "note": 65
+                },
+                {
+                    "word": " are",
+                    "start": 98.11,
+                    "end": 98.15,
+                    "note": 77
+                }
+            ]
+        },
+        {
+            "start": 98.15,
+            "end": 100.38,
+            "text": "I just wanna be there where you are",
+            "words": [
+                {
+                    "word": "I",
+                    "start": 98.15,
+                    "end": 98.36,
+                    "note": 81
+                },
+                {
+                    "word": " just",
+                    "start": 98.36,
+                    "end": 98.86,
+                    "note": 76
+                },
+                {
+                    "word": " wanna",
+                    "start": 98.86,
+                    "end": 99.07,
+                    "note": 59
+                },
+                {
+                    "word": " be",
+                    "start": 99.07,
+                    "end": 99.29,
+                    "note": 57
+                },
+                {
+                    "word": " there",
+                    "start": 99.29,
+                    "end": 99.62,
+                    "note": 74
+                },
+                {
+                    "word": " where",
+                    "start": 99.62,
+                    "end": 99.82,
+                    "note": 77
+                },
+                {
+                    "word": " you",
+                    "start": 99.82,
+                    "end": 100.12,
+                    "note": 67
+                },
+                {
+                    "word": " are",
+                    "start": 100.12,
+                    "end": 100.38,
+                    "note": 86
+                }
+            ]
+        },
+        {
+            "start": 100.38,
+            "end": 102.86,
+            "text": "And I gotta get one little taste",
+            "words": [
+                {
+                    "word": "And",
+                    "start": 100.38,
+                    "end": 100.84,
+                    "note": 67
+                },
+                {
+                    "word": " I",
+                    "start": 100.87,
+                    "end": 100.91,
+                    "note": 58
+                },
+                {
+                    "word": " gotta",
+                    "start": 100.91,
+                    "end": 101.03,
+                    "note": 58
+                },
+                {
+                    "word": " get",
+                    "start": 101.03,
+                    "end": 101.24,
+                    "note": 56
+                },
+                {
+                    "word": " one",
+                    "start": 101.24,
+                    "end": 101.51,
+                    "note": 66
+                },
+                {
+                    "word": " little",
+                    "start": 101.51,
+                    "end": 102,
+                    "note": 69
+                },
+                {
+                    "word": " taste",
+                    "start": 102,
+                    "end": 102.86,
+                    "note": 67
+                }
+            ]
+        },
+        {
+            "start": 102.86,
+            "end": 107.28,
+            "text": "Sugar, yes please",
+            "words": [
+                {
+                    "word": "Sugar,",
+                    "start": 102.86,
+                    "end": 102.97,
+                    "note": 61
+                },
+                {
+                    "word": " yes",
+                    "start": 103.59,
+                    "end": 106.28,
+                    "note": 76
+                },
+                {
+                    "word": " please",
+                    "start": 106.28,
+                    "end": 107.28,
+                    "note": 69
+                }
+            ]
+        },
+        {
+            "start": 107.28,
+            "end": 108.3,
+            "text": "Won't you come and put it down on me?",
+            "words": [
+                {
+                    "word": "Won't",
+                    "start": 107.28,
+                    "end": 107.42,
+                    "note": 75
+                },
+                {
+                    "word": " you",
+                    "start": 107.42,
+                    "end": 107.55,
+                    "note": 67
+                },
+                {
+                    "word": " come",
+                    "start": 107.55,
+                    "end": 107.7,
+                    "note": 65
+                },
+                {
+                    "word": " and",
+                    "start": 107.7,
+                    "end": 107.74,
+                    "note": 62
+                },
+                {
+                    "word": " put",
+                    "start": 107.74,
+                    "end": 107.87,
+                    "note": 64
+                },
+                {
+                    "word": " it",
+                    "start": 107.87,
+                    "end": 108.06,
+                    "note": 75
+                },
+                {
+                    "word": " down",
+                    "start": 108.06,
+                    "end": 108.18,
+                    "note": 79
+                },
+                {
+                    "word": " on",
+                    "start": 108.18,
+                    "end": 108.24,
+                    "note": 88
+                },
+                {
+                    "word": " me?",
+                    "start": 108.24,
+                    "end": 108.3,
+                    "note": 85
+                }
+            ]
+        },
+        {
+            "start": 108.3,
+            "end": 118.13,
+            "text": "I'm right here, 'cause I need",
+            "words": [
+                {
+                    "word": "I'm",
+                    "start": 108.3,
+                    "end": 111.84,
+                    "note": 80
+                },
+                {
+                    "word": " right",
+                    "start": 111.84,
+                    "end": 112.13,
+                    "note": 82
+                },
+                {
+                    "word": " here,",
+                    "start": 112.13,
+                    "end": 113.19,
+                    "note": 71
+                },
+                {
+                    "word": " 'cause",
+                    "start": 113.64,
+                    "end": 113.77,
+                    "note": 74
+                },
+                {
+                    "word": " I",
+                    "start": 113.77,
+                    "end": 118.02,
+                    "note": 80
+                },
+                {
+                    "word": " need",
+                    "start": 118.02,
+                    "end": 118.13,
+                    "note": 82
+                }
+            ]
+        },
+        {
+            "start": 118.13,
+            "end": 119.14,
+            "text": "Little love, a little sympathy",
+            "words": [
+                {
+                    "word": "Little",
+                    "start": 118.13,
+                    "end": 118.23,
+                    "note": 75
+                },
+                {
+                    "word": " love,",
+                    "start": 118.23,
+                    "end": 118.32,
+                    "note": 73
+                },
+                {
+                    "word": " a",
+                    "start": 118.32,
+                    "end": 118.75,
+                    "note": 72
+                },
+                {
+                    "word": " little",
+                    "start": 118.75,
+                    "end": 118.85,
+                    "note": 63
+                },
+                {
+                    "word": " sympathy",
+                    "start": 118.85,
+                    "end": 119.14,
+                    "note": 69
+                }
+            ]
+        },
+        {
+            "start": 119.5,
+            "end": 124.11,
+            "text": "Yeah, you show me good loving, make it alright",
+            "words": [
+                {
+                    "word": "Yeah,",
+                    "start": 119.5,
+                    "end": 119.78,
+                    "note": 65
+                },
+                {
+                    "word": " you",
+                    "start": 119.78,
+                    "end": 119.91,
+                    "note": 63
+                },
+                {
+                    "word": " show",
+                    "start": 119.91,
+                    "end": 120.59,
+                    "note": 75
+                },
+                {
+                    "word": " me",
+                    "start": 120.59,
+                    "end": 120.74,
+                    "note": 67
+                },
+                {
+                    "word": " good",
+                    "start": 120.74,
+                    "end": 121.26,
+                    "note": 71
+                },
+                {
+                    "word": " loving,",
+                    "start": 121.26,
+                    "end": 121.86,
+                    "note": 72
+                },
+                {
+                    "word": " make",
+                    "start": 121.99,
+                    "end": 122.77,
+                    "note": 72
+                },
+                {
+                    "word": " it",
+                    "start": 122.77,
+                    "end": 122.84,
+                    "note": 76
+                },
+                {
+                    "word": " alright",
+                    "start": 122.84,
+                    "end": 124.11,
+                    "note": 78
+                }
+            ]
+        },
+        {
+            "start": 124.11,
+            "end": 127.18,
+            "text": "Need a little sweetness in my life",
+            "words": [
+                {
+                    "word": "Need",
+                    "start": 124.11,
+                    "end": 124.66,
+                    "note": 64
+                },
+                {
+                    "word": " a",
+                    "start": 124.66,
+                    "end": 124.69,
+                    "note": 88
+                },
+                {
+                    "word": " little",
+                    "start": 124.69,
+                    "end": 125.19,
+                    "note": 72
+                },
+                {
+                    "word": " sweetness",
+                    "start": 125.19,
+                    "end": 125.9,
+                    "note": 71
+                },
+                {
+                    "word": " in",
+                    "start": 126.09,
+                    "end": 126.38,
+                    "note": 69
+                },
+                {
+                    "word": " my",
+                    "start": 126.57,
+                    "end": 126.76,
+                    "note": 71
+                },
+                {
+                    "word": " life",
+                    "start": 126.76,
+                    "end": 127.18,
+                    "note": 76
+                }
+            ]
+        },
+        {
+            "start": 127.18,
+            "end": 127.58,
+            "text": "Your sugar, yes please",
+            "words": [
+                {
+                    "word": "Your",
+                    "start": 127.18,
+                    "end": 127.24,
+                    "note": 66
+                },
+                {
+                    "word": " sugar,",
+                    "start": 127.24,
+                    "end": 127.35,
+                    "note": 67
+                },
+                {
+                    "word": " yes",
+                    "start": 127.35,
+                    "end": 127.46,
+                    "note": 64
+                },
+                {
+                    "word": " please",
+                    "start": 127.46,
+                    "end": 127.58,
+                    "note": 90
+                }
+            ]
+        },
+        {
+            "start": 127.58,
+            "end": 128.43,
+            "text": "Won't you come and put it down on me?",
+            "words": [
+                {
+                    "word": "Won't",
+                    "start": 127.58,
+                    "end": 127.85,
+                    "note": 69
+                },
+                {
+                    "word": " you",
+                    "start": 127.85,
+                    "end": 127.89,
+                    "note": 67
+                },
+                {
+                    "word": " come",
+                    "start": 127.89,
+                    "end": 127.98,
+                    "note": 70
+                },
+                {
+                    "word": " and",
+                    "start": 127.98,
+                    "end": 128.01,
+                    "note": 80
+                },
+                {
+                    "word": " put",
+                    "start": 128.01,
+                    "end": 128.06,
+                    "note": 84
+                },
+                {
+                    "word": " it",
+                    "start": 128.06,
+                    "end": 128.09,
+                    "note": 90
+                },
+                {
+                    "word": " down",
+                    "start": 128.09,
+                    "end": 128.22,
+                    "note": 85
+                },
+                {
+                    "word": " on",
+                    "start": 128.22,
+                    "end": 128.34,
+                    "note": 82
+                },
+                {
+                    "word": " me?",
+                    "start": 128.34,
+                    "end": 128.43,
+                    "note": 65
+                }
+            ]
+        },
+        {
+            "start": 128.43,
+            "end": 130.47,
+            "text": "Yeah",
+            "words": [
+                {
+                    "word": "Yeah",
+                    "start": 128.43,
+                    "end": 130.47,
+                    "note": 79
+                }
+            ]
+        },
+        {
+            "start": 130.47,
+            "end": 138.38,
+            "text": "I want that red velvet",
+            "words": [
+                {
+                    "word": "I",
+                    "start": 130.47,
+                    "end": 135.91,
+                    "note": 76
+                },
+                {
+                    "word": " want",
+                    "start": 136.61,
+                    "end": 137.11,
+                    "note": 76
+                },
+                {
+                    "word": " that",
+                    "start": 137.11,
+                    "end": 137.26,
+                    "note": 74
+                },
+                {
+                    "word": " red",
+                    "start": 137.26,
+                    "end": 137.81,
+                    "note": 64
+                },
+                {
+                    "word": " velvet",
+                    "start": 137.81,
+                    "end": 138.38,
+                    "note": 62
+                }
+            ]
+        },
+        {
+            "start": 138.38,
+            "end": 140.35,
+            "text": "I want that sugar sweet",
+            "words": [
+                {
+                    "word": "I",
+                    "start": 138.38,
+                    "end": 138.84,
+                    "note": 80
+                },
+                {
+                    "word": " want",
+                    "start": 138.84,
+                    "end": 139.09,
+                    "note": 56
+                },
+                {
+                    "word": " that",
+                    "start": 139.09,
+                    "end": 139.24,
+                    "note": 64
+                },
+                {
+                    "word": " sugar",
+                    "start": 139.24,
+                    "end": 139.64,
+                    "note": 64
+                },
+                {
+                    "word": " sweet",
+                    "start": 139.64,
+                    "end": 140.35,
+                    "note": 60
+                }
+            ]
+        },
+        {
+            "start": 140.56,
+            "end": 144.36,
+            "text": "Don't let nobody touch it unless that somebody's me",
+            "words": [
+                {
+                    "word": "Don't",
+                    "start": 140.56,
+                    "end": 140.85,
+                    "note": 63
+                },
+                {
+                    "word": " let",
+                    "start": 140.85,
+                    "end": 140.95,
+                    "note": 62
+                },
+                {
+                    "word": " nobody",
+                    "start": 140.95,
+                    "end": 141.7,
+                    "note": 69
+                },
+                {
+                    "word": " touch",
+                    "start": 141.7,
+                    "end": 142.15,
+                    "note": 61
+                },
+                {
+                    "word": " it",
+                    "start": 142.15,
+                    "end": 142.31,
+                    "note": 68
+                },
+                {
+                    "word": " unless",
+                    "start": 142.31,
+                    "end": 142.86,
+                    "note": 67
+                },
+                {
+                    "word": " that",
+                    "start": 142.86,
+                    "end": 142.95,
+                    "note": 57
+                },
+                {
+                    "word": " somebody's",
+                    "start": 142.95,
+                    "end": 143.78,
+                    "note": 68
+                },
+                {
+                    "word": " me",
+                    "start": 143.78,
+                    "end": 144.36,
+                    "note": 56
+                }
+            ]
+        },
+        {
+            "start": 144.39,
+            "end": 148.36,
+            "text": "I gotta be a man, there ain't no other way",
+            "words": [
+                {
+                    "word": "I",
+                    "start": 144.39,
+                    "end": 145.2,
+                    "note": 80
+                },
+                {
+                    "word": " gotta",
+                    "start": 145.2,
+                    "end": 145.3,
+                    "note": 69
+                },
+                {
+                    "word": " be",
+                    "start": 145.3,
+                    "end": 145.69,
+                    "note": 65
+                },
+                {
+                    "word": " a",
+                    "start": 145.69,
+                    "end": 145.74,
+                    "note": 65
+                },
+                {
+                    "word": " man,",
+                    "start": 145.74,
+                    "end": 146.4,
+                    "note": 74
+                },
+                {
+                    "word": " there",
+                    "start": 146.59,
+                    "end": 146.87,
+                    "note": 70
+                },
+                {
+                    "word": " ain't",
+                    "start": 146.87,
+                    "end": 147.11,
+                    "note": 68
+                },
+                {
+                    "word": " no",
+                    "start": 147.11,
+                    "end": 147.54,
+                    "note": 74
+                },
+                {
+                    "word": " other",
+                    "start": 147.54,
+                    "end": 147.7,
+                    "note": 71
+                },
+                {
+                    "word": " way",
+                    "start": 147.7,
+                    "end": 148.36,
+                    "note": 70
+                }
+            ]
+        },
+        {
+            "start": 148.6,
+            "end": 152.38,
+            "text": "'Cause girl you're hotter than a Southern California day",
+            "words": [
+                {
+                    "word": "'Cause",
+                    "start": 148.6,
+                    "end": 148.77,
+                    "note": 68
+                },
+                {
+                    "word": " girl",
+                    "start": 148.77,
+                    "end": 148.86,
+                    "note": 53
+                },
+                {
+                    "word": " you're",
+                    "start": 148.86,
+                    "end": 149.31,
+                    "note": 72
+                },
+                {
+                    "word": " hotter",
+                    "start": 149.31,
+                    "end": 149.84,
+                    "note": 81
+                },
+                {
+                    "word": " than",
+                    "start": 149.84,
+                    "end": 150.16,
+                    "note": 65
+                },
+                {
+                    "word": " a",
+                    "start": 150.16,
+                    "end": 150.57,
+                    "note": 75
+                },
+                {
+                    "word": " Southern",
+                    "start": 150.57,
+                    "end": 150.86,
+                    "note": 67
+                },
+                {
+                    "word": " California",
+                    "start": 150.86,
+                    "end": 151.72,
+                    "note": 79
+                },
+                {
+                    "word": " day",
+                    "start": 151.72,
+                    "end": 152.38,
+                    "note": 68
+                }
+            ]
+        },
+        {
+            "start": 152.38,
+            "end": 156.51,
+            "text": "Never wanna play no games, you don't gotta be afraid",
+            "words": [
+                {
+                    "word": "Never",
+                    "start": 152.38,
+                    "end": 152.76,
+                    "note": 68
+                },
+                {
+                    "word": " wanna",
+                    "start": 152.76,
+                    "end": 153.16,
+                    "note": 76
+                },
+                {
+                    "word": " play",
+                    "start": 153.16,
+                    "end": 153.6,
+                    "note": 75
+                },
+                {
+                    "word": " no",
+                    "start": 153.6,
+                    "end": 153.68,
+                    "note": 63
+                },
+                {
+                    "word": " games,",
+                    "start": 153.68,
+                    "end": 154.46,
+                    "note": 70
+                },
+                {
+                    "word": " you",
+                    "start": 154.46,
+                    "end": 154.52,
+                    "note": 81
+                },
+                {
+                    "word": " don't",
+                    "start": 154.52,
+                    "end": 154.86,
+                    "note": 75
+                },
+                {
+                    "word": " gotta",
+                    "start": 154.86,
+                    "end": 155.13,
+                    "note": 84
+                },
+                {
+                    "word": " be",
+                    "start": 155.13,
+                    "end": 155.66,
+                    "note": 58
+                },
+                {
+                    "word": " afraid",
+                    "start": 155.66,
+                    "end": 156.51,
+                    "note": 69
+                }
+            ]
+        },
+        {
+            "start": 156.51,
+            "end": 157.91,
+            "text": "Don't give me all that shy shit",
+            "words": [
+                {
+                    "word": "Don't",
+                    "start": 156.51,
+                    "end": 156.58,
+                    "note": 63
+                },
+                {
+                    "word": " give",
+                    "start": 156.58,
+                    "end": 156.7,
+                    "note": 58
+                },
+                {
+                    "word": " me",
+                    "start": 156.7,
+                    "end": 156.9,
+                    "note": 60
+                },
+                {
+                    "word": " all",
+                    "start": 156.9,
+                    "end": 157.07,
+                    "note": 82
+                },
+                {
+                    "word": " that",
+                    "start": 157.07,
+                    "end": 157.29,
+                    "note": 70
+                },
+                {
+                    "word": " shy",
+                    "start": 157.29,
+                    "end": 157.65,
+                    "note": 84
+                },
+                {
+                    "word": " shit",
+                    "start": 157.65,
+                    "end": 157.91,
+                    "note": 71
+                }
+            ]
+        },
+        {
+            "start": 158.07,
+            "end": 175,
+            "text": "No makeup on, that's my sugar",
+            "words": [
+                {
+                    "word": "No",
+                    "start": 158.07,
+                    "end": 158.28,
+                    "note": 67
+                },
+                {
+                    "word": " makeup",
+                    "start": 158.28,
+                    "end": 158.89,
+                    "note": 66
+                },
+                {
+                    "word": " on,",
+                    "start": 158.89,
+                    "end": 159.42,
+                    "note": 79
+                },
+                {
+                    "word": " that's",
+                    "start": 159.42,
+                    "end": 159.58,
+                    "note": 86
+                },
+                {
+                    "word": " my",
+                    "start": 159.58,
+                    "end": 174.81,
+                    "note": 78
+                },
+                {
+                    "word": " sugar",
+                    "start": 174.81,
+                    "end": 175,
+                    "note": 70
+                }
+            ]
+        },
+        {
+            "start": 175,
+            "end": 176.12,
+            "text": "Sugar, yes please",
+            "words": [
+                {
+                    "word": "Sugar,",
+                    "start": 175,
+                    "end": 175.25,
+                    "note": 70
+                },
+                {
+                    "word": " yes",
+                    "start": 175.36,
+                    "end": 175.85,
+                    "note": 71
+                },
+                {
+                    "word": " please",
+                    "start": 175.85,
+                    "end": 176.12,
+                    "note": 68
+                }
+            ]
+        },
+        {
+            "start": 176.12,
+            "end": 177.91,
+            "text": "Won't you come and put it down on me?",
+            "words": [
+                {
+                    "word": "Won't",
+                    "start": 176.12,
+                    "end": 176.24,
+                    "note": 81
+                },
+                {
+                    "word": " you",
+                    "start": 176.24,
+                    "end": 176.3,
+                    "note": 86
+                },
+                {
+                    "word": " come",
+                    "start": 176.3,
+                    "end": 176.64,
+                    "note": 82
+                },
+                {
+                    "word": " and",
+                    "start": 176.64,
+                    "end": 176.85,
+                    "note": 84
+                },
+                {
+                    "word": " put",
+                    "start": 176.85,
+                    "end": 177.57,
+                    "note": 82
+                },
+                {
+                    "word": " it",
+                    "start": 177.57,
+                    "end": 177.6,
+                    "note": 73
+                },
+                {
+                    "word": " down",
+                    "start": 177.6,
+                    "end": 177.79,
+                    "note": 80
+                },
+                {
+                    "word": " on",
+                    "start": 177.79,
+                    "end": 177.85,
+                    "note": 64
+                },
+                {
+                    "word": " me?",
+                    "start": 177.85,
+                    "end": 177.91,
+                    "note": 58
+                }
+            ]
+        },
+        {
+            "start": 177.98,
+            "end": 180.66,
+            "text": "I'm right here, 'cause I need",
+            "words": [
+                {
+                    "word": "I'm",
+                    "start": 177.98,
+                    "end": 178.11,
+                    "note": 60
+                },
+                {
+                    "word": " right",
+                    "start": 178.11,
+                    "end": 178.61,
+                    "note": 75
+                },
+                {
+                    "word": " here,",
+                    "start": 178.61,
+                    "end": 178.73,
+                    "note": 72
+                },
+                {
+                    "word": " 'cause",
+                    "start": 178.82,
+                    "end": 179.36,
+                    "note": 83
+                },
+                {
+                    "word": " I",
+                    "start": 179.36,
+                    "end": 179.79,
+                    "note": 82
+                },
+                {
+                    "word": " need",
+                    "start": 179.79,
+                    "end": 180.66,
+                    "note": 69
+                }
+            ]
+        },
+        {
+            "start": 180.66,
+            "end": 181.96,
+            "text": "Little love, a little sympathy",
+            "words": [
+                {
+                    "word": "Little",
+                    "start": 180.66,
+                    "end": 180.79,
+                    "note": 77
+                },
+                {
+                    "word": " love,",
+                    "start": 180.79,
+                    "end": 180.9,
+                    "note": 63
+                },
+                {
+                    "word": " a",
+                    "start": 180.9,
+                    "end": 181.05,
+                    "note": 80
+                },
+                {
+                    "word": " little",
+                    "start": 181.05,
+                    "end": 181.15,
+                    "note": 69
+                },
+                {
+                    "word": " sympathy",
+                    "start": 181.15,
+                    "end": 181.96,
+                    "note": 73
+                }
+            ]
+        },
+        {
+            "start": 181.96,
+            "end": 190.08,
+            "text": "Yeah, you show me good loving, make it alright",
+            "words": [
+                {
+                    "word": "Yeah,",
+                    "start": 181.96,
+                    "end": 187.43,
+                    "note": 76
+                },
+                {
+                    "word": " you",
+                    "start": 187.43,
+                    "end": 187.82,
+                    "note": 69
+                },
+                {
+                    "word": " show",
+                    "start": 187.82,
+                    "end": 187.93,
+                    "note": 67
+                },
+                {
+                    "word": " me",
+                    "start": 187.93,
+                    "end": 188,
+                    "note": 66
+                },
+                {
+                    "word": " good",
+                    "start": 188,
+                    "end": 188.12,
+                    "note": 80
+                },
+                {
+                    "word": " loving,",
+                    "start": 188.12,
+                    "end": 188.77,
+                    "note": 82
+                },
+                {
+                    "word": " make",
+                    "start": 188.77,
+                    "end": 188.86,
+                    "note": 86
+                },
+                {
+                    "word": " it",
+                    "start": 188.86,
+                    "end": 188.93,
+                    "note": 80
+                },
+                {
+                    "word": " alright",
+                    "start": 188.93,
+                    "end": 190.08,
+                    "note": 81
+                }
+            ]
+        },
+        {
+            "start": 190.08,
+            "end": 193.06,
+            "text": "Need a little sweetness in my life",
+            "words": [
+                {
+                    "word": "Need",
+                    "start": 190.08,
+                    "end": 190.21,
+                    "note": 67
+                },
+                {
+                    "word": " a",
+                    "start": 190.21,
+                    "end": 190.75,
+                    "note": 71
+                },
+                {
+                    "word": " little",
+                    "start": 190.75,
+                    "end": 190.86,
+                    "note": 65
+                },
+                {
+                    "word": " sweetness",
+                    "start": 190.86,
+                    "end": 191.07,
+                    "note": 63
+                },
+                {
+                    "word": " in",
+                    "start": 191.07,
+                    "end": 191.13,
+                    "note": 71
+                },
+                {
+                    "word": " my",
+                    "start": 191.13,
+                    "end": 192.34,
+                    "note": 79
+                },
+                {
+                    "word": " life",
+                    "start": 192.34,
+                    "end": 193.06,
+                    "note": 69
+                }
+            ]
+        },
+        {
+            "start": 193.06,
+            "end": 194.41,
+            "text": "Your sugar, yes please",
+            "words": [
+                {
+                    "word": "Your",
+                    "start": 193.06,
+                    "end": 193.13,
+                    "note": 63
+                },
+                {
+                    "word": " sugar,",
+                    "start": 193.13,
+                    "end": 193.24,
+                    "note": 66
+                },
+                {
+                    "word": " yes",
+                    "start": 193.24,
+                    "end": 194.28,
+                    "note": 67
+                },
+                {
+                    "word": " please",
+                    "start": 194.28,
+                    "end": 194.41,
+                    "note": 71
+                }
+            ]
+        },
+        {
+            "start": 194.41,
+            "end": 198.22,
+            "text": "Won't you come and put it down on me?",
+            "words": [
+                {
+                    "word": "Won't",
+                    "start": 194.41,
+                    "end": 194.67,
+                    "note": 68
+                },
+                {
+                    "word": " you",
+                    "start": 194.67,
+                    "end": 195.81,
+                    "note": 68
+                },
+                {
+                    "word": " come",
+                    "start": 196.11,
+                    "end": 196.64,
+                    "note": 79
+                },
+                {
+                    "word": " and",
+                    "start": 196.64,
+                    "end": 197.07,
+                    "note": 79
+                },
+                {
+                    "word": " put",
+                    "start": 197.07,
+                    "end": 197.16,
+                    "note": 74
+                },
+                {
+                    "word": " it",
+                    "start": 197.16,
+                    "end": 197.34,
+                    "note": 74
+                },
+                {
+                    "word": " down",
+                    "start": 197.34,
+                    "end": 197.67,
+                    "note": 77
+                },
+                {
+                    "word": " on",
+                    "start": 197.67,
+                    "end": 198.13,
+                    "note": 77
+                },
+                {
+                    "word": " me?",
+                    "start": 198.13,
+                    "end": 198.22,
+                    "note": 70
+                }
+            ]
+        },
+        {
+            "start": 198.22,
+            "end": 201.72,
+            "text": "Sugar, yes please",
+            "words": [
+                {
+                    "word": "Sugar,",
+                    "start": 198.22,
+                    "end": 200.21,
+                    "note": 83
+                },
+                {
+                    "word": " yes",
+                    "start": 200.21,
+                    "end": 201.14,
+                    "note": 75
+                },
+                {
+                    "word": " please",
+                    "start": 201.14,
+                    "end": 201.72,
+                    "note": 67
+                }
+            ]
+        },
+        {
+            "start": 201.72,
+            "end": 204.16,
+            "text": "Won't you come and put it down on me?",
+            "words": [
+                {
+                    "word": "Won't",
+                    "start": 201.72,
+                    "end": 201.81,
+                    "note": 68
+                },
+                {
+                    "word": " you",
+                    "start": 201.81,
+                    "end": 201.87,
+                    "note": 68
+                },
+                {
+                    "word": " come",
+                    "start": 201.87,
+                    "end": 201.96,
+                    "note": 80
+                },
+                {
+                    "word": " and",
+                    "start": 201.96,
+                    "end": 202.32,
+                    "note": 78
+                },
+                {
+                    "word": " put",
+                    "start": 202.32,
+                    "end": 202.83,
+                    "note": 67
+                },
+                {
+                    "word": " it",
+                    "start": 202.83,
+                    "end": 202.86,
+                    "note": 58
+                },
+                {
+                    "word": " down",
+                    "start": 202.86,
+                    "end": 203.15,
+                    "note": 80
+                },
+                {
+                    "word": " on",
+                    "start": 203.15,
+                    "end": 203.36,
+                    "note": 74
+                },
+                {
+                    "word": " me?",
+                    "start": 203.36,
+                    "end": 204.16,
+                    "note": 63
+                }
+            ]
+        },
+        {
+            "start": 204.16,
+            "end": 212.62,
+            "text": "I'm right here, 'cause I need",
+            "words": [
+                {
+                    "word": "I'm",
+                    "start": 204.16,
+                    "end": 208.87,
+                    "note": 76
+                },
+                {
+                    "word": " right",
+                    "start": 208.87,
+                    "end": 210.6,
+                    "note": 76
+                },
+                {
+                    "word": " here,",
+                    "start": 210.6,
+                    "end": 210.74,
+                    "note": 74
+                },
+                {
+                    "word": " 'cause",
+                    "start": 210.74,
+                    "end": 211.36,
+                    "note": 82
+                },
+                {
+                    "word": " I",
+                    "start": 211.36,
+                    "end": 211.74,
+                    "note": 84
+                },
+                {
+                    "word": " need",
+                    "start": 211.74,
+                    "end": 212.62,
+                    "note": 71
+                }
+            ]
+        },
+        {
+            "start": 212.62,
+            "end": 213.92,
+            "text": "Little love, a little sympathy",
+            "words": [
+                {
+                    "word": "Little",
+                    "start": 212.62,
+                    "end": 212.73,
+                    "note": 80
+                },
+                {
+                    "word": " love,",
+                    "start": 212.73,
+                    "end": 212.91,
+                    "note": 72
+                },
+                {
+                    "word": " a",
+                    "start": 212.91,
+                    "end": 213.07,
+                    "note": 79
+                },
+                {
+                    "word": " little",
+                    "start": 213.07,
+                    "end": 213.17,
+                    "note": 72
+                },
+                {
+                    "word": " sympathy",
+                    "start": 213.17,
+                    "end": 213.92,
+                    "note": 76
+                }
+            ]
+        },
+        {
+            "start": 214.1,
+            "end": 224.02,
+            "text": "Yeah, you show me good loving, make it alright",
+            "words": [
+                {
+                    "word": "Yeah,",
+                    "start": 214.1,
+                    "end": 218.25,
+                    "note": 77
+                },
+                {
+                    "word": " you",
+                    "start": 218.39,
+                    "end": 218.46,
+                    "note": 67
+                },
+                {
+                    "word": " show",
+                    "start": 218.46,
+                    "end": 218.52,
+                    "note": 68
+                },
+                {
+                    "word": " me",
+                    "start": 218.52,
+                    "end": 218.88,
+                    "note": 67
+                },
+                {
+                    "word": " good",
+                    "start": 218.88,
+                    "end": 219.24,
+                    "note": 71
+                },
+                {
+                    "word": " loving,",
+                    "start": 219.35,
+                    "end": 219.74,
+                    "note": 60
+                },
+                {
+                    "word": " make",
+                    "start": 219.74,
+                    "end": 220.13,
+                    "note": 64
+                },
+                {
+                    "word": " it",
+                    "start": 220.13,
+                    "end": 220.16,
+                    "note": 74
+                },
+                {
+                    "word": " alright",
+                    "start": 220.16,
+                    "end": 224.02,
+                    "note": 80
+                }
+            ]
+        },
+        {
+            "start": 224.02,
+            "end": 248.59,
+            "text": "Need a little sweetness in my life",
+            "words": [
+                {
+                    "word": "Need",
+                    "start": 224.02,
+                    "end": 224.4,
+                    "note": 63
+                },
+                {
+                    "word": " a",
+                    "start": 225.87,
+                    "end": 225.9,
+                    "note": 75
+                },
+                {
+                    "word": " little",
+                    "start": 229.5,
+                    "end": 229.61,
+                    "note": 61
+                },
+                {
+                    "word": " sweetness",
+                    "start": 246.16,
+                    "end": 246.89,
+                    "note": 72
+                },
+                {
+                    "word": " in",
+                    "start": 247.1,
+                    "end": 247.59,
+                    "note": 70
+                },
+                {
+                    "word": " my",
+                    "start": 247.59,
+                    "end": 247.71,
+                    "note": 78
+                },
+                {
+                    "word": " life",
+                    "start": 247.71,
+                    "end": 248.59,
+                    "note": 77
+                }
+            ]
+        },
+        {
+            "start": 248.59,
+            "end": 252.64,
+            "text": "Your sugar, yes please",
+            "words": [
+                {
+                    "word": "Your",
+                    "start": 248.59,
+                    "end": 248.67,
+                    "note": 59
+                },
+                {
+                    "word": " sugar,",
+                    "start": 248.67,
+                    "end": 249.3,
+                    "note": 75
+                },
+                {
+                    "word": " yes",
+                    "start": 249.3,
+                    "end": 252.32,
+                    "note": 77
+                },
+                {
+                    "word": " please",
+                    "start": 252.32,
+                    "end": 252.64,
+                    "note": 60
+                }
+            ]
+        },
+        {
+            "start": 252.64,
+            "end": 256.34,
+            "text": "Won't you come and put it down on me?",
+            "words": [
+                {
+                    "word": "Won't",
+                    "start": 252.64,
+                    "end": 252.86,
+                    "note": 60
+                },
+                {
+                    "word": " you",
+                    "start": 252.86,
+                    "end": 253.06,
+                    "note": 72
+                },
+                {
+                    "word": " come",
+                    "start": 253.06,
+                    "end": 253.65,
+                    "note": 85
+                },
+                {
+                    "word": " and",
+                    "start": 253.65,
+                    "end": 253.86,
+                    "note": 85
+                },
+                {
+                    "word": " put",
+                    "start": 253.86,
+                    "end": 255.55,
+                    "note": 81
+                },
+                {
+                    "word": " it",
+                    "start": 255.55,
+                    "end": 255.65,
+                    "note": 70
+                },
+                {
+                    "word": " down",
+                    "start": 255.65,
+                    "end": 255.84,
+                    "note": 73
+                },
+                {
+                    "word": " on",
+                    "start": 255.84,
+                    "end": 256.13,
+                    "note": 75
+                },
+                {
+                    "word": " me?",
+                    "start": 256.13,
+                    "end": 256.34,
+                    "note": 68
+                }
+            ]
+        },
+        {
+            "start": 256.56,
+            "end": 262.6,
+            "text": "Down on me, down on me, ooh",
+            "words": [
+                {
+                    "word": "Down",
+                    "start": 256.56,
+                    "end": 256.91,
+                    "note": 80
+                },
+                {
+                    "word": " on",
+                    "start": 256.91,
+                    "end": 257.11,
+                    "note": 75
+                },
+                {
+                    "word": " me,",
+                    "start": 257.11,
+                    "end": 257.41,
+                    "note": 63
+                },
+                {
+                    "word": " down",
+                    "start": 258.86,
+                    "end": 259.24,
+                    "note": 76
+                },
+                {
+                    "word": " on",
+                    "start": 259.24,
+                    "end": 259.3,
+                    "note": 77
+                },
+                {
+                    "word": " me,",
+                    "start": 262.5,
+                    "end": 262.56,
+                    "note": 54
+                },
+                {
+                    "word": " ooh",
+                    "start": 262.56,
+                    "end": 262.6,
+                    "note": 52
+                }
+            ]
+        }
+    ],
+    "language": "vi"
+}

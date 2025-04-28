@@ -128,8 +128,8 @@ class _KaraokeScreenState extends State<KaraokeScreen> {
     try {
       // Dùng method mới hỗ trợ assets
       final result = await _ffi.testKaraokeWithAssets(
-        'assets/cmbg_back.ogg',
-        'assets/cmbg_vo.ogg',
+        'assets/bth_back.ogg',
+        'assets/bth.ogg',
       );
       setState(() {
         _status = result ? 'Kiểm tra thành công' : 'Kiểm tra thất bại';
@@ -199,7 +199,7 @@ class _KaraokeScreenState extends State<KaraokeScreen> {
       // final String response = await rootBundle.loadString(
       //   'assets/bn_with_notes.json',
       // );
-      final String response = await rootBundle.loadString('assets/cmbg.json');
+      final String response = await rootBundle.loadString('assets/bth.json');
       final data = await json.decode(response);
 
       setState(() {

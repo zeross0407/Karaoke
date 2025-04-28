@@ -1,0 +1,1262 @@
+{
+    "text": "Long ban long lau Man lei tou tou gong seui wing bat yau Tou jan liu sai jan si Wan jok tou tou yat pin chiu lau. Si hei si sau Long lei fan bat ching fun siu bei yau Sing gung sat baai Long lei hon bat chut yau mut yau. Ngoi nei han nei man gwan ji fau Chi daai gong yat faat bat sau Jyun chin waan jyun chin taan Ya mei ping fuk chi jung jaang dau. Yau yau hei yau yau sau Jau seun fan bat ching fun siu bei yau Ying yun faan baak chin long Joi ngo sam jung hei fuk ngau. Ngoi nei han nei man gwan ji fau Chi daai gong yat faat bat sau Jyun chin waan jyun chin taan Ya mei ping fuk chi jung jaang dau. Yau yau hei yau yau sau Jau seun fan bat ching fun siu bei yau Ying yun faan baak chin long Joi ngo sam jung hei fuk ngau. Ying yun faan baak chin long Joi ngo sam jung hei fuk ngau.",
+    "segments": [
+        {
+            "start": 2.98,
+            "end": 7.66,
+            "text": "Long ban long lau",
+            "words": [
+                {
+                    "word": "Long",
+                    "start": 2.98,
+                    "end": 3.01,
+                    "note": 69
+                },
+                {
+                    "word": " ban",
+                    "start": 4.3,
+                    "end": 4.33,
+                    "note": -1
+                },
+                {
+                    "word": " long",
+                    "start": 5.96,
+                    "end": 5.99,
+                    "note": -1
+                },
+                {
+                    "word": " lau",
+                    "start": 7.63,
+                    "end": 7.66,
+                    "note": 54
+                }
+            ]
+        },
+        {
+            "start": 18.82,
+            "end": 24.56,
+            "text": "Man lei tou tou gong seui wing bat yau",
+            "words": [
+                {
+                    "word": "Man",
+                    "start": 18.82,
+                    "end": 18.96,
+                    "note": 53
+                },
+                {
+                    "word": " lei",
+                    "start": 18.96,
+                    "end": 19.33,
+                    "note": 72
+                },
+                {
+                    "word": " tou",
+                    "start": 19.33,
+                    "end": 19.62,
+                    "note": 76
+                },
+                {
+                    "word": " tou",
+                    "start": 19.62,
+                    "end": 20.41,
+                    "note": 66
+                },
+                {
+                    "word": " gong",
+                    "start": 20.41,
+                    "end": 21.19,
+                    "note": 60
+                },
+                {
+                    "word": " seui",
+                    "start": 21.61,
+                    "end": 23.2,
+                    "note": 69
+                },
+                {
+                    "word": " wing",
+                    "start": 23.2,
+                    "end": 23.45,
+                    "note": 63
+                },
+                {
+                    "word": " bat",
+                    "start": 24.12,
+                    "end": 24.26,
+                    "note": 57
+                },
+                {
+                    "word": " yau",
+                    "start": 24.26,
+                    "end": 24.56,
+                    "note": 72
+                }
+            ]
+        },
+        {
+            "start": 24.56,
+            "end": 28.59,
+            "text": "Tou jan liu sai jan si",
+            "words": [
+                {
+                    "word": "Tou",
+                    "start": 24.56,
+                    "end": 24.94,
+                    "note": 65
+                },
+                {
+                    "word": " jan",
+                    "start": 24.94,
+                    "end": 26.18,
+                    "note": 75
+                },
+                {
+                    "word": " liu",
+                    "start": 26.18,
+                    "end": 26.56,
+                    "note": 67
+                },
+                {
+                    "word": " sai",
+                    "start": 26.56,
+                    "end": 26.96,
+                    "note": 60
+                },
+                {
+                    "word": " jan",
+                    "start": 26.96,
+                    "end": 27.31,
+                    "note": 57
+                },
+                {
+                    "word": " si",
+                    "start": 27.31,
+                    "end": 28.59,
+                    "note": 67
+                }
+            ]
+        },
+        {
+            "start": 28.59,
+            "end": 31.9,
+            "text": "Wan jok tou tou yat pin chiu lau.",
+            "words": [
+                {
+                    "word": "Wan",
+                    "start": 28.59,
+                    "end": 29.08,
+                    "note": 57
+                },
+                {
+                    "word": " jok",
+                    "start": 29.56,
+                    "end": 29.78,
+                    "note": 67
+                },
+                {
+                    "word": " tou",
+                    "start": 29.78,
+                    "end": 29.87,
+                    "note": 66
+                },
+                {
+                    "word": " tou",
+                    "start": 29.87,
+                    "end": 30.24,
+                    "note": 63
+                },
+                {
+                    "word": " yat",
+                    "start": 30.24,
+                    "end": 30.63,
+                    "note": 66
+                },
+                {
+                    "word": " pin",
+                    "start": 30.63,
+                    "end": 30.78,
+                    "note": 60
+                },
+                {
+                    "word": " chiu",
+                    "start": 30.78,
+                    "end": 31.44,
+                    "note": 59
+                },
+                {
+                    "word": " lau.",
+                    "start": 31.75,
+                    "end": 31.9,
+                    "note": 58
+                }
+            ]
+        },
+        {
+            "start": 31.9,
+            "end": 33.65,
+            "text": "Si hei si sau",
+            "words": [
+                {
+                    "word": "Si",
+                    "start": 31.9,
+                    "end": 32.53,
+                    "note": 55
+                },
+                {
+                    "word": " hei",
+                    "start": 32.53,
+                    "end": 32.79,
+                    "note": 69
+                },
+                {
+                    "word": " si",
+                    "start": 32.79,
+                    "end": 33.41,
+                    "note": 53
+                },
+                {
+                    "word": " sau",
+                    "start": 33.41,
+                    "end": 33.65,
+                    "note": 48
+                }
+            ]
+        },
+        {
+            "start": 34.72,
+            "end": 43.64,
+            "text": "Long lei fan bat ching fun siu bei yau",
+            "words": [
+                {
+                    "word": "Long",
+                    "start": 34.72,
+                    "end": 35.29,
+                    "note": 66
+                },
+                {
+                    "word": " lei",
+                    "start": 35.29,
+                    "end": 36.3,
+                    "note": 61
+                },
+                {
+                    "word": " fan",
+                    "start": 36.59,
+                    "end": 37.25,
+                    "note": 66
+                },
+                {
+                    "word": " bat",
+                    "start": 37.25,
+                    "end": 38.03,
+                    "note": 58
+                },
+                {
+                    "word": " ching",
+                    "start": 38.03,
+                    "end": 39.38,
+                    "note": 59
+                },
+                {
+                    "word": " fun",
+                    "start": 40.09,
+                    "end": 41.01,
+                    "note": 61
+                },
+                {
+                    "word": " siu",
+                    "start": 41.01,
+                    "end": 42.13,
+                    "note": 65
+                },
+                {
+                    "word": " bei",
+                    "start": 42.45,
+                    "end": 42.7,
+                    "note": 58
+                },
+                {
+                    "word": " yau",
+                    "start": 42.7,
+                    "end": 43.64,
+                    "note": 59
+                }
+            ]
+        },
+        {
+            "start": 43.64,
+            "end": 46.1,
+            "text": "Sing gung sat baai",
+            "words": [
+                {
+                    "word": "Sing",
+                    "start": 43.64,
+                    "end": 44.12,
+                    "note": 55
+                },
+                {
+                    "word": " gung",
+                    "start": 44.12,
+                    "end": 44.69,
+                    "note": 55
+                },
+                {
+                    "word": " sat",
+                    "start": 45.54,
+                    "end": 45.89,
+                    "note": 69
+                },
+                {
+                    "word": " baai",
+                    "start": 45.89,
+                    "end": 46.1,
+                    "note": 70
+                }
+            ]
+        },
+        {
+            "start": 46.1,
+            "end": 52.28,
+            "text": "Long lei hon bat chut yau mut yau.",
+            "words": [
+                {
+                    "word": "Long",
+                    "start": 46.1,
+                    "end": 46.48,
+                    "note": 70
+                },
+                {
+                    "word": " lei",
+                    "start": 46.48,
+                    "end": 47.48,
+                    "note": 69
+                },
+                {
+                    "word": " hon",
+                    "start": 47.48,
+                    "end": 48.33,
+                    "note": 60
+                },
+                {
+                    "word": " bat",
+                    "start": 48.33,
+                    "end": 48.56,
+                    "note": 55
+                },
+                {
+                    "word": " chut",
+                    "start": 48.56,
+                    "end": 48.98,
+                    "note": 62
+                },
+                {
+                    "word": " yau",
+                    "start": 48.98,
+                    "end": 50.02,
+                    "note": 64
+                },
+                {
+                    "word": " mut",
+                    "start": 50.76,
+                    "end": 51.62,
+                    "note": 61
+                },
+                {
+                    "word": " yau.",
+                    "start": 51.62,
+                    "end": 52.28,
+                    "note": 65
+                }
+            ]
+        },
+        {
+            "start": 52.28,
+            "end": 58.12,
+            "text": "Ngoi nei han nei man gwan ji fau",
+            "words": [
+                {
+                    "word": "Ngoi",
+                    "start": 52.28,
+                    "end": 53.15,
+                    "note": 58
+                },
+                {
+                    "word": " nei",
+                    "start": 53.15,
+                    "end": 54.84,
+                    "note": 61
+                },
+                {
+                    "word": " han",
+                    "start": 56.16,
+                    "end": 56.24,
+                    "note": 56
+                },
+                {
+                    "word": " nei",
+                    "start": 56.24,
+                    "end": 56.58,
+                    "note": 67
+                },
+                {
+                    "word": " man",
+                    "start": 56.58,
+                    "end": 56.93,
+                    "note": 63
+                },
+                {
+                    "word": " gwan",
+                    "start": 56.93,
+                    "end": 57.33,
+                    "note": 63
+                },
+                {
+                    "word": " ji",
+                    "start": 57.33,
+                    "end": 57.88,
+                    "note": 56
+                },
+                {
+                    "word": " fau",
+                    "start": 57.88,
+                    "end": 58.12,
+                    "note": 66
+                }
+            ]
+        },
+        {
+            "start": 58.12,
+            "end": 65.92,
+            "text": "Chi daai gong yat faat bat sau",
+            "words": [
+                {
+                    "word": "Chi",
+                    "start": 58.12,
+                    "end": 58.63,
+                    "note": 65
+                },
+                {
+                    "word": " daai",
+                    "start": 58.63,
+                    "end": 59.61,
+                    "note": 65
+                },
+                {
+                    "word": " gong",
+                    "start": 59.61,
+                    "end": 60.66,
+                    "note": 66
+                },
+                {
+                    "word": " yat",
+                    "start": 61.19,
+                    "end": 62.2,
+                    "note": 73
+                },
+                {
+                    "word": " faat",
+                    "start": 62.2,
+                    "end": 63.86,
+                    "note": 73
+                },
+                {
+                    "word": " bat",
+                    "start": 63.86,
+                    "end": 64.43,
+                    "note": 72
+                },
+                {
+                    "word": " sau",
+                    "start": 64.43,
+                    "end": 65.92,
+                    "note": 67
+                }
+            ]
+        },
+        {
+            "start": 66.78,
+            "end": 73.64,
+            "text": "Jyun chin waan jyun chin taan",
+            "words": [
+                {
+                    "word": "Jyun",
+                    "start": 66.78,
+                    "end": 68.78,
+                    "note": 69
+                },
+                {
+                    "word": " chin",
+                    "start": 68.78,
+                    "end": 69.43,
+                    "note": 58
+                },
+                {
+                    "word": " waan",
+                    "start": 69.43,
+                    "end": 70.17,
+                    "note": 69
+                },
+                {
+                    "word": " jyun",
+                    "start": 70.17,
+                    "end": 71.51,
+                    "note": 59
+                },
+                {
+                    "word": " chin",
+                    "start": 71.86,
+                    "end": 72.89,
+                    "note": 57
+                },
+                {
+                    "word": " taan",
+                    "start": 72.89,
+                    "end": 73.64,
+                    "note": 71
+                }
+            ]
+        },
+        {
+            "start": 73.64,
+            "end": 83.98,
+            "text": "Ya mei ping fuk chi jung jaang dau.",
+            "words": [
+                {
+                    "word": "Ya",
+                    "start": 73.64,
+                    "end": 74.08,
+                    "note": 59
+                },
+                {
+                    "word": " mei",
+                    "start": 74.5,
+                    "end": 77.9,
+                    "note": 70
+                },
+                {
+                    "word": " ping",
+                    "start": 77.9,
+                    "end": 78.77,
+                    "note": 60
+                },
+                {
+                    "word": " fuk",
+                    "start": 78.77,
+                    "end": 78.98,
+                    "note": 54
+                },
+                {
+                    "word": " chi",
+                    "start": 78.98,
+                    "end": 79.51,
+                    "note": 76
+                },
+                {
+                    "word": " jung",
+                    "start": 79.51,
+                    "end": 80.93,
+                    "note": 68
+                },
+                {
+                    "word": " jaang",
+                    "start": 80.93,
+                    "end": 82.39,
+                    "note": 69
+                },
+                {
+                    "word": " dau.",
+                    "start": 82.39,
+                    "end": 83.98,
+                    "note": 63
+                }
+            ]
+        },
+        {
+            "start": 83.98,
+            "end": 88.83,
+            "text": "Yau yau hei yau yau sau",
+            "words": [
+                {
+                    "word": "Yau",
+                    "start": 83.98,
+                    "end": 84.89,
+                    "note": 61
+                },
+                {
+                    "word": " yau",
+                    "start": 85.17,
+                    "end": 85.83,
+                    "note": 69
+                },
+                {
+                    "word": " hei",
+                    "start": 85.83,
+                    "end": 86.12,
+                    "note": 68
+                },
+                {
+                    "word": " yau",
+                    "start": 86.12,
+                    "end": 87.27,
+                    "note": 57
+                },
+                {
+                    "word": " yau",
+                    "start": 88.11,
+                    "end": 88.51,
+                    "note": 64
+                },
+                {
+                    "word": " sau",
+                    "start": 88.51,
+                    "end": 88.83,
+                    "note": 59
+                }
+            ]
+        },
+        {
+            "start": 88.83,
+            "end": 96.63,
+            "text": "Jau seun fan bat ching fun siu bei yau",
+            "words": [
+                {
+                    "word": "Jau",
+                    "start": 88.83,
+                    "end": 90.23,
+                    "note": 72
+                },
+                {
+                    "word": " seun",
+                    "start": 90.23,
+                    "end": 90.84,
+                    "note": 60
+                },
+                {
+                    "word": " fan",
+                    "start": 90.84,
+                    "end": 91.22,
+                    "note": 51
+                },
+                {
+                    "word": " bat",
+                    "start": 91.22,
+                    "end": 92.99,
+                    "note": 61
+                },
+                {
+                    "word": " ching",
+                    "start": 93.43,
+                    "end": 94.27,
+                    "note": 58
+                },
+                {
+                    "word": " fun",
+                    "start": 94.27,
+                    "end": 94.51,
+                    "note": 71
+                },
+                {
+                    "word": " siu",
+                    "start": 94.51,
+                    "end": 94.94,
+                    "note": 60
+                },
+                {
+                    "word": " bei",
+                    "start": 94.94,
+                    "end": 95.46,
+                    "note": 59
+                },
+                {
+                    "word": " yau",
+                    "start": 95.84,
+                    "end": 96.63,
+                    "note": 61
+                }
+            ]
+        },
+        {
+            "start": 96.63,
+            "end": 100.58,
+            "text": "Ying yun faan baak chin long",
+            "words": [
+                {
+                    "word": "Ying",
+                    "start": 96.63,
+                    "end": 96.9,
+                    "note": 55
+                },
+                {
+                    "word": " yun",
+                    "start": 96.9,
+                    "end": 97.85,
+                    "note": 49
+                },
+                {
+                    "word": " faan",
+                    "start": 98.79,
+                    "end": 99.24,
+                    "note": 54
+                },
+                {
+                    "word": " baak",
+                    "start": 99.24,
+                    "end": 99.61,
+                    "note": 57
+                },
+                {
+                    "word": " chin",
+                    "start": 99.61,
+                    "end": 99.83,
+                    "note": 54
+                },
+                {
+                    "word": " long",
+                    "start": 99.83,
+                    "end": 100.58,
+                    "note": 54
+                }
+            ]
+        },
+        {
+            "start": 100.58,
+            "end": 104.29,
+            "text": "Joi ngo sam jung hei fuk ngau.",
+            "words": [
+                {
+                    "word": "Joi",
+                    "start": 100.58,
+                    "end": 100.88,
+                    "note": 58
+                },
+                {
+                    "word": " ngo",
+                    "start": 100.88,
+                    "end": 101.52,
+                    "note": 55
+                },
+                {
+                    "word": " sam",
+                    "start": 101.52,
+                    "end": 102.28,
+                    "note": 61
+                },
+                {
+                    "word": " jung",
+                    "start": 102.28,
+                    "end": 102.41,
+                    "note": 60
+                },
+                {
+                    "word": " hei",
+                    "start": 102.41,
+                    "end": 103.04,
+                    "note": 62
+                },
+                {
+                    "word": " fuk",
+                    "start": 103.04,
+                    "end": 103.89,
+                    "note": 61
+                },
+                {
+                    "word": " ngau.",
+                    "start": 103.89,
+                    "end": 104.29,
+                    "note": 53
+                }
+            ]
+        },
+        {
+            "start": 109.8,
+            "end": 132.89,
+            "text": "Ngoi nei han nei man gwan ji fau",
+            "words": [
+                {
+                    "word": "Ngoi",
+                    "start": 109.8,
+                    "end": 109.83,
+                    "note": -1
+                },
+                {
+                    "word": " nei",
+                    "start": 112.13,
+                    "end": 112.16,
+                    "note": -1
+                },
+                {
+                    "word": " han",
+                    "start": 113.57,
+                    "end": 113.6,
+                    "note": 56
+                },
+                {
+                    "word": " nei",
+                    "start": 117.51,
+                    "end": 118.75,
+                    "note": 55
+                },
+                {
+                    "word": " man",
+                    "start": 125.11,
+                    "end": 127.82,
+                    "note": 75
+                },
+                {
+                    "word": " gwan",
+                    "start": 127.82,
+                    "end": 130.31,
+                    "note": 67
+                },
+                {
+                    "word": " ji",
+                    "start": 130.75,
+                    "end": 131.23,
+                    "note": 69
+                },
+                {
+                    "word": " fau",
+                    "start": 131.23,
+                    "end": 132.89,
+                    "note": 68
+                }
+            ]
+        },
+        {
+            "start": 132.89,
+            "end": 138.95,
+            "text": "Chi daai gong yat faat bat sau",
+            "words": [
+                {
+                    "word": "Chi",
+                    "start": 132.89,
+                    "end": 133.08,
+                    "note": 62
+                },
+                {
+                    "word": " daai",
+                    "start": 133.08,
+                    "end": 133.53,
+                    "note": 55
+                },
+                {
+                    "word": " gong",
+                    "start": 133.53,
+                    "end": 134.25,
+                    "note": 66
+                },
+                {
+                    "word": " yat",
+                    "start": 134.25,
+                    "end": 135.03,
+                    "note": 59
+                },
+                {
+                    "word": " faat",
+                    "start": 135.03,
+                    "end": 136.89,
+                    "note": 59
+                },
+                {
+                    "word": " bat",
+                    "start": 136.89,
+                    "end": 137.69,
+                    "note": 66
+                },
+                {
+                    "word": " sau",
+                    "start": 138.54,
+                    "end": 138.95,
+                    "note": 74
+                }
+            ]
+        },
+        {
+            "start": 138.95,
+            "end": 143.52,
+            "text": "Jyun chin waan jyun chin taan",
+            "words": [
+                {
+                    "word": "Jyun",
+                    "start": 138.95,
+                    "end": 141,
+                    "note": 71
+                },
+                {
+                    "word": " chin",
+                    "start": 141.39,
+                    "end": 141.89,
+                    "note": 60
+                },
+                {
+                    "word": " waan",
+                    "start": 141.89,
+                    "end": 142.32,
+                    "note": 65
+                },
+                {
+                    "word": " jyun",
+                    "start": 142.32,
+                    "end": 142.93,
+                    "note": 57
+                },
+                {
+                    "word": " chin",
+                    "start": 142.93,
+                    "end": 143,
+                    "note": 54
+                },
+                {
+                    "word": " taan",
+                    "start": 143.2,
+                    "end": 143.52,
+                    "note": 64
+                }
+            ]
+        },
+        {
+            "start": 143.52,
+            "end": 150.58,
+            "text": "Ya mei ping fuk chi jung jaang dau.",
+            "words": [
+                {
+                    "word": "Ya",
+                    "start": 143.52,
+                    "end": 144.91,
+                    "note": 68
+                },
+                {
+                    "word": " mei",
+                    "start": 144.91,
+                    "end": 146.36,
+                    "note": 70
+                },
+                {
+                    "word": " ping",
+                    "start": 146.36,
+                    "end": 147.26,
+                    "note": 64
+                },
+                {
+                    "word": " fuk",
+                    "start": 147.26,
+                    "end": 147.67,
+                    "note": 68
+                },
+                {
+                    "word": " chi",
+                    "start": 147.67,
+                    "end": 148,
+                    "note": 60
+                },
+                {
+                    "word": " jung",
+                    "start": 148,
+                    "end": 148.9,
+                    "note": 62
+                },
+                {
+                    "word": " jaang",
+                    "start": 149.28,
+                    "end": 150.37,
+                    "note": 66
+                },
+                {
+                    "word": " dau.",
+                    "start": 150.37,
+                    "end": 150.58,
+                    "note": 55
+                }
+            ]
+        },
+        {
+            "start": 150.58,
+            "end": 154.13,
+            "text": "Yau yau hei yau yau sau",
+            "words": [
+                {
+                    "word": "Yau",
+                    "start": 150.58,
+                    "end": 150.83,
+                    "note": 55
+                },
+                {
+                    "word": " yau",
+                    "start": 150.83,
+                    "end": 151.21,
+                    "note": 56
+                },
+                {
+                    "word": " hei",
+                    "start": 152.18,
+                    "end": 152.82,
+                    "note": 65
+                },
+                {
+                    "word": " yau",
+                    "start": 152.82,
+                    "end": 153.19,
+                    "note": 68
+                },
+                {
+                    "word": " yau",
+                    "start": 153.19,
+                    "end": 153.96,
+                    "note": 74
+                },
+                {
+                    "word": " sau",
+                    "start": 153.96,
+                    "end": 154.13,
+                    "note": 62
+                }
+            ]
+        },
+        {
+            "start": 154.13,
+            "end": 159.28,
+            "text": "Jau seun fan bat ching fun siu bei yau",
+            "words": [
+                {
+                    "word": "Jau",
+                    "start": 154.13,
+                    "end": 154.5,
+                    "note": 62
+                },
+                {
+                    "word": " seun",
+                    "start": 154.5,
+                    "end": 155.08,
+                    "note": 61
+                },
+                {
+                    "word": " fan",
+                    "start": 155.08,
+                    "end": 155.31,
+                    "note": 65
+                },
+                {
+                    "word": " bat",
+                    "start": 155.31,
+                    "end": 155.49,
+                    "note": 68
+                },
+                {
+                    "word": " ching",
+                    "start": 155.49,
+                    "end": 156.5,
+                    "note": 60
+                },
+                {
+                    "word": " fun",
+                    "start": 156.5,
+                    "end": 157,
+                    "note": 57
+                },
+                {
+                    "word": " siu",
+                    "start": 157.46,
+                    "end": 158.27,
+                    "note": 59
+                },
+                {
+                    "word": " bei",
+                    "start": 158.27,
+                    "end": 158.97,
+                    "note": 60
+                },
+                {
+                    "word": " yau",
+                    "start": 158.97,
+                    "end": 159.28,
+                    "note": 60
+                }
+            ]
+        },
+        {
+            "start": 159.85,
+            "end": 163.23,
+            "text": "Ying yun faan baak chin long",
+            "words": [
+                {
+                    "word": "Ying",
+                    "start": 159.85,
+                    "end": 160.7,
+                    "note": 66
+                },
+                {
+                    "word": " yun",
+                    "start": 160.7,
+                    "end": 160.93,
+                    "note": 54
+                },
+                {
+                    "word": " faan",
+                    "start": 160.93,
+                    "end": 161.45,
+                    "note": 49
+                },
+                {
+                    "word": " baak",
+                    "start": 161.45,
+                    "end": 161.58,
+                    "note": 46
+                },
+                {
+                    "word": " chin",
+                    "start": 161.58,
+                    "end": 161.71,
+                    "note": 49
+                },
+                {
+                    "word": " long",
+                    "start": 162.83,
+                    "end": 163.23,
+                    "note": 65
+                }
+            ]
+        },
+        {
+            "start": 163.23,
+            "end": 166.4,
+            "text": "Joi ngo sam jung hei fuk ngau.",
+            "words": [
+                {
+                    "word": "Joi",
+                    "start": 163.23,
+                    "end": 163.44,
+                    "note": 56
+                },
+                {
+                    "word": " ngo",
+                    "start": 163.44,
+                    "end": 163.94,
+                    "note": 57
+                },
+                {
+                    "word": " sam",
+                    "start": 163.94,
+                    "end": 164.28,
+                    "note": 54
+                },
+                {
+                    "word": " jung",
+                    "start": 164.28,
+                    "end": 164.37,
+                    "note": 55
+                },
+                {
+                    "word": " hei",
+                    "start": 164.51,
+                    "end": 164.74,
+                    "note": 60
+                },
+                {
+                    "word": " fuk",
+                    "start": 164.74,
+                    "end": 165.62,
+                    "note": 59
+                },
+                {
+                    "word": " ngau.",
+                    "start": 165.62,
+                    "end": 166.4,
+                    "note": 62
+                }
+            ]
+        },
+        {
+            "start": 166.4,
+            "end": 169.6,
+            "text": "Ying yun faan baak chin long",
+            "words": [
+                {
+                    "word": "Ying",
+                    "start": 166.4,
+                    "end": 166.71,
+                    "note": 52
+                },
+                {
+                    "word": " yun",
+                    "start": 166.71,
+                    "end": 166.84,
+                    "note": 55
+                },
+                {
+                    "word": " faan",
+                    "start": 166.84,
+                    "end": 167.55,
+                    "note": 52
+                },
+                {
+                    "word": " baak",
+                    "start": 168.29,
+                    "end": 168.4,
+                    "note": 51
+                },
+                {
+                    "word": " chin",
+                    "start": 168.4,
+                    "end": 168.94,
+                    "note": 54
+                },
+                {
+                    "word": " long",
+                    "start": 168.94,
+                    "end": 169.6,
+                    "note": 59
+                }
+            ]
+        },
+        {
+            "start": 169.6,
+            "end": 174.78,
+            "text": "Joi ngo sam jung hei fuk ngau.",
+            "words": [
+                {
+                    "word": "Joi",
+                    "start": 169.6,
+                    "end": 170.03,
+                    "note": 60
+                },
+                {
+                    "word": " ngo",
+                    "start": 170.62,
+                    "end": 171.37,
+                    "note": 61
+                },
+                {
+                    "word": " sam",
+                    "start": 171.37,
+                    "end": 172.13,
+                    "note": 51
+                },
+                {
+                    "word": " jung",
+                    "start": 172.13,
+                    "end": 172.4,
+                    "note": 48
+                },
+                {
+                    "word": " hei",
+                    "start": 173.57,
+                    "end": 173.98,
+                    "note": 51
+                },
+                {
+                    "word": " fuk",
+                    "start": 173.98,
+                    "end": 174.29,
+                    "note": 51
+                },
+                {
+                    "word": " ngau.",
+                    "start": 174.29,
+                    "end": 174.78,
+                    "note": 54
+                }
+            ]
+        }
+    ],
+    "language": "vi"
+}

@@ -34,7 +34,7 @@ bool OboeLayer::initialize()
     // Cấu hình Oboe stream với các thiết lập tối ưu hóa triệt để
     oboe::AudioStreamBuilder builder;
     builder.setDirection(oboe::Direction::Output)
-        ->setPerformanceMode(oboe::PerformanceMode::LowLatency) // Sử dụng LowLatency
+        ->setPerformanceMode(oboe::PerformanceMode::None) // Sử dụng LowLatency
         ->setSharingMode(oboe::SharingMode::Exclusive) // Thử dùng Exclusive trước
         ->setFormat(oboe::AudioFormat::Float)
         ->setChannelCount(channels)
