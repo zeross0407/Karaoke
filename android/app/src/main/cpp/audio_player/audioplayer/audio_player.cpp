@@ -9,6 +9,14 @@
 #include <filesystem>
 #include <future>
 
+#ifdef __ANDROID__
+#include <android/log.h>
+#define LOG_TAG "AudioPlayer"
+#define LOGD(...) __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
+#define LOGI(...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+#define LOGW(...) __android_log_print(ANDROID_LOG_WARN, LOG_TAG, __VA_ARGS__)
+#define LOGE(...) __android_log_print(ANDROID_LOG_ERROR, LOG_TAG, __VA_ARGS__)
+#endif
 using namespace std;
 
 // Constructor
@@ -114,7 +122,7 @@ PlayOggResult AudioPlayer::playOggAt(const string& fileName, uint32_t seekTime, 
         try {            
             AudioSession* session = nullptr;
             {
-                debugPrint("Searching for existing session for file: {}", fileName);
+                LOGI("Searching for existing session for file: %s", fileName.c_str());
                 shared_lock lock(sessionsMutex);
                 for (const auto& pair : sessions) {
                     if (pair.first->getFileName() == fileName && 
@@ -122,7 +130,7 @@ PlayOggResult AudioPlayer::playOggAt(const string& fileName, uint32_t seekTime, 
                          pair.first->getState() == PlayState::IDLE)) {
                         session = pair.first;
                         session->reset();
-                        debugPrint("Found existing session for file: {}", fileName);
+                        LOGI("Found existing session for file: %s", fileName.c_str());
                         break;
                     }
                 }
@@ -130,14 +138,14 @@ PlayOggResult AudioPlayer::playOggAt(const string& fileName, uint32_t seekTime, 
             
             if (!session) {
                 if (!filesystem::exists(fileName)) {
-                    debugPrint("File not found: {}", fileName);
+                    LOGE("File not found: %s", fileName.c_str());
                     promise->set_value(PlayOggResult(Result::error(ErrorCode::FileNotFound, "File not found"), nullptr));
                     return;
                 }
-                debugPrint("Loading new file: {}", fileName);
+                LOGI("Loading new file: %s", fileName.c_str());
                 session = loadFile(fileName);
                 if (!session) {
-                    debugPrint("Failed to load file: {}", fileName);
+                    LOGE("Failed to load file: %s", fileName.c_str());
                     promise->set_value(PlayOggResult(Result::error(ErrorCode::FileReadError, "Failed to load file"), nullptr));
                     return;
                 }
@@ -152,13 +160,13 @@ PlayOggResult AudioPlayer::playOggAt(const string& fileName, uint32_t seekTime, 
             auto result = PlayOggResult(playResult, session);
             promise->set_value(std::move(result));
         } catch (const exception& e) {
-            debugPrint("Exception in playOggAt task: {}", e.what());
+            LOGE("Exception in playOggAt task: %s", e.what());
             promise->set_exception(current_exception());
         }
     });
 
     if (resultFuture.wait_for(chrono::seconds(5)) == future_status::timeout) {
-        debugPrint("Timeout waiting for playOggAt result");
+        LOGE("Timeout waiting for playOggAt result");
         return PlayOggResult(Result::error(ErrorCode::Timeout, "Operation timed out"), nullptr);
     }
     

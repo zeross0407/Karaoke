@@ -95,7 +95,7 @@ bool OggPlay::playMultipleOggFiles(const vector<string> &files)
         }
     }
 
-    vector<AudioSession *> sessions;
+    vector<AudioSession*> sessions;
     int i = 0;
     // Phát tất cả các file
     for (const auto &file : files)

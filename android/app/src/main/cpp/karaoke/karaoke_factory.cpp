@@ -16,7 +16,7 @@
 #include <iostream>
 #include <thread>
 #include <chrono>
-
+#include "karaoke_factory.hpp"
 using namespace std;
 
 #ifdef __ANDROID__
@@ -50,7 +50,7 @@ std::unique_ptr<Karaoke> KaraokeFactory::createKaraoke()
     return std::make_unique<Karaoke>();
 }
 
-void KaraokeFactory::startKaraoke(const char *melody, const char *lyric)
+void KaraokeFactory::startKaraoke()
 {
     karaoke = createKaraoke();
 
@@ -59,7 +59,7 @@ void KaraokeFactory::startKaraoke(const char *melody, const char *lyric)
         LOGE("Không thể khởi tạo Karaoke!");
         return;
     }
-    
+
     // Phát âm thanh trực tiếp từ mic
     LOGI("Bắt đầu phát âm thanh trực tiếp từ microphone...");
 
@@ -79,31 +79,34 @@ void KaraokeFactory::startKaraoke(const char *melody, const char *lyric)
         return;
     }
 
-    // Melody and lyric files
-    LOGI("Melody file: %s", melody);
-    LOGI("Lyric file: %s", lyric);
-
     // Log thông báo
     LOGI("Âm lượng nhạc nền: 50%");
-    
-    // Loop until interrupted
-    while (true)
-    {
-        LOGI("Đang ghi âm và phát...");
-        std::this_thread::sleep_for(std::chrono::seconds(1));
-    }
 }
 
 void KaraokeFactory::stopKaraoke()
 {
-    if (karaoke)
-    {
-        karaoke->stopRecording();
-        karaoke->stopLivePlayback();
-        LOGI("Đã dừng karaoke");
-    }
-    else
-    {
-        LOGW("Không có phiên karaoke nào đang chạy");
-    }
+    karaoke->stopRecording();
+    karaoke->stopLivePlayback();
+    LOGI("Đã dừng karaoke");
+    return;
+}
+
+void KaraokeFactory::pauseKaraoke()
+{
+    karaoke->stopRecording();
+}
+
+void KaraokeFactory::resumeKaraoke()
+{
+    return;
+}
+
+void KaraokeFactory::setMicVolume(float volume)
+{
+    return;
+}
+
+void KaraokeFactory::setBackgroundVolume(float volume)
+{
+    return;
 }

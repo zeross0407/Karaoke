@@ -48,6 +48,7 @@ include_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}/opus/include
     ${CMAKE_CURRENT_SOURCE_DIR}/oboe/include
     ${CMAKE_CURRENT_SOURCE_DIR}
+    
 )
 
 # ========================== Cấu hình Include ===========================
@@ -74,7 +75,6 @@ target_include_directories(karaoke PRIVATE ${CMAKE_SOURCE_DIR})
 target_include_directories(karaoke PRIVATE ${CMAKE_SOURCE_DIR}/rubberband)
 target_include_directories(karaoke PRIVATE ${CMAKE_SOURCE_DIR}/audioplayer/audioplayer)
 target_include_directories(karaoke PRIVATE ${CMAKE_SOURCE_DIR}/audio_player/app)
-
 
 # ========================== Liên kết thư viện ===========================
 # Tìm thư viện log của Android NDK

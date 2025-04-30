@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:highlighpro/ffi/audio_player_ffi.dart';
-import 'package:highlighpro/ffi/fix_karaoke_ffi.dart';
 import 'package:highlighpro/ffi/fix_test_screen.dart';
+import 'package:highlighpro/ffi/karaoke_ffi.dart';
 import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
@@ -10,7 +10,7 @@ import 'package:just_audio/just_audio.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'models/lyric_model.dart';
-import 'widgets/karaoke_line_v3.dart';
+import 'widgets/karaoke_line.dart';
 
 void main() {
   // Khóa ứng dụng ở chế độ ngang
@@ -272,7 +272,7 @@ class _KaraokeScreenState extends State<KaraokeScreen> {
       //_audioPlayer.seek(Duration(milliseconds: (_currentTime * 1000).toInt()));
       //_audioPlayer.play();
       _testKaraoke();
-
+      //CAudioPlayer.playAssetAudio('assets/cmbg_back.ogg');
       // Bắt đầu timer
       _startTimer();
     }
@@ -468,7 +468,7 @@ class _KaraokeScreenState extends State<KaraokeScreen> {
     }
 
     if (lyricsData == null) {
-      return const Scaffold(
+      return Scaffold(
         backgroundColor: Colors.black,
         body: Center(
           child: Text(
@@ -485,6 +485,12 @@ class _KaraokeScreenState extends State<KaraokeScreen> {
     return GestureDetector(
       onTap: _showControlsTemporarily,
       child: Scaffold(
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {
+            _ffi.pauseKaraoke();
+          },
+          child: const Icon(Icons.play_arrow),
+        ),
         backgroundColor: Colors.black,
         body: Stack(
           children: [

@@ -261,10 +261,12 @@ class CAudioPlayer {
 
       // Chuyển đổi String sang Pointer<Utf8>
       final filePathPointer = filePath.toNativeUtf8();
+      final assetFilePath = await _getAssetFilePath(filePath);
+      final assetFilePathPointer = assetFilePath!.toNativeUtf8();
 
       try {
         print('Playing audio file: $filePath');
-        bool success = _playAudio!(filePathPointer);
+        bool success = _playAudio!(assetFilePathPointer);
         return success;
       } finally {
         // Giải phóng bộ nhớ

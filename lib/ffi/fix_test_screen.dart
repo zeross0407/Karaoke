@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:highlighpro/ffi/audio_player_ffi.dart';
-import 'fix_karaoke_ffi.dart';
+import 'package:highlighpro/ffi/karaoke_ffi.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 main() {

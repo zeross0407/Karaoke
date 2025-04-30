@@ -1,39 +1,7 @@
-// #include "karaoke_factory.cpp"
-// using namespace std;
-// #ifdef __ANDROID__
-// #include <android/log.h>
-// #define LOG_TAG "AudioPlayer"
-// #define LOGD(...) __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
-// #define LOGI(...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
-// #define LOGE(...) __android_log_print(ANDROID_LOG_ERROR, LOG_TAG, __VA_ARGS__)
-// #else
-// #define LOG_TAG "AudioPlayer"
-// #define LOGD(...)        \
-//     printf(__VA_ARGS__); \
-//     printf("\n")
-// #define LOGI(...)        \
-//     printf(__VA_ARGS__); \
-//     printf("\n")
-// #define LOGE(...)                 \
-//     fprintf(stderr, __VA_ARGS__); \
-//     fprintf(stderr, "\n")
-// #endif
-// extern "C"
-// {
-
-//     void karaoke_test(const char *melody, const char *lyric)
-//     {
-//         // Test chức năng karaoke - ghi âm
-//         LOGI("===== KARAOKE TECHMASTER =====");
-//         KaraokeFactory::startKaraoke(melody, lyric);
-//         return;
-//     }
-// }
 #include "karaoke_factory.hpp"
 #include "ogg_play.hpp"
-#include <thread> // Thư viện std::thread
-#include <mutex>  // Thư viện std::mutex cho thread safety
-
+#include <thread>
+#include <mutex>
 using namespace std;
 
 #ifdef __ANDROID__
@@ -64,42 +32,76 @@ std::mutex audio_mutex;
 
 extern "C"
 {
+    bool karaoke_playing = false;
+    AudioPlayer *player = nullptr;
+    AudioSession *melody_session = nullptr;
+    AudioSession *lyric_session = nullptr;
+
     void karaoke_test(const char *melody, const char *lyric)
     {
         LOGI("===== KARAOKE TECHMASTER =====");
 
+        
+
+        ///////////
+
+        player = AudioPlayer::getInstance();
+        if (!player)
+        {
+            LOGE("Không thể khởi tạo AudioPlayer");
+        }
+        player->init();
+
+        PlayOggResult rs1 = player->playOggAt(melody);
+        if (rs1.result.isSuccess())
+        {
+            melody_session = rs1.session;
+        }
+
+        PlayOggResult rs2 = player->playOggAt(lyric);
+        lyric_session = rs2.session;
+        if (!rs1.result.isSuccess())
+        {
+            LOGI("Không thể phát file");
+        }
         // Thread 1: Chạy KaraokeFactory::startKaraoke
         std::thread karaoke_thread([melody, lyric]()
-        {
+                                   {
             try {
                 {
                     std::lock_guard<std::mutex> lock(audio_mutex);
                     LOGI("Starting karaoke");
                 }
-                KaraokeFactory::startKaraoke(melody, lyric);
+                KaraokeFactory::startKaraoke();
                 LOGI("Karaoke processing completed.");
             } catch (const std::exception& e) {
                 LOGE("Error in karaoke thread: %s", e.what());
-            }
-        });
+            } });
 
-        // Thread 2: Chạy OggPlay::playMultipleOggFiles
-        std::thread ogg_thread([melody, lyric]()
-        {
-            try {
-                {
-                    std::lock_guard<std::mutex> lock(audio_mutex);
-                    LOGI("Starting OggPlay thread");
-                }
-                OggPlay::getInstance()->playMultipleOggFiles({melody, lyric});
-                LOGI("OggPlay processing completed.");
-            } catch (const std::exception& e) {
-                LOGE("Error in OggPlay thread: %s", e.what());
-            }
-        });
-
-        // Detach cả hai thread để chúng chạy độc lập
         karaoke_thread.detach();
-        ogg_thread.detach();
+        karaoke_playing = true;
+    }
+    bool karaoke_pause()
+    {
+
+        if (karaoke_playing)
+        {
+            LOGI("Pausing karaoke");
+            KaraokeFactory::stopKaraoke();
+            melody_session->pause();
+            lyric_session->pause();
+            karaoke_playing = false;
+            return true;
+        }
+        else
+        {
+            LOGI("Karaoke is not playing");
+            KaraokeFactory::startKaraoke();
+            melody_session->resume();
+            lyric_session->resume();
+            karaoke_playing = true;
+            return true;
+        }
+        return false;
     }
 }
