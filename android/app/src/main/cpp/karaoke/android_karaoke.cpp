@@ -54,7 +54,7 @@ bool MicrophoneRecorder::initialize()
     // Create an audio stream
     oboe::AudioStreamBuilder builder;
     oboe::Result result = builder.setSharingMode(oboe::SharingMode::Shared)
-                              //->setPerformanceMode(oboe::PerformanceMode::LowLatency)
+                              ->setPerformanceMode(oboe::PerformanceMode::None)
                               ->setFormat(oboe::AudioFormat::Float)
                               ->setChannelCount(1) // Fix cứng mono
                               ->setSampleRate(sampleRate)

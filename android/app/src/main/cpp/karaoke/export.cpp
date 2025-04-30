@@ -29,10 +29,10 @@
 //         return;
 //     }
 // }
-#include "karaoke_factory.cpp"
+#include "karaoke_factory.hpp"
 #include "ogg_play.hpp"
-#include <thread> // Thêm thư viện std::thread
-#include <mutex>  // Thêm thư viện std::mutex cho thread safety (nếu cần)
+#include <thread> // Thư viện std::thread
+#include <mutex>  // Thư viện std::mutex cho thread safety
 
 using namespace std;
 
@@ -41,6 +41,7 @@ using namespace std;
 #define LOG_TAG "AudioPlayer"
 #define LOGD(...) __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
 #define LOGI(...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+#define LOGW(...) __android_log_print(ANDROID_LOG_WARN, LOG_TAG, __VA_ARGS__)
 #define LOGE(...) __android_log_print(ANDROID_LOG_ERROR, LOG_TAG, __VA_ARGS__)
 #else
 #define LOG_TAG "AudioPlayer"
@@ -50,12 +51,15 @@ using namespace std;
 #define LOGI(...)        \
     printf(__VA_ARGS__); \
     printf("\n")
+#define LOGW(...)        \
+    printf(__VA_ARGS__); \
+    printf("\n")
 #define LOGE(...)                 \
     fprintf(stderr, __VA_ARGS__); \
     fprintf(stderr, "\n")
 #endif
 
-// Mutex để bảo vệ tài nguyên chung (nếu cần)
+// Mutex để bảo vệ tài nguyên chung
 std::mutex audio_mutex;
 
 extern "C"
@@ -66,7 +70,7 @@ extern "C"
 
         // Thread 1: Chạy KaraokeFactory::startKaraoke
         std::thread karaoke_thread([melody, lyric]()
-                                   {
+        {
             try {
                 {
                     std::lock_guard<std::mutex> lock(audio_mutex);
@@ -76,21 +80,23 @@ extern "C"
                 LOGI("Karaoke processing completed.");
             } catch (const std::exception& e) {
                 LOGE("Error in karaoke thread: %s", e.what());
-            } });
+            }
+        });
 
         // Thread 2: Chạy OggPlay::playMultipleOggFiles
         std::thread ogg_thread([melody, lyric]()
-                               {
+        {
             try {
                 {
                     std::lock_guard<std::mutex> lock(audio_mutex);
-                    LOGI("Starting OggPlay in thread ID: %lu", std::this_thread::get_id());
+                    LOGI("Starting OggPlay thread");
                 }
                 OggPlay::getInstance()->playMultipleOggFiles({melody, lyric});
                 LOGI("OggPlay processing completed.");
             } catch (const std::exception& e) {
                 LOGE("Error in OggPlay thread: %s", e.what());
-            } });
+            }
+        });
 
         // Detach cả hai thread để chúng chạy độc lập
         karaoke_thread.detach();
