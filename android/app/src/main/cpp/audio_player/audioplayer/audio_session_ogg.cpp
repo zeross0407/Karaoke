@@ -107,7 +107,8 @@ Result AudioSession::loadFile(const string &fileName)
     }
     // Chỉ khi nào load file Opus.ogg thành công thì mới acquireInputBus của AudioLayer
     Result result = acquireInputBus();
-    if (!result.isSuccess()) {
+    if (!result.isSuccess())
+    {
         setState(PlayState::ERROR);
         return result;
     }

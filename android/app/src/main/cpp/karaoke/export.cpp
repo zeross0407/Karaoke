@@ -37,11 +37,16 @@ extern "C"
     AudioSession *melody_session = nullptr;
     AudioSession *lyric_session = nullptr;
 
+    int get_duration()
+    {
+        if (lyric_session != nullptr)
+            return lyric_session->getDuration();
+        return 0;
+    }
+
     void karaoke_test(const char *melody, const char *lyric)
     {
         LOGI("===== KARAOKE TECHMASTER =====");
-
-        
 
         ///////////
 
@@ -60,6 +65,7 @@ extern "C"
 
         PlayOggResult rs2 = player->playOggAt(lyric);
         lyric_session = rs2.session;
+        LOGI("Durationz: %d", lyric_session->getDuration());
         if (!rs1.result.isSuccess())
         {
             LOGI("Không thể phát file");

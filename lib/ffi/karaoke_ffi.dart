@@ -22,7 +22,7 @@ class KaraokeFFIFixed {
   /// Function pointer cho karaoke_test
   /// Đúng signature: void karaoke_test(const char* melody, const char* lyric)
   void Function(Pointer<Char>, Pointer<Char>)? _karaokeTest;
-  
+
   /// Function pointer cho karaoke_pause
   /// Đúng signature: bool karaoke_pause()
   bool Function()? _karaokePause;
@@ -53,13 +53,14 @@ class KaraokeFFIFixed {
         final testFuncPtr = _karaokeLib!.lookup<
                 NativeFunction<Void Function(Pointer<Char>, Pointer<Char>)>>(
             'karaoke_test');
-        _karaokeTest =
-            testFuncPtr.asFunction<void Function(Pointer<Char>, Pointer<Char>)>();
-            
+        _karaokeTest = testFuncPtr
+            .asFunction<void Function(Pointer<Char>, Pointer<Char>)>();
+
         // Bước 4: Tìm và map hàm karaoke_pause
         debugPrint('Tìm hàm karaoke_pause');
         try {
-          final pauseFuncPtr = _karaokeLib!.lookup<NativeFunction<Bool Function()>>('karaoke_pause');
+          final pauseFuncPtr = _karaokeLib!
+              .lookup<NativeFunction<Bool Function()>>('karaoke_pause');
           _karaokePause = pauseFuncPtr.asFunction<bool Function()>();
           debugPrint('Hàm karaoke_pause được tìm thấy');
         } catch (e) {
@@ -162,30 +163,35 @@ class KaraokeFFIFixed {
       return false;
     }
   }
-  
+
   /// Tạm dừng phát nhạc karaoke đang chạy
   bool pauseKaraoke() {
     if (!_isInitialized || _karaokePause == null) {
-      debugPrint('KaraokeFFI chưa được khởi tạo hoặc hàm karaoke_pause không có sẵn');
+      debugPrint(
+          'KaraokeFFI chưa được khởi tạo hoặc hàm karaoke_pause không có sẵn');
       return false;
     }
 
     try {
       debugPrint('Gọi hàm karaoke_pause');
-      
+
       // Gọi hàm native
       final result = _karaokePause!();
-      
+
       if (result) {
         debugPrint('Đã tạm dừng karaoke thành công');
       } else {
         debugPrint('Không có phiên karaoke nào đang chạy để tạm dừng');
       }
-      
+
       return result;
     } catch (e) {
       debugPrint('Lỗi khi gọi hàm karaoke_pause: $e');
       return false;
     }
+  }
+
+  int getDuration() {
+    return 0;
   }
 }
