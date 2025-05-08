@@ -70,7 +70,7 @@ void KaraokeFactory::startKaraoke()
     }
 
     // Thiết lập âm lượng mặc định cao hơn
-    karaoke->setMicVolume(10.0f);
+    karaoke->setMicVolume(0.25f);
     LOGI("Âm lượng mic mặc định: 10.0 (1000%)");
 
     if (!karaoke->startLivePlayback())
@@ -93,7 +93,10 @@ void KaraokeFactory::stopKaraoke()
 
 void KaraokeFactory::pauseKaraoke()
 {
-    karaoke->stopRecording();
+    if (karaoke != nullptr)
+    {
+        karaoke->stopRecording();
+    }
 }
 
 void KaraokeFactory::resumeKaraoke()
@@ -103,6 +106,15 @@ void KaraokeFactory::resumeKaraoke()
 
 void KaraokeFactory::setMicVolume(float volume)
 {
+    if (karaoke != nullptr)
+    {
+        LOGI("Đang điều chỉnh âm lượng micro C++: %f", volume);
+        karaoke->setMicVolume(volume);
+    }
+    else
+    {
+        LOGI("karaoke không được khởi tạo");
+    }
     return;
 }
 

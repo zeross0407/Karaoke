@@ -17,7 +17,7 @@ class FixTestScreen extends StatefulWidget {
 class _FixTestScreenState extends State<FixTestScreen> {
   String _status = 'Chưa khởi tạo';
   bool _isLoading = false;
-  final KaraokeFFIFixed _ffi = KaraokeFFIFixed();
+  final KaraokeFFI _ffi = KaraokeFFI();
 
   // Danh sách assets
   final List<String> _melodyAssets = [

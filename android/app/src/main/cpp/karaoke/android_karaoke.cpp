@@ -384,8 +384,8 @@ bool Karaoke::startLivePlayback()
     }
 
     // Thiết lập âm lượng phù hợp cho mono
-    player->setVolume(3.0f);
-    LOGD("Mic volume set to 3.0 for clarity");
+    //player->setVolume(3.0f);
+    //LOGD("Mic volume set to 3.0 for clarity");
 
     // Bắt đầu recorder sau
     if (!recorder->isCurrentlyRecording())
